@@ -147,11 +147,11 @@ def extractReadMatchedSequences(dbFileName, matches):
     while matchIds:
         if line.startswith(">"):
             j+= 1
-            m = 0
+            found_match = False
             for i in matchIds:
                 if line.startswith(">" + i):
                     matchIds.remove(i)
-                    m=1
+                    found_match = True
                     print ("Found hit matching uniprot entry #" +str(j))
                     sequence += line
                     line = f.readline()
@@ -169,7 +169,7 @@ def extractReadMatchedSequences(dbFileName, matches):
                     sequence = ""
                     print("Sequence match .fasta data added.")
                     break
-            if not m:
+            if not found_match:
                 line = f.readline()
                 if not line:
                     print ("EOF!")
