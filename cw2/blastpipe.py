@@ -295,14 +295,14 @@ def blastpipe(dbName, queryFile):
                     treeFile = phylogeneticTree(query, alignmentFile)
                     treeFiles.append(treeFile)
     # If there is more than one tree file they need to be combined
-    if len(treeFiles > 1):
+    if len(treeFiles) > 1:
         finalTree = queryFile + "_phyml_tree.txt"
         print("Combining trees to \"" + finalTree + "\"")
-        fh = open(filename,"w")
+        fh = open(finalTree,"w")
         fh.close()
         for treeFile in treeFiles:
             contents = getFileContents(treeFile)
-            fh = open(filename,"a")
+            fh = open(finalTree,"a")
             for line in contents:
                 fh.write(line)
             fh.close()
