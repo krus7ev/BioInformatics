@@ -1,0 +1,3251 @@
+BLASTP 2.3.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniref100.fasta
+           74,897,059 sequences; 27,736,644,057 total letters
+
+
+
+Query= d1a6ca2 b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV
+(Tobacco ringspot virus) [TaxId: 12282]}
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef100_Q88894 Capsid protein n=1 Tax=Tobacco ringspot virus ...  360     1e-119
+  UniRef100_S4S7V2 Capsid protein (Fragment) n=1 Tax=Tobacco ring...  353     7e-117
+  UniRef100_A0A0H4TH32 Capsid protein (Fragment) n=3 Tax=Tobacco ...  353     8e-117
+  UniRef100_A0A0H4TY68 Capsid protein (Fragment) n=1 Tax=Tobacco ...  353     8e-117
+  UniRef100_Q8B5P8 Coat protein n=1 Tax=Tobacco ringspot virus Re...  350     5e-116
+  UniRef100_Q8B5P7 Coat protein n=1 Tax=Tobacco ringspot virus Re...  350     1e-115
+  UniRef100_Q5L492 Coat protein (Fragment) n=1 Tax=Tobacco ringsp...  347     2e-114
+  UniRef100_A0A0C5BF40 CP protein (Fragment) n=1 Tax=Tobacco ring...  342     6e-113
+  UniRef100_A0A0C5B4P1 CP protein (Fragment) n=1 Tax=Tobacco ring...  341     2e-112
+  UniRef100_Q6UR06 RNA2 polyprotein n=7 Tax=Tobacco ringspot viru...  355     3e-112
+  UniRef100_A0A059WLN7 Polyprotein n=8 Tax=Tobacco ringspot virus...  355     3e-112
+  UniRef100_M4I5W5 Coat protein (Fragment) n=3 Tax=Tobacco ringsp...  333     6e-112
+  UniRef100_M4I6B3 Coat protein (Fragment) n=1 Tax=Tobacco ringsp...  333     7e-112
+  UniRef100_M4I5X2 Coat protein (Fragment) n=1 Tax=Tobacco ringsp...  332     2e-111
+  UniRef100_A0A0C5B1H0 CP protein (Fragment) n=1 Tax=Tobacco ring...  338     2e-111
+  UniRef100_M4I5W0 Coat protein (Fragment) n=1 Tax=Tobacco ringsp...  331     9e-111
+  UniRef100_I6UDS9 Capsid protein (Fragment) n=1 Tax=Tobacco ring...  335     6e-110
+  UniRef100_U5XJS7 RNA 2 polyprotein n=1 Tax=Potato black ringspo...  269     1e-80 
+  UniRef100_U5XIX2 RNA 2 polyprotein n=1 Tax=Potato black ringspo...  268     4e-80 
+  UniRef100_U5XIZ7 RNA 2 polyprotein n=1 Tax=Potato black ringspo...  267     5e-80 
+  UniRef100_U5XM48 RNA 2 polyprotein n=1 Tax=Potato black ringspo...  264     9e-79 
+  UniRef100_H9TFD4 Polyprotein P2 n=1 Tax=Tobacco ringspot virus ...  245     6e-72 
+  UniRef100_S5YZF5 Coat protein (Fragment) n=2 Tax=Tobacco ringsp...  88.2    3e-18 
+  UniRef100_A0A0C5B2H6 CP protein (Fragment) n=1 Tax=Raspberry ri...  55.5    4e-06 
+  UniRef100_P36324 RNA2 polyprotein n=1 Tax=Raspberry ringspot vi...  54.7    1e-05 
+  UniRef100_Q9QAG9 Putative coat protein (Fragment) n=1 Tax=Raspb...  53.9    2e-05 
+  UniRef100_Q9QAG8 Putative coat protein (Fragment) n=1 Tax=Raspb...  53.9    2e-05 
+  UniRef100_Q9QAH4 Putative coat protein (Fragment) n=1 Tax=Raspb...  53.9    2e-05 
+  UniRef100_Q9QAH3 Putative coat protein (Fragment) n=1 Tax=Raspb...  52.4    5e-05 
+  UniRef100_A0A0C5AYF7 CP protein (Fragment) n=1 Tax=Raspberry ri...  52.0    6e-05 
+  UniRef100_Q88483 P2 protein n=1 Tax=Tomato black ring virus Rep...  51.6    1e-04 
+  UniRef100_G5ELQ2 Polyprotein n=1 Tax=Blueberry latent spherical...  51.2    2e-04 
+  UniRef100_Q9QAH5 Putative coat protein (Fragment) n=1 Tax=Raspb...  50.8    2e-04 
+  UniRef100_Q9QAH0 Putative coat protein (Fragment) n=1 Tax=Raspb...  50.1    3e-04 
+  UniRef100_P13026 RNA2 polyprotein n=3 Tax=Grapevine chrome mosa...  48.9    7e-04 
+  UniRef100_Q64959 ORF protein (Fragment) n=1 Tax=Artichoke itali...  48.1    0.001 
+  UniRef100_A2ID55 Polyprotein (Fragment) n=1 Tax=Tomato white ri...  47.8    0.002 
+  UniRef100_Q6W8W3 RNA2 polyprotein n=3 Tax=Raspberry ringspot vi...  47.0    0.004 
+  UniRef100_Q8B8X2 Polyprotein n=3 Tax=Tomato black ring virus Re...  46.6    0.004 
+  UniRef100_A0A0N9FIL1 Coat protein (Fragment) n=2 Tax=Tomato bla...  45.8    0.005 
+  UniRef100_A0A0N9FHS1 Coat protein (Fragment) n=1 Tax=Tomato bla...  45.8    0.005 
+  UniRef100_V5W9L3 Coat protein (Fragment) n=1 Tax=Tomato black r...  46.2    0.006 
+  UniRef100_A0A0E4G218 Polyprotein n=1 Tax=Grapevine chrome mosai...  45.8    0.009 
+  UniRef100_V5W7Y7 Coat protein (Fragment) n=1 Tax=Tomato black r...  45.4    0.010 
+  UniRef100_V5W8K3 Coat protein (Fragment) n=1 Tax=Tomato black r...  45.4    0.011 
+  UniRef100_A0A0N9FI91 Coat protein (Fragment) n=1 Tax=Tomato bla...  45.1    0.012 
+  UniRef100_V5W8K9 Coat protein (Fragment) n=1 Tax=Tomato black r...  45.1    0.015 
+  UniRef100_A0A0E4C0F2 Polyprotein n=1 Tax=Grapevine chrome mosai...  45.1    0.016 
+  UniRef100_A0A0N9FGV0 Coat protein (Fragment) n=2 Tax=Tomato bla...  44.7    0.016 
+  UniRef100_V5W8E5 Coat protein (Fragment) n=1 Tax=Tomato black r...  45.1    0.016 
+  UniRef100_V5W8F3 Coat protein (Fragment) n=1 Tax=Tomato black r...  44.7    0.018 
+  UniRef100_A0A0N7ER88 Coat protein (Fragment) n=1 Tax=Tomato bla...  44.3    0.020 
+  UniRef100_A0A0N9FGG0 Coat protein (Fragment) n=1 Tax=Tomato bla...  44.3    0.024 
+  UniRef100_Q86631 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  44.3    0.025 
+  UniRef100_V5W827 Coat protein (Fragment) n=1 Tax=Tomato black r...  44.3    0.026 
+  UniRef100_Q20LA0 Polyprotein n=1 Tax=Raspberry ringspot virus R...  44.3    0.029 
+  UniRef100_A0A0N9FH24 Coat protein (Fragment) n=6 Tax=Tomato bla...  43.9    0.029 
+  UniRef100_W0NI44 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  43.5    0.040 
+  UniRef100_A0A0E3VYT6 Polyprotein n=1 Tax=Grapevine chrome mosai...  43.9    0.042 
+  UniRef100_W0NLR7 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  43.5    0.046 
+  UniRef100_W0NIA2 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  43.5    0.047 
+  UniRef100_W0NLR1 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  43.1    0.051 
+  UniRef100_A3FEN3 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  43.1    0.058 
+  UniRef100_A0A097GWX6 Polyprotein n=3 Tax=Tomato ringspot virus ...  43.5    0.063 
+  UniRef100_Q9YPA2 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  43.1    0.063 
+  UniRef100_Q9QRA4 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  43.1    0.066 
+  UniRef100_V5W9L8 Coat protein (Fragment) n=1 Tax=Tomato black r...  43.1    0.067 
+  UniRef100_A3FEN2 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  43.1    0.069 
+  UniRef100_Q6JX05 P2 protein n=2 Tax=Grapevine deformation virus...  43.1    0.084 
+  UniRef100_A0A097GWW8 Polyprotein n=1 Tax=Tomato ringspot virus ...  43.1    0.087 
+  UniRef100_P25247 RNA2 polyprotein n=4 Tax=Tomato ringspot virus...  43.1    0.087 
+  UniRef100_A3FEM9 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  42.7    0.093 
+  UniRef100_A0A0C5BF36 CP protein (Fragment) n=1 Tax=Arabis mosai...  42.7    0.10  
+  UniRef100_B1A9X8 Polyprotein P2 (Fragment) n=1 Tax=Arabis mosai...  42.7    0.10  
+  UniRef100_Q80JS5 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  42.4    0.10  
+  UniRef100_A3FEN0 Coat protein (Fragment) n=2 Tax=Tomato ringspo...  42.4    0.12  
+  UniRef100_A0A076E6S4 Polyprotein 2 n=1 Tax=Mulberry mosaic roll...  42.4    0.14  
+  UniRef100_W0NLC4 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  42.0    0.16  
+  UniRef100_W0NIA7 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  41.6    0.17  
+  UniRef100_Q6JX06 P2 protein n=2 Tax=Grapevine Anatolian ringspo...  42.0    0.17  
+  UniRef100_G0YW79 Polyprotein P2 n=1 Tax=Arabis mosaic virus Rep...  42.0    0.19  
+  UniRef100_W0NI38 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  41.6    0.21  
+  UniRef100_B4YNP8 Polyprotein 2 n=2 Tax=Arabis mosaic virus RepI...  41.6    0.22  
+  UniRef100_Q9IV56 Polyprotein n=1 Tax=Olive latent ringspot viru...  41.2    0.31  
+  UniRef100_A0A0E4G221 Polyprotein n=1 Tax=Tomato black ring viru...  41.2    0.34  
+  UniRef100_P14547 RNA2 polyprotein n=3 Tax=Beet ringspot virus R...  41.2    0.40  
+  UniRef100_X2D7T3 Capsid protein (Fragment) n=1 Tax=Arabis mosai...  40.4    0.45  
+  UniRef100_X2D7N3 Capsid protein (Fragment) n=1 Tax=Arabis mosai...  40.4    0.51  
+  UniRef100_X2D7B5 Capsid protein (Fragment) n=1 Tax=Arabis mosai...  40.4    0.51  
+  UniRef100_X2D7R5 Capsid protein (Fragment) n=1 Tax=Arabis mosai...  40.0    0.55  
+  UniRef100_A0A023ZTD4 Coat protein (Fragment) n=1 Tax=Arabis mos...  40.4    0.55  
+  UniRef100_I6LL58 Polyprotein P2-IV n=3 Tax=Arabis mosaic virus ...  40.4    0.57  
+  UniRef100_X2D5V2 Capsid protein (Fragment) n=1 Tax=Arabis mosai...  40.0    0.61  
+  UniRef100_A0A059PQD7 Polyprotein n=1 Tax=Grapevine fanleaf viru...  40.4    0.72  
+  UniRef100_E0D3E8 Polyprotein n=1 Tax=Melon mild mottle virus Re...  40.0    0.79  
+  UniRef100_A0A097GWW5 Polyprotein n=1 Tax=Tomato ringspot virus ...  40.0    0.95  
+  UniRef100_Q65028 Polyprotein (Fragment) n=1 Tax=Arabis mosaic v...  39.7    1.1   
+  UniRef100_Q9QRA5 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  39.7    1.1   
+  UniRef100_A0A9J6 Polyprotein P2 123kDa n=1 Tax=Arabis mosaic vi...  39.3    1.4   
+  UniRef100_A0A023ZT61 Coat protein (Fragment) n=1 Tax=Arabis mos...  39.3    1.4   
+  UniRef100_A0A059PR27 Polyprotein n=1 Tax=Grapevine fanleaf viru...  39.3    1.5   
+  UniRef100_L7W236 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  38.9    1.5   
+  UniRef100_Q9QRA2 Coat protein (Fragment) n=1 Tax=Tomato ringspo...  38.9    1.7   
+  UniRef100_B5KFZ7 Polyprotein P2 n=1 Tax=Arabis mosaic virus Rep...  39.3    1.7   
+  UniRef100_L7W2Z8 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  38.9    1.7   
+  UniRef100_L7VXK8 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  38.5    1.8   
+  UniRef100_L7W230 Polyprotein (Fragment) n=2 Tax=Cherry leaf rol...  38.5    1.9   
+  UniRef100_L7W1P5 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  38.5    2.0   
+  UniRef100_L7W587 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  38.5    2.2   
+  UniRef100_Q2HYV4 56K (Fragment) n=1 Tax=Grapevine fanleaf virus...  38.5    2.2   
+  UniRef100_W0NIB3 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  38.5    2.3   
+  UniRef100_L7W1Q0 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  38.5    2.3   
+  UniRef100_W0NLC8 Coat protein (Fragment) n=2 Tax=Cherry leaf ro...  38.5    2.3   
+  UniRef100_Q3L0R2 Polyprotein P2 n=1 Tax=Grapevine fanleaf virus...  38.9    2.4   
+  UniRef100_Q5L448 Coat protein (Fragment) n=1 Tax=Grapevine fanl...  38.5    2.4   
+  UniRef100_C4MBZ3 Polyprotein P2 (Fragment) n=1 Tax=Grapevine fa...  38.5    2.5   
+  UniRef100_Q9YK98 RNA2 polyprotein n=5 Tax=Blackcurrant reversio...  38.5    2.5   
+  UniRef100_A1YYW3 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  38.5    2.7   
+  UniRef100_Q91HK4 RNA2 polyprotein n=5 Tax=Arabis mosaic virus R...  38.5    2.7   
+  UniRef100_A0A023ZTE0 Coat protein (Fragment) n=1 Tax=Arabis mos...  38.5    2.8   
+  UniRef100_A0A0G2SRZ0 Coat protein (Fragment) n=1 Tax=Grapevine ...  38.5    2.8   
+  UniRef100_W0NMD4 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  38.1    2.9   
+  UniRef100_W0NMC5 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  38.1    2.9   
+  UniRef100_A0A0A1I6A0 Polyprotein (Fragment) n=2 Tax=Grapevine f...  38.5    3.0   
+  UniRef100_Q6JLQ5 Coat protein (Fragment) n=1 Tax=Grapevine fanl...  38.1    3.1   
+  UniRef100_W0NMD0 Coat protein (Fragment) n=1 Tax=Cherry leaf ro...  38.1    3.1   
+  UniRef100_A0A059PQ01 Polyprotein n=1 Tax=Grapevine fanleaf viru...  38.1    3.6   
+  UniRef100_A3KLP5 Coat protein (Fragment) n=2 Tax=Grapevine fanl...  37.7    3.9   
+  UniRef100_A0A0G2SSH7 Coat protein (Fragment) n=1 Tax=Grapevine ...  38.1    3.9   
+  UniRef100_Q6JLN4 Coat protein (Fragment) n=1 Tax=Grapevine fanl...  37.7    4.0   
+  UniRef100_A0A0G2SS89 Coat protein (Fragment) n=1 Tax=Grapevine ...  37.7    4.1   
+  UniRef100_C4MBZ2 Polyprotein P2 (Fragment) n=1 Tax=Grapevine fa...  37.7    4.1   
+  UniRef100_A1YYV8 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  37.7    4.2   
+  UniRef100_C4MBZ1 Polyprotein P2 (Fragment) n=1 Tax=Grapevine fa...  37.7    4.3   
+  UniRef100_L7W2Z1 Polyprotein (Fragment) n=1 Tax=Cherry leaf rol...  37.4    4.7   
+  UniRef100_A1YYW2 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  37.7    5.1   
+  UniRef100_A0A059PQ06 Polyprotein n=1 Tax=Grapevine fanleaf viru...  37.7    5.2   
+  UniRef100_A5H0K7 Coat protein (Fragment) n=2 Tax=Grapevine fanl...  37.4    5.4   
+  UniRef100_C5HUZ7 Polyprotein P2 (Fragment) n=1 Tax=Grapevine fa...  37.7    5.4   
+  UniRef100_Q80JS8 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  37.4    5.5   
+  UniRef100_A0A023ZTH0 Coat protein (Fragment) n=1 Tax=Arabis mos...  37.4    5.6   
+  UniRef100_A0A0A2KBB0 Uncharacterized protein n=1 Tax=Penicilliu...  37.4    5.7   
+  UniRef100_Q9DY05 Capsid protein (Fragment) n=1 Tax=Grapevine fa...  37.4    6.4   
+  UniRef100_Q80JS6 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  37.4    6.5   
+  UniRef100_Q1LZV6 Coat protein (Fragment) n=1 Tax=Grapevine fanl...  37.4    6.5   
+  UniRef100_A0A9J8 Polyprotein P2 119kDa n=1 Tax=Arabis mosaic vi...  37.4    6.6   
+  UniRef100_A0A023ZT68 Coat protein (Fragment) n=1 Tax=Arabis mos...  37.4    6.7   
+  UniRef100_A3KLP9 Coat protein (Fragment) n=2 Tax=Grapevine fanl...  37.0    7.0   
+  UniRef100_A3KLP7 Coat protein (Fragment) n=1 Tax=Grapevine fanl...  36.6    8.6   
+  UniRef100_A0A023ZUD2 Coat protein (Fragment) n=1 Tax=Arabis mos...  37.0    8.7   
+  UniRef100_Q6JLQ4 Coat protein (Fragment) n=1 Tax=Grapevine fanl...  37.0    8.7   
+  UniRef100_Q24M89 Polyprotein 2 n=1 Tax=Raspberry ringspot virus...  37.0    8.8   
+  UniRef100_A0A023ZSU6 Coat protein (Fragment) n=1 Tax=Arabis mos...  37.0    9.2   
+  UniRef100_P24819 RNA2 polyprotein (Fragment) n=1 Tax=Arabis mos...  37.0    9.2   
+  UniRef100_Q80JS7 Coat protein (Fragment) n=1 Tax=Blackcurrant r...  37.0    9.3   
+  UniRef100_A0A023ZT79 Coat protein (Fragment) n=1 Tax=Arabis mos...  37.0    9.4   
+  UniRef100_A0A023ZT74 Coat protein (Fragment) n=5 Tax=Arabis mos...  37.0    9.5   
+
+
+> UniRef100_Q88894 Capsid protein n=1 Tax=Tobacco ringspot virus 
+RepID=CAPSD_TRSV
+Length=515
+
+ Score = 360 bits (923),  Expect = 1e-119, Method: Compositional matrix adjust.
+ Identities = 172/172 (100%), Positives = 172/172 (100%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM
+Sbjct  299  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  350
+
+
+> UniRef100_S4S7V2 Capsid protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=S4S7V2_TRSV
+Length=515
+
+ Score = 353 bits (905),  Expect = 7e-117, Method: Compositional matrix adjust.
+ Identities = 170/172 (99%), Positives = 170/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMH DGQFEIAIKT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVLWGPHQIMHADGQFEIAIKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM
+Sbjct  299  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  350
+
+
+> UniRef100_A0A0H4TH32 Capsid protein (Fragment) n=3 Tax=Tobacco 
+ringspot virus RepID=A0A0H4TH32_TRSV
+Length=515
+
+ Score = 353 bits (905),  Expect = 8e-117, Method: Compositional matrix adjust.
+ Identities = 170/172 (99%), Positives = 171/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  299  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  350
+
+
+> UniRef100_A0A0H4TY68 Capsid protein (Fragment) n=1 Tax=Tobacco 
+ringspot virus RepID=A0A0H4TY68_TRSV
+Length=515
+
+ Score = 353 bits (905),  Expect = 8e-117, Method: Compositional matrix adjust.
+ Identities = 170/172 (99%), Positives = 171/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  299  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  350
+
+
+> UniRef100_Q8B5P8 Coat protein n=1 Tax=Tobacco ringspot virus 
+RepID=Q8B5P8_TRSV
+Length=515
+
+ Score = 350 bits (899),  Expect = 5e-116, Method: Compositional matrix adjust.
+ Identities = 169/172 (98%), Positives = 169/172 (98%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAI YSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAILYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            R HSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM
+Sbjct  299  RFHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  350
+
+
+> UniRef100_Q8B5P7 Coat protein n=1 Tax=Tobacco ringspot virus 
+RepID=Q8B5P7_TRSV
+Length=515
+
+ Score = 350 bits (897),  Expect = 1e-115, Method: Compositional matrix adjust.
+ Identities = 168/172 (98%), Positives = 170/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPI+LGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIRLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE E PPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHETPPTLRQVLWGPHQIMHGDGQFEIAIKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  299  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  350
+
+
+> UniRef100_Q5L492 Coat protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=Q5L492_TRSV
+Length=515
+
+ Score = 347 bits (889),  Expect = 2e-114, Method: Compositional matrix adjust.
+ Identities = 166/172 (97%), Positives = 169/172 (98%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE E PPTLRQVLWGPHQIMHGDGQFEIA KT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHETPPTLRQVLWGPHQIMHGDGQFEIATKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHS++TTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  299  RLHSSSTTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  350
+
+
+> UniRef100_A0A0C5BF40 CP protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=A0A0C5BF40_TRSV
+Length=495
+
+ Score = 342 bits (877),  Expect = 6e-113, Method: Compositional matrix adjust.
+ Identities = 163/172 (95%), Positives = 165/172 (96%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSML ISYNFGGPVKHSKKHAI YSRAVMSR
+Sbjct  179  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLYISYNFGGPVKHSKKHAILYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQV WGPHQIMHGDGQFEI +KT
+Sbjct  239  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVFWGPHQIMHGDGQFEICLKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            R HSAAT+EEGFGRLGILPL GPIAPDAHVGSYEFIVHINTWRPDSQVHPPM
+Sbjct  299  RFHSAATSEEGFGRLGILPLGGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  350
+
+
+> UniRef100_A0A0C5B4P1 CP protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=A0A0C5B4P1_TRSV
+Length=495
+
+ Score = 341 bits (874),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 159/172 (92%), Positives = 170/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGD+FA+DRYYEAKEIKLDGS+SMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDSFAVDRYYEAKEIKLDGSSSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSG+I GSVKSVS+LFCTA+FVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIA+KT
+Sbjct  239  NLGWSGSICGSVKSVSTLFCTATFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIALKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAAT+EEGFGRLGILPL+GPIAPDAHVGSYEFIVHI+TWRPD+QVHPPM
+Sbjct  299  RLHSAATSEEGFGRLGILPLTGPIAPDAHVGSYEFIVHIDTWRPDTQVHPPM  350
+
+
+> UniRef100_Q6UR06 RNA2 polyprotein n=7 Tax=Tobacco ringspot virus 
+RepID=POL2_TRSV
+Length=1101
+
+ Score = 355 bits (912),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 170/172 (99%), Positives = 171/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  765  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  824
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  825  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  884
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  885  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  936
+
+
+> UniRef100_A0A059WLN7 Polyprotein n=8 Tax=Tobacco ringspot virus 
+RepID=A0A059WLN7_TRSV
+Length=1101
+
+ Score = 355 bits (912),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 170/172 (99%), Positives = 171/172 (99%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  765  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  824
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  825  NLGWSGTISGSVKSVSSLFCTASFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  884
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  885  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  936
+
+
+> UniRef100_M4I5W5 Coat protein (Fragment) n=3 Tax=Tobacco ringspot 
+virus RepID=M4I5W5_TRSV
+Length=328
+
+ Score = 333 bits (855),  Expect = 6e-112, Method: Compositional matrix adjust.
+ Identities = 161/163 (99%), Positives = 162/163 (99%), Gaps = 0/163 (0%)
+
+Query  10   GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  69
+            GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS
+Sbjct  1    GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  60
+
+Query  70   GSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  129
+            GSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE
+Sbjct  61   GSVKSVSSLFCTASFVIFPWEREAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  120
+
+Query  130  EGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            EGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  121  EGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  163
+
+
+> UniRef100_M4I6B3 Coat protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=M4I6B3_TRSV
+Length=328
+
+ Score = 333 bits (855),  Expect = 7e-112, Method: Compositional matrix adjust.
+ Identities = 161/163 (99%), Positives = 162/163 (99%), Gaps = 0/163 (0%)
+
+Query  10   GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  69
+            GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS
+Sbjct  1    GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  60
+
+Query  70   GSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  129
+            GSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE
+Sbjct  61   GSVKSVSSLFCTASFVIFPWEREAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  120
+
+Query  130  EGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            EGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  121  EGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  163
+
+
+> UniRef100_M4I5X2 Coat protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=M4I5X2_TRSV
+Length=328
+
+ Score = 332 bits (852),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 160/163 (98%), Positives = 162/163 (99%), Gaps = 0/163 (0%)
+
+Query  10   GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  69
+            GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS
+Sbjct  1    GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  60
+
+Query  70   GSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  129
+            GSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQ+MHGDGQFEIAIKTRLHSAATTE
+Sbjct  61   GSVKSVSSLFCTASFVIFPWEREAPPTLRQVLWGPHQMMHGDGQFEIAIKTRLHSAATTE  120
+
+Query  130  EGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            EGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  121  EGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  163
+
+
+> UniRef100_A0A0C5B1H0 CP protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=A0A0C5B1H0_TRSV
+Length=495
+
+ Score = 338 bits (867),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 158/172 (92%), Positives = 169/172 (98%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGD+FA+DRYYEAKEIKLDGS+SMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  179  PTMTWPIQLGDSFAVDRYYEAKEIKLDGSSSMLSISYNFGGPVKHSKKHAISYSRAVMSR  238
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSG+I GSVKSVS+LFCTA+FVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIA+KT
+Sbjct  239  NLGWSGSICGSVKSVSTLFCTATFVIFPWEHEAPPTLRQVLWGPHQIMHGDGQFEIALKT  298
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RL SAAT+EEGFGRLGILPL+GPIAPDAHVGSYEFIVHI+TWRPD+QVHPPM
+Sbjct  299  RLDSAATSEEGFGRLGILPLTGPIAPDAHVGSYEFIVHIDTWRPDTQVHPPM  350
+
+
+> UniRef100_M4I5W0 Coat protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=M4I5W0_TRSV
+Length=328
+
+ Score = 331 bits (848),  Expect = 9e-111, Method: Compositional matrix adjust.
+ Identities = 160/163 (98%), Positives = 161/163 (99%), Gaps = 0/163 (0%)
+
+Query  10   GDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  69
+            GDTFAIDRYYEAK IKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS
+Sbjct  1    GDTFAIDRYYEAKGIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTIS  60
+
+Query  70   GSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  129
+            GSVKSVSSLFCTASFVIFPWE EAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE
+Sbjct  61   GSVKSVSSLFCTASFVIFPWEREAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTE  120
+
+Query  130  EGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            EGFGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPDSQVHPPM
+Sbjct  121  EGFGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDSQVHPPM  163
+
+
+> UniRef100_I6UDS9 Capsid protein (Fragment) n=1 Tax=Tobacco ringspot 
+virus RepID=I6UDS9_TRSV
+Length=503
+
+ Score = 335 bits (858),  Expect = 6e-110, Method: Compositional matrix adjust.
+ Identities = 161/173 (93%), Positives = 167/173 (97%), Gaps = 1/173 (1%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  171  PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  230
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWE-CEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+            NLGWSGTISGSVKSVSSLFC+ASFVIFPWE    PPTLRQVLWGPHQIMHGDGQFEIAIK
+Sbjct  231  NLGWSGTISGSVKSVSSLFCSASFVIFPWEHANTPPTLRQVLWGPHQIMHGDGQFEIAIK  290
+
+Query  120  TRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            +RLHSA+TTEEGFG LGILPL+GP+APDAHVGSYEFIVHI+TWRPD QVHPPM
+Sbjct  291  SRLHSASTTEEGFGLLGILPLAGPVAPDAHVGSYEFIVHIDTWRPDLQVHPPM  343
+
+
+> UniRef100_U5XJS7 RNA 2 polyprotein n=1 Tax=Potato black ringspot 
+virus RepID=U5XJS7_9SECO
+Length=1078
+
+ Score = 269 bits (688),  Expect = 1e-80, Method: Compositional matrix adjust.
+ Identities = 121/172 (70%), Positives = 144/172 (84%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT+TWPI   D+F+IDRYYEAKEIKLDG+T+ L++ YNFGGP+K S K++ISY RAVMS+
+Sbjct  742  PTITWPIVCADSFSIDRYYEAKEIKLDGTTTYLTVEYNFGGPIKASVKNSISYPRAVMSQ  801
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+             LGWSG + GSVKSVSSLFC+AS+VIFPW  + PP L  +LWGPHQIMHGDG FEI IKT
+Sbjct  802  CLGWSGVLRGSVKSVSSLFCSASYVIFPWAWDTPPALNGILWGPHQIMHGDGDFEIEIKT  861
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            +  S  T + GFGRLGI+PLSGP+APDAHVG+YEF VHI+TW PD QVHPP+
+Sbjct  862  QYKSTPTMQAGFGRLGIVPLSGPVAPDAHVGAYEFFVHIDTWTPDKQVHPPI  913
+
+
+> UniRef100_U5XIX2 RNA 2 polyprotein n=1 Tax=Potato black ringspot 
+virus RepID=U5XIX2_9SECO
+Length=1082
+
+ Score = 268 bits (684),  Expect = 4e-80, Method: Compositional matrix adjust.
+ Identities = 123/172 (72%), Positives = 143/172 (83%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT+TWPI   ++F IDRYYEAKEIKLDG+T+ LSI YNFGGP+K S K +IS+SRAVM++
+Sbjct  746  PTITWPITCRNSFNIDRYYEAKEIKLDGTTTFLSIEYNFGGPIKASVKSSISFSRAVMAQ  805
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+             LGWSGTISGSVKSVSSLFC+AS+++FPW  +APP+L  VLWGPHQIMHGDG FEIAIKT
+Sbjct  806  CLGWSGTISGSVKSVSSLFCSASYILFPWAWDAPPSLHDVLWGPHQIMHGDGDFEIAIKT  865
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+               S  T   G GRLGILPLSGP+APDAHVG+YEF VHI  W PD Q+HPP+
+Sbjct  866  SYKSTPTMMAGVGRLGILPLSGPVAPDAHVGAYEFFVHIREWVPDEQIHPPI  917
+
+
+> UniRef100_U5XIZ7 RNA 2 polyprotein n=1 Tax=Potato black ringspot 
+virus RepID=U5XIZ7_9SECO
+Length=1078
+
+ Score = 267 bits (683),  Expect = 5e-80, Method: Compositional matrix adjust.
+ Identities = 120/172 (70%), Positives = 143/172 (83%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT+TWPI   D+F+IDRYYEAKEIKLDG+T+ L++ YNFGGP+K S K++ SY RAVMS+
+Sbjct  742  PTITWPIVCADSFSIDRYYEAKEIKLDGTTTYLTVEYNFGGPIKASVKNSTSYPRAVMSQ  801
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+             LGWSG + GSVKSVSSLFC+AS+VIFPW  + PP L  +LWGPHQIMHGDG FEI IKT
+Sbjct  802  CLGWSGVLRGSVKSVSSLFCSASYVIFPWAWDTPPALNGILWGPHQIMHGDGDFEIEIKT  861
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            +  S  T + GFGRLGI+PLSGP+APDAHVG+YEF VHI+TW PD QVHPP+
+Sbjct  862  QYKSTPTMQAGFGRLGIVPLSGPVAPDAHVGAYEFFVHIDTWTPDKQVHPPI  913
+
+
+> UniRef100_U5XM48 RNA 2 polyprotein n=1 Tax=Potato black ringspot 
+virus RepID=U5XM48_9SECO
+Length=1082
+
+ Score = 264 bits (674),  Expect = 9e-79, Method: Compositional matrix adjust.
+ Identities = 120/172 (70%), Positives = 141/172 (82%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT+TWPI   ++F IDRYYEAKEIKLDG+T+ LSI YNFGGP+K S K +IS+SRAVM++
+Sbjct  746  PTITWPITCRNSFNIDRYYEAKEIKLDGTTTFLSIEYNFGGPIKASVKSSISFSRAVMAQ  805
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+             LGWSGTISGSVKSVSSLFC+AS+++FPW  + PP+L  +LWGPHQIMHGDG FEIAIKT
+Sbjct  806  CLGWSGTISGSVKSVSSLFCSASYILFPWAWDGPPSLHDILWGPHQIMHGDGDFEIAIKT  865
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+               S  T   G GRLGI PLSGP+APDAHVG+YEF VHI  W PD Q+HPP+
+Sbjct  866  SYKSTPTMMAGIGRLGICPLSGPVAPDAHVGAYEFFVHIREWVPDEQIHPPI  917
+
+
+> UniRef100_H9TFD4 Polyprotein P2 n=1 Tax=Tobacco ringspot virus 
+RepID=H9TFD4_TRSV
+Length=1128
+
+ Score = 245 bits (625),  Expect = 6e-72, Method: Compositional matrix adjust.
+ Identities = 106/172 (62%), Positives = 140/172 (81%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT+TWP+ +GD+ ++DRYYEAKE+KLDG+T ++ I YNFGGP+K ++K +IS+ RAVM+R
+Sbjct  792  PTVTWPLSVGDSLSVDRYYEAKELKLDGTTKLMYIDYNFGGPIKLTQKSSISFPRAVMAR  851
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+             +G+SG+I GS+K  SS+FCTASFVIFPW  +  P+   + WGPHQI+ GD  FEI IKT
+Sbjct  852  YIGFSGSIKGSIKCTSSIFCTASFVIFPWTWDTNPSWTDIFWGPHQIVTGDSDFEICIKT  911
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+             LHS +TTE G+GRLGI PL GPIAP+AH G++EFIV+I+ W+PD+QVH PM
+Sbjct  912  SLHSTSTTETGYGRLGIFPLGGPIAPEAHTGAFEFIVYISEWKPDAQVHTPM  963
+
+
+> UniRef100_S5YZF5 Coat protein (Fragment) n=2 Tax=Tobacco ringspot 
+virus RepID=S5YZF5_TRSV
+Length=186
+
+ Score = 88.2 bits (217),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 39/41 (95%), Positives = 40/41 (98%), Gaps = 0/41 (0%)
+
+Query  132  FGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            FGRLGILPLSGPIAPDAHVGSYEFIVHI+TWRPD QVHPPM
+Sbjct  1    FGRLGILPLSGPIAPDAHVGSYEFIVHIDTWRPDFQVHPPM  41
+
+
+> UniRef100_A0A0C5B2H6 CP protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=A0A0C5B2H6_9SECO
+Length=470
+
+ Score = 55.5 bits (132),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 76/164 (46%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D   +   +      LDG+ + +S +   G  + H  +   ++ R V + 
+Sbjct  175  PTFVWPPKPSDISLLKEVWGPYRFTLDGTEAKVSFAIMPGTAIPHGLQIVRTFPRVVAAH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G +  S++ VSS+F T ++V+   W   A   L  ++   H I+  +  FE+ + 
+Sbjct  235  FRSWTGKVRMSIQEVSSIFLTGTYVVGVSWNATAD--LTDIVTRKHWIVKSNEIFEVDLY  292
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHIN  160
+                   T T +  G+  I+   L G + P   VG++ F++H++
+Sbjct  293  CPYGDNPTFTGQANGKPFIIVHKLGGIVGPKDSVGTFGFMIHLH  336
+
+
+> UniRef100_P36324 RNA2 polyprotein n=1 Tax=Raspberry ringspot 
+virus (strain S) RepID=POL2_RRVS
+Length=1107
+
+ Score = 54.7 bits (130),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 76/164 (46%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D   +   +      LDG+ +  S +   G  + H ++   ++ R V + 
+Sbjct  768  PTFVWPPKPTDISLLKEVWGPYRFTLDGTEAKESFAIMPGTAILHGQQIVRTFPRVVAAH  827
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G +  S++ VSS+F T ++++   W   A   L  ++   H I+  +  FE+ + 
+Sbjct  828  FRSWTGKVRMSIQEVSSIFLTGTYMVGVSWNATA--DLADIVTRKHWIVKSNEIFEVDLY  885
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHIN  160
+                   T T +  G+  I+   L G + P   VG++ F++HI+
+Sbjct  886  CPYGENPTFTGQANGKPFIIVHKLGGIVGPKDSVGTFGFMIHIH  929
+
+
+> UniRef100_Q9QAG9 Putative coat protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=Q9QAG9_9SECO
+Length=514
+
+ Score = 53.9 bits (128),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 75/164 (46%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D       +      LDG+ +  S +   G  + H ++   ++ R V + 
+Sbjct  175  PTFVWPPKPTDISLFKEVWGPYRFTLDGTEAKRSFAIMPGTAIPHGQQIVRTFPRVVAAH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G +  S++ VSS+F T ++++   W   A   L  ++   H I+  +  FE+ + 
+Sbjct  235  FRSWTGKVRMSIQEVSSIFLTGTYMVGVSWNATAD--LADIVTRKHWIVKSNEIFEVDLY  292
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHIN  160
+                   T T +  G+  I+   L G + P   VG++ F++HI+
+Sbjct  293  CPYGENPTFTGQANGKPFIIVHKLGGIVGPKDSVGTFGFMIHIH  336
+
+
+> UniRef100_Q9QAG8 Putative coat protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=Q9QAG8_9SECO
+Length=514
+
+ Score = 53.9 bits (128),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 40/163 (25%), Positives = 75/163 (46%), Gaps = 6/163 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D   +   +      LDG+ +  S +   G  + H ++   ++ R V + 
+Sbjct  175  PTFVWPPKPTDISLLKEVWGPYRFTLDGTEAKGSFAIMPGTAIPHGQQIVRTFPRVVAAH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G +  S++ VSS+F T ++++   W   A   L  ++   H I+  +  FE+ + 
+Sbjct  235  FRSWTGKVRMSIQEVSSIFLTGTYMVGVSWNATAD--LADIVTRKHWIVKSNEIFEVDLY  292
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHI  159
+                   T T +  G+  I+   L G + P   VG++ F++HI
+Sbjct  293  CPYGENPTFTGQANGKPFIIVHKLGGIVGPKDSVGTFGFMIHI  335
+
+
+> UniRef100_Q9QAH4 Putative coat protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=Q9QAH4_9SECO
+Length=514
+
+ Score = 53.9 bits (128),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 76/164 (46%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D   +   +      LDG+ +  S +   G  + H ++   ++ R V + 
+Sbjct  175  PTFVWPPKPTDISLLKEVWGPYRFTLDGTEAKGSFAIMPGTAIPHGQQIVRTFPRVVAAH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G +  S++ VSS+F T ++++   W   A   L  ++   H I+  +  FE+ + 
+Sbjct  235  FRSWTGKVRMSIQEVSSIFLTGTYMVGVSWNATAD--LADIVTRKHWIVKSNEIFEVDLY  292
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHIN  160
+                   T T +  G+  I+   L G + P   VG++ F++HI+
+Sbjct  293  CPYGENPTFTGQANGKPFIIVHKLGGIVGPKDSVGTFGFMIHIH  336
+
+
+> UniRef100_Q9QAH3 Putative coat protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=Q9QAH3_9SECO
+Length=514
+
+ Score = 52.4 bits (124),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 69/164 (42%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D F     +      LDG+ + + +    G  +        ++ R V + 
+Sbjct  175  PTFVWPPKPSDIFLFKEVWGPYHFSLDGTEAKVDLDIMPGMAIPRGHTTVRTFPRVVAAH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G I  S++ VSS+F T ++V+   W   A   L  ++   H I+     FE+ + 
+Sbjct  235  FRSWTGKIKMSIQEVSSIFLTGTYVVGVSWNVTAD--LADIVTRKHWIVKSGEIFELDLY  292
+
+Query  120  TRLHSAAT---TEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+                   T      G   + +  L G I P   VG++ F++HI+
+Sbjct  293  CPYGKNPTFTGLANGKPYIIVHKLGGIIGPKDSVGTFGFMIHIH  336
+
+
+> UniRef100_A0A0C5AYF7 CP protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=A0A0C5AYF7_9SECO
+Length=470
+
+ Score = 52.0 bits (123),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 41/164 (25%), Positives = 72/164 (44%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D   +   +      LDG+ +  S     G  + H  +   ++ R +   
+Sbjct  175  PTFVWPPKPADISLLKEVWGPYRFTLDGTEAKESFIIMPGMAIPHGLQTVRTFPRVIAVH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G I  S++ VSS+F T ++V+   W   A   L  ++   H I+     FE+ + 
+Sbjct  235  FRSWTGKIRMSIQEVSSIFLTGTYVVGVSWNATAD--LTDIITRKHWIVKSGEIFEVDLY  292
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHIN  160
+                   T T +  G+  I+   L G + P   VG++ F++HI+
+Sbjct  293  CPYGDNPTFTGQANGKPYIIVHKLGGIVGPKDSVGTFGFMIHIH  336
+
+
+> UniRef100_Q88483 P2 protein n=1 Tax=Tomato black ring virus RepID=Q88483_9SECO
+Length=1344
+
+ Score = 51.6 bits (122),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 40/159 (25%), Positives = 74/159 (47%), Gaps = 4/159 (3%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHS-KKHAISYSRAVMSRN  61
+             +T+PI+ G    +D   ++  I + G+ +M  +  +    V  + K+ A SY+  V+S  
+Sbjct  1005  LTYPIKPGHLEDLDLVLKSGSIAI-GTYTMTKVPVSLAMRVDSAAKRQAYSYAAGVLSHF  1063
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  G I  SV S +S F + S  +  W     PT  ++   PH  +  D +  + I++ 
+Sbjct  1064  LGVGGDIIFSVHSTASTFVSCSLRVALWG--TIPTTEELAQIPHVDVTLDAKATLQIQSP  1121
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+               + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  1122  FFATANFGDDGTAFYIATLCAPLAPETMETGFQYYIHIH  1160
+
+
+> UniRef100_G5ELQ2 Polyprotein n=1 Tax=Blueberry latent spherical 
+virus RepID=G5ELQ2_9SECO
+Length=1631
+
+ Score = 51.2 bits (121),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 41/175 (23%), Positives = 76/175 (43%), Gaps = 6/175 (3%)
+
+Query  1     PTMTWPIQLGDTF-AIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSK-KHAISYSRAVM  58
+             P +T P    ++F  +D +     I L    +++ I  +F    +++  K  +  ++A+ 
+Sbjct  1289  PILTIPCSNFNSFINLDLFKGFGTIPLGKDPAIMPIGLDFAVAKEYATGKTCLGTTQAIF  1348
+
+Query  59    SRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM---HGDGQFE  115
+                LG  GT+ G +   S++  + +  I  W   + PTL++    PH+ +     DG F 
+Sbjct  1349  RCFLGVGGTLEGQLIRTSTIMVSCNVRILIWYGLSLPTLQETGSIPHEDLDFSRSDGTFR  1408
+
+Query  116   IAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHP  170
+             + I++     A       RL + PL GPIA       + F +++     D  V P
+Sbjct  1409  LKIQSPFARIANRTID-ARLLVYPLGGPIATKGCNAPFSFAIYVKGIHFDEAVQP  1462
+
+
+> UniRef100_Q9QAH5 Putative coat protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=Q9QAH5_9SECO
+Length=514
+
+ Score = 50.8 bits (120),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 41/163 (25%), Positives = 71/163 (44%), Gaps = 6/163 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D       +      LDG+ +  S +   G  +   ++   ++ R + + 
+Sbjct  175  PTFVWPPKPTDISLFKEVWGPYRFTLDGTEAKESFAIMPGTAIPRGQQIVRTFPRVIAAH  234
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G I  S++ VSS+F T ++++   W   A   L  ++   H I+     FE+ + 
+Sbjct  235  FRSWTGKIKMSIQEVSSIFLTGTYMVGVSWNATAD--LADIITRKHWIVKSGENFELDLY  292
+
+Query  120  TRLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHI  159
+                   T T    GR  I+   L G I P   VG++ F++HI
+Sbjct  293  CPYGENPTFTGLANGRPHIIVHKLGGIIGPKDSVGTFGFMIHI  335
+
+
+> UniRef100_Q9QAH0 Putative coat protein (Fragment) n=1 Tax=Raspberry 
+ringspot virus RepID=Q9QAH0_9SECO
+Length=514
+
+ Score = 50.1 bits (118),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 39/163 (24%), Positives = 73/163 (45%), Gaps = 6/163 (4%)
+
+Query  2    TMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRN  61
+            T  WP +  D       +      LDG+ +  S     G  + H ++   ++ R V +  
+Sbjct  176  TFVWPPKPTDISVFKEVWGPYHFTLDGTEAKESFVIMPGTAIPHGQQIVRTFPRVVAAHF  235
+
+Query  62   LGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+              W+G +  S++ VSS+F T ++++   W   A   L  ++   H I+  +  FE+ +  
+Sbjct  236  RSWTGKVKMSIQEVSSIFLTGTYMVGVSWNATAD--LADIVTRKHWIVKSNEIFEVDLYC  293
+
+Query  121  RLHSAAT-TEEGFGRLGIL--PLSGPIAPDAHVGSYEFIVHIN  160
+                  T T +  G+  I+   L G + P   VG++ F++HI+
+Sbjct  294  PYGENPTFTGQANGKPFIIVHKLGGIVGPKDSVGTFGFMIHIH  336
+
+
+> UniRef100_P13026 RNA2 polyprotein n=3 Tax=Grapevine chrome mosaic 
+virus RepID=POL2_GCMV
+Length=1324
+
+ Score = 48.9 bits (115),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 44/171 (26%), Positives = 75/171 (44%), Gaps = 8/171 (5%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSK-KHAISYSRAVMSRN  61
+             +T+PI L     I+     +++ + G+   ++   +F    K S  + A SY+  ++S  
+Sbjct  983   VTYPISLEHLKDIEIMLPPRQMAI-GNAGSINFPLSFAVQQKSSSGRIAYSYAAGLLSHF  1041
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  GTI   ++  SS F TA   +  W      TL Q+   PH     D    + I++ 
+Sbjct  1042  LGIGGTIHFKIQCTSSAFVTARLRVALWG--DTITLEQLSQMPHVDCDVDVVSSLKIQSP  1099
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+              ++ A   +   R  + P+S P+AP+      E+ + I     D    PPM
+Sbjct  1100  FYATANFGDSGARFWVTPMSSPMAPETMESKLEYYIQILGIDAD----PPM  1146
+
+
+> UniRef100_Q64959 ORF protein (Fragment) n=1 Tax=Artichoke italian 
+latent virus RepID=Q64959_9SECO
+Length=510
+
+ Score = 48.1 bits (113),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 35/133 (26%), Positives = 55/133 (41%), Gaps = 4/133 (3%)
+
+Query  28   GSTSMLSISYNFG-GPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVI  86
+            G+T+  +   +F    +  +K+   SYS  ++S  LG  G +   V S SS   T+   +
+Sbjct  196  GTTATTNFPLSFAEKSITSTKRETYSYSAGLLSHFLGIGGKLRFRVHSTSSCLLTSKLRV  255
+
+Query  87   FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAP  146
+            F WE   P   R      H +      +   I+    + A   +   R  I+PLS P AP
+Sbjct  256  FLWEHSQPQCRRPKF---HTLTLMGLDWRAVIQAACCATANFGDSGARFWIMPLSAPRAP  312
+
+Query  147  DAHVGSYEFIVHI  159
+                  +EF + I
+Sbjct  313  QTVETKFEFYIRI  325
+
+
+> UniRef100_A2ID55 Polyprotein (Fragment) n=1 Tax=Tomato white 
+ringspot virus RepID=A2ID55_9SECO
+Length=784
+
+ Score = 47.8 bits (112),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 48/174 (28%), Positives = 77/174 (44%), Gaps = 7/174 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAI-SYSRAVMS  59
+            P + +PI   D   ID       I L    S L + + F   + +S  + I  + +A+MS
+Sbjct  438  PALEFPIVPQDIHEIDMRVGPFRIPLATRASTL-LGFQFARLLTYSTGNEIPHFKQAIMS  496
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG-DGQFEIA  117
+               G +GT  G +  V +       +I+      P T   Q+   PH ++ G +G+F + 
+Sbjct  497  FYHGAAGTYHGEIIKVGTAQVQCDLLIYMSNSRTPKTNYYQIYREPHFLLKGGEGEFALR  556
+
+Query  118  IKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPP  171
+            I     + A+   G   L I+  +GP APD     +EF+V  N+ R DS  + P
+Sbjct  557  IPAP-EAIASFHSGGVFLHIVVAAGPTAPDGVAAPFEFMV--NSKRIDSAGYVP  607
+
+
+> UniRef100_Q6W8W3 RNA2 polyprotein n=3 Tax=Raspberry ringspot 
+virus RepID=POL2_RRVC
+Length=1106
+
+ Score = 47.0 bits (110),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 37/164 (23%), Positives = 68/164 (41%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT  WP +  D       +      LDG+ +  S S   G  +    +   ++ R + + 
+Sbjct  767  PTFVWPPEPADISYFKEVWGPYHFTLDGTEAKESFSLMPGMAIPRGAQTVRTFPRVLAAH  826
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK  119
+               W+G +  S++ VSS+F T ++++   W   A   L  +    H I+     FE+ + 
+Sbjct  827  FRSWTGKVRMSIQEVSSIFLTGTYMVGVSWNATA--DLTDITTRKHWIVKSGEVFELDLY  884
+
+Query  120  TRLHSAATTE---EGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+                   T      G   + +  L G I P   VG++ F++H++
+Sbjct  885  CPYGENPTFTGLVNGIPYIIVHRLGGIIGPKDSVGTFGFMIHLH  928
+
+
+> UniRef100_Q8B8X2 Polyprotein n=3 Tax=Tomato black ring virus 
+RepID=Q8B8X2_9SECO
+Length=1343
+
+ Score = 46.6 bits (109),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 38/159 (24%), Positives = 73/159 (46%), Gaps = 4/159 (3%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHS-KKHAISYSRAVMSRN  61
+             +T+PI+      +D   ++  I + G+ +M  +  +    +  + K+ A SY+  ++S  
+Sbjct  1004  LTYPIESRHLEDLDLILKSGSIAV-GTYTMTKVPVSLAMRIDSAAKRQAYSYAAGILSHF  1062
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  G I  SV S +S F + S  I  W     PT  ++   PH  +  D +  + I++ 
+Sbjct  1063  LGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQIPHVDVTLDTKATLQIQSP  1120
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+               + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  1121  FFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  1159
+
+
+> UniRef100_A0A0N9FIL1 Coat protein (Fragment) n=2 Tax=Tomato black 
+ring virus RepID=A0A0N9FIL1_9SECO
+Length=244
+
+ Score = 45.8 bits (107),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 31/123 (25%), Positives = 58/123 (47%), Gaps = 2/123 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I+ SV S +S F + S  I  W     PT  ++   PH
+Sbjct  7    AKRQAYSYAAGILSHFLGVGGEITFSVHSTASTFVSCSLRIALWG--TVPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+  +  
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIHGIKAK  124
+
+Query  166  SQV  168
+            + +
+Sbjct  125  ANL  127
+
+
+> UniRef100_A0A0N9FHS1 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=A0A0N9FHS1_9SECO
+Length=244
+
+ Score = 45.8 bits (107),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 32/123 (26%), Positives = 57/123 (46%), Gaps = 2/123 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  7    AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+  R  
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIHGIRAK  124
+
+Query  166  SQV  168
+            + +
+Sbjct  125  ANL  127
+
+
+> UniRef100_V5W9L3 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W9L3_9SECO
+Length=511
+
+ Score = 46.2 bits (108),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 38/159 (24%), Positives = 73/159 (46%), Gaps = 4/159 (3%)
+
+Query  3    MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHS-KKHAISYSRAVMSRN  61
+            +T+PI+      +D   ++  + + G+ +M  +  +    ++ + K+ A SY+  V+S  
+Sbjct  172  LTYPIESRHLEDLDLILKSGSVAI-GTYTMPKVPVSLAMRIESAAKRQAYSYAAGVLSHF  230
+
+Query  62   LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+            LG  G I  SV S +S F + S  I  W     PT   +   PH  +  D +  + I++ 
+Sbjct  231  LGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDDLAQVPHVDVTLDAKATLQIQSP  288
+
+Query  122  LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  289  FFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_A0A0E4G218 Polyprotein n=1 Tax=Grapevine chrome mosaic 
+virus RepID=A0A0E4G218_GCMV
+Length=1325
+
+ Score = 45.8 bits (107),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 44/171 (26%), Positives = 74/171 (43%), Gaps = 8/171 (5%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSK-KHAISYSRAVMSRN  61
+             +T+PI L     I+     +++ + GS   ++   +F    K S  + A SY+  ++S  
+Sbjct  984   VTYPIGLEHLKDIEIMLPPRQMAI-GSAGSINFPLSFAVQQKSSSGRIAYSYAAGLLSHF  1042
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  GTI   ++  SS F TA   +  W      TL Q+   PH          + I++ 
+Sbjct  1043  LGIGGTIHFKIQCTSSAFVTARLRVALW--GDTITLEQLSQMPHIDCDVGIVSSLKIQSP  1100
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+              ++ A   +   R  + P+S P+AP+      E+ + I     D    PPM
+Sbjct  1101  FYATANFGDSGARFWVTPMSSPMAPETMESKLEYYIQILGIDAD----PPM  1147
+
+
+> UniRef100_V5W7Y7 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W7Y7_9SECO
+Length=511
+
+ Score = 45.4 bits (106),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 38/159 (24%), Positives = 72/159 (45%), Gaps = 4/159 (3%)
+
+Query  3    MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHS-KKHAISYSRAVMSRN  61
+            +T+PI+      +D   ++  + + G+ +M  +  +    +  + K+ A SY+  V+S  
+Sbjct  172  LTYPIESRHLEDLDLILKSGSVAI-GTYTMPKVPVSLAMRIDSAAKRQAYSYAAGVLSHF  230
+
+Query  62   LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+            LG  G I  SV S +S F + S  I  W     PT   +   PH  +  D +  + I++ 
+Sbjct  231  LGVGGEIIFSVHSTASTFISCSLRIALWG--TVPTTDDLAQVPHVEVTLDAKATLQIQSP  288
+
+Query  122  LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  289  FFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_V5W8K3 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W8K3_9SECO
+Length=511
+
+ Score = 45.4 bits (106),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 54/115 (47%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  215  AKRQAYSYAAGILSHFLGVGGDIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQVPH  272
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  273  VDVTLDTKATLQIQSPFFATANFGDDGTAFYIATLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_A0A0N9FI91 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=A0A0N9FI91_9SECO
+Length=244
+
+ Score = 45.1 bits (105),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 31/123 (25%), Positives = 57/123 (46%), Gaps = 2/123 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A +Y+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  7    AKRQAYTYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+  R  
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIHGIRAK  124
+
+Query  166  SQV  168
+            + +
+Sbjct  125  ANL  127
+
+
+> UniRef100_V5W8K9 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W8K9_9SECO
+Length=511
+
+ Score = 45.1 bits (105),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 54/115 (47%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  215  AKRQAYSYAAGILSHFLGVGGDIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQVPH  272
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  273  VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_A0A0E4C0F2 Polyprotein n=1 Tax=Grapevine chrome mosaic 
+virus RepID=A0A0E4C0F2_GCMV
+Length=1324
+
+ Score = 45.1 bits (105),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 46/175 (26%), Positives = 74/175 (42%), Gaps = 16/175 (9%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSK-KHAISYSRAVMSRN  61
+             +T+PI L     I+     +++ + G+   ++   +F    K S  + A SY+  ++S  
+Sbjct  983   VTYPISLDHLKDIEIMLPPRQMAI-GNAGSINFPLSFAVQQKSSSGRIAYSYAAGLLSHF  1041
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  GTI   ++  SS F TA   +  W      TL Q+     Q+ H D    I    +
+Sbjct  1042  LGIGGTIHFKIQCTSSAFVTARLRVALW--GDTITLEQL----SQMPHVDCDVGIVSSLK  1095
+
+Query  122   LHSAATTEEGFG----RLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+             + S       FG    R  + P+S P+AP+      E+ + I     D    PPM
+Sbjct  1096  IQSPFFATANFGDSGARFWVTPMSSPMAPETMESKLEYYIQILGIDAD----PPM  1146
+
+
+> UniRef100_A0A0N9FGV0 Coat protein (Fragment) n=2 Tax=Tomato black 
+ring virus RepID=A0A0N9FGV0_9SECO
+Length=244
+
+ Score = 44.7 bits (104),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 31/123 (25%), Positives = 57/123 (46%), Gaps = 2/123 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  7    AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+  +  
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIHGIKAK  124
+
+Query  166  SQV  168
+            + +
+Sbjct  125  ANL  127
+
+
+> UniRef100_V5W8E5 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W8E5_9SECO
+Length=511
+
+ Score = 45.1 bits (105),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 53/115 (46%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT   +   PH
+Sbjct  215  AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIAIWG--TVPTTDDLAQVPH  272
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  273  VDVTLDAKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_V5W8F3 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W8F3_9SECO
+Length=511
+
+ Score = 44.7 bits (104),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 30/115 (26%), Positives = 55/115 (48%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  215  AKRQAYSYAAGILSHFLGVGGDIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQVPH  272
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A+  +      +  L  P+AP+     +++ +HI+
+Sbjct  273  VDVTLDTKATLQIQSPFFATASFGDDGTAFYVSTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_A0A0N7ER88 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=A0A0N7ER88_9SECO
+Length=244
+
+ Score = 44.3 bits (103),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 54/115 (47%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  7    AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  119
+
+
+> UniRef100_A0A0N9FGG0 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=A0A0N9FGG0_9SECO
+Length=244
+
+ Score = 44.3 bits (103),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 31/115 (27%), Positives = 54/115 (47%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  7    AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIALWG--TIPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  119
+
+
+> UniRef100_Q86631 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=Q86631_9SECO
+Length=545
+
+ Score = 44.3 bits (103),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 33/144 (23%), Positives = 65/144 (45%), Gaps = 5/144 (3%)
+
+Query  31   SMLSISYNFGGPVKHSKKHA--ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFP  88
+            S ++++  F  P      +A   S+ +A +S  + + GTI G +  + S        +  
+Sbjct  274  STINVNLGFAEPRTVLTGYAPITSFHQAALSYFISYGGTIHGRLVKIGSGLVQVDIALAM  333
+
+Query  89   WECEAPPT-LRQVLWGPHQIMHG-DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAP  146
+            W   A     R+++  PH ++ G DG+F + +       +T + G   + +  +SG +AP
+Sbjct  334  WHDNADGVEFRELIKIPHVLLSGGDGEFSLPLNAPFGHTSTRDRG-PTMAVCLVSGVVAP  392
+
+Query  147  DAHVGSYEFIVHINTWRPDSQVHP  170
+                  Y F+V+ +    D+Q+ P
+Sbjct  393  KDCSAPYRFMVYFDRVEFDTQLPP  416
+
+
+> UniRef100_V5W827 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W827_9SECO
+Length=511
+
+ Score = 44.3 bits (103),  Expect = 0.026, Method: Compositional matrix adjust.
+ Identities = 30/115 (26%), Positives = 54/115 (47%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT  ++   PH
+Sbjct  215  AKRQAYSYAAGILSHFLGVGGDIIFSVHSTASTFVSCSLRIALWG--TIPTTDELAQVPH  272
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  D +  + I++   + A   +      +  L  P+AP+     +++ +HI+
+Sbjct  273  VDVTLDTKATLQIQSPFFATANFGDDGTAFYVSTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_Q20LA0 Polyprotein n=1 Tax=Raspberry ringspot virus 
+RepID=Q20LA0_9SECO
+Length=1106
+
+ Score = 44.3 bits (103),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 38/166 (23%), Positives = 70/166 (42%), Gaps = 12/166 (7%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAK---EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAV  57
+            PT+ WP        I  + E +      LDG+   L   +  G P+        ++ R +
+Sbjct  767  PTLVWPPTPD---IISTFREVRGPFSFSLDGTREQLDFGFLPGVPLVEGTTTVRTFHRVL  823
+
+Query  58   MSRNLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEI  116
+             +    W+G I  S++ VSS+F T ++++   W   A  +L  ++   H I+     F++
+Sbjct  824  ANFYRAWTGKIRISIEEVSSIFLTGTYMVGVAW--NATDSLGSIVSRRHWIVKSGEIFDL  881
+
+Query  117  AI---KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI  159
+             +        + A  + G   + +  + G + P    GS+ F VHI
+Sbjct  882  DLYGPYGEYPTFAGKQNGIPHIVVQKIGGIVGPKDSTGSFGFFVHI  927
+
+
+> UniRef100_A0A0N9FH24 Coat protein (Fragment) n=6 Tax=Tomato black 
+ring virus RepID=A0A0N9FH24_9SECO
+Length=244
+
+ Score = 43.9 bits (102),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 30/123 (24%), Positives = 57/123 (46%), Gaps = 2/123 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  +  W     PT  ++   PH
+Sbjct  7    AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRVALWG--TIPTTDELAQIPH  64
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+              +  D +  + I++   + A   +      I  L  P+AP+     +++ +HI+  +  
+Sbjct  65   VDVTLDTKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIHGIKAK  124
+
+Query  166  SQV  168
+            + +
+Sbjct  125  ANL  127
+
+
+> UniRef100_W0NI44 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NI44_9SECO
+Length=309
+
+ Score = 43.5 bits (101),  Expect = 0.040, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 57/121 (47%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     ++++  PH +++G
+Sbjct  158  SFHQAALSYFISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADGVEFKELIKIPHVLLNG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             DG+F + +       +T + G   + +  +SG +AP      Y F+V+ +    D+Q+ 
+Sbjct  218  GDGEFSLPLNAPFGHTSTRDRG-PTMAVCLVSGVVAPKDCSAPYRFMVYFDRVEFDTQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_A0A0E3VYT6 Polyprotein n=1 Tax=Grapevine chrome mosaic 
+virus RepID=A0A0E3VYT6_GCMV
+Length=1324
+
+ Score = 43.9 bits (102),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 43/171 (25%), Positives = 73/171 (43%), Gaps = 8/171 (5%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSK-KHAISYSRAVMSRN  61
+             +T+PI L     I+     +++ + GS   ++   +F    K S  + A SY+  ++S  
+Sbjct  983   VTYPIGLEHLKDIEIMLPPRQMAI-GSAGSINFPLSFAVQQKSSSGRIAYSYAAGLLSHF  1041
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  GTI   ++   S F TA   +  W      TL Q+   PH          + I++ 
+Sbjct  1042  LGIGGTIHFKIQCTPSAFVTARLRVALW--GDTITLEQLSQMPHIDCDVGIVSSLKIQSP  1099
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+              ++ A   +   R  + P+S P+AP+      E+ + I     D    PPM
+Sbjct  1100  FYATANFGDSGARFWVTPMSSPMAPETMESKLEYYIQILGIDAD----PPM  1146
+
+
+> UniRef100_W0NLR7 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NLR7_9SECO
+Length=309
+
+ Score = 43.5 bits (101),  Expect = 0.046, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 57/121 (47%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     ++++  PH +++G
+Sbjct  158  SFHQAALSYFISYGGTIHGRLVKIGSGLVQVDVALAMWHDNADGVEFKELIKIPHVLLNG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             DG+F + +       +T + G   + +  +SG +AP      Y F+V+ +    D+Q+ 
+Sbjct  218  GDGEFSLPLNAPFGHTSTRDRG-PTMAVCLVSGVVAPKDCSAPYRFMVYFDRVEFDTQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_W0NIA2 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NIA2_9SECO
+Length=309
+
+ Score = 43.5 bits (101),  Expect = 0.047, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 57/121 (47%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     ++++  PH +++G
+Sbjct  158  SFHQAALSYFISYGGTIHGRLVKIGSGLVQVDVALAMWHDNADGVEFKELIKIPHVLLNG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             DG+F + +       +T + G   + +  +SG +AP      Y F+V+ +    D+Q+ 
+Sbjct  218  GDGEFSLPLNAPFGHTSTRDRG-PTMAVCLVSGVVAPKDCSAPYRFMVYFDRVEFDTQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_W0NLR1 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NLR1_9SECO
+Length=309
+
+ Score = 43.1 bits (100),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 29/121 (24%), Positives = 56/121 (46%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAP-PTLRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R+++  PH ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLIKIGSGLVQVDIALAMWHDNADMVAYREIIKIPHVLLTG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    D+Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFDAQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_A3FEN3 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=A3FEN3_9SECO
+Length=562
+
+ Score = 43.1 bits (100),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 31/111 (28%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMH-  109
+            +S ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  227  LSSNQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHRDADLTLETAYQRPHFILSG  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  287  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPQNNKAKYQFMCYFD  336
+
+
+> UniRef100_A0A097GWX6 Polyprotein n=3 Tax=Tomato ringspot virus 
+RepID=A0A097GWX6_9SECO
+Length=1979
+
+ Score = 43.5 bits (101),  Expect = 0.063, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 57/111 (51%), Gaps = 2/111 (2%)
+
+Query  51    ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+             ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+ +
+Sbjct  1644  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHKDADLTLETAYQRPHYILAN  1703
+
+Query  110   GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+             G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  1704  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNNAKYQFMCYFD  1753
+
+
+> UniRef100_Q9YPA2 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=Q9YPA2_9SECO
+Length=564
+
+ Score = 43.1 bits (100),  Expect = 0.063, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+            ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  229  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHKDASLTLETAYQRPHYILAD  288
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H A +  E   RL I  ++GP +P  +  +Y+F+ + +
+Sbjct  289  GQGAFSLPISTP-HEATSFVEDMLRLEIFAIAGPFSPKDNKATYQFMCYFD  338
+
+
+> UniRef100_Q9QRA4 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=Q9QRA4_9SECO
+Length=562
+
+ Score = 43.1 bits (100),  Expect = 0.066, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+            ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  227  LNANQALLRFFQGSNGTLHGRIKKIGTALSTCSLLLSLRHKDASLTLETAYQRPHYILAD  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  287  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNKAKYQFMCYFD  336
+
+
+> UniRef100_V5W9L8 Coat protein (Fragment) n=1 Tax=Tomato black 
+ring virus RepID=V5W9L8_9SECO
+Length=511
+
+ Score = 43.1 bits (100),  Expect = 0.067, Method: Compositional matrix adjust.
+ Identities = 30/115 (26%), Positives = 53/115 (46%), Gaps = 2/115 (2%)
+
+Query  46   SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPH  105
+            +K+ A SY+  ++S  LG  G I  SV S +S F + S  I  W     PT   +   PH
+Sbjct  215  AKRQAYSYAAGILSHFLGVGGEIIFSVHSTASTFVSCSLRIALWG--TVPTTDDLAQVPH  272
+
+Query  106  QIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              +  + +  + I++   + A   +      I  L  P+AP+     +++ +HI+
+Sbjct  273  VDVTLEAKATLQIQSPFFATANFGDDGTAFYISTLCAPLAPETMETGFQYYIHIH  327
+
+
+> UniRef100_A3FEN2 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=A3FEN2_9SECO
+Length=562
+
+ Score = 43.1 bits (100),  Expect = 0.069, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+            ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  227  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHKDASLTLETAYQRPHYILAD  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  287  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNKAKYQFMCYFD  336
+
+
+> UniRef100_Q6JX05 P2 protein n=2 Tax=Grapevine deformation virus 
+RepID=Q6JX05_9SECO
+Length=1107
+
+ Score = 43.1 bits (100),  Expect = 0.084, Method: Compositional matrix adjust.
+ Identities = 36/150 (24%), Positives = 63/150 (42%), Gaps = 7/150 (5%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFV  85
+            L+ ++++ +++ + G  ++       SY+ A++S  LG+ G I G +     +   A   
+Sbjct  793  LNTASAIKNVALDLGSTLRSGTNLVYSYNNALLSYFLGFGGIIKGKIHFCGPITYGAVIR  852
+
+Query  86   IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSA----ATTEEG--FGRLGILP  139
+            I         T   V   P   +   G+FEI I++  H        T+ G     L +  
+Sbjct  853  IVSEWAGNTATWNNVFKYPGVNVDSSGEFEIEIRSPYHRTPLRLMDTQVGTNMSTLSLYA  912
+
+Query  140  LSGPIAPDAHVGSYEFIVHINTWR-PDSQV  168
+            +SGPIAP         I+ I+  + PD  V
+Sbjct  913  ISGPIAPSGETADMPIILEIDEIKLPDLSV  942
+
+
+> UniRef100_A0A097GWW8 Polyprotein n=1 Tax=Tomato ringspot virus 
+RepID=A0A097GWW8_9SECO
+Length=1882
+
+ Score = 43.1 bits (100),  Expect = 0.087, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51    ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+             ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  1547  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHKDASLTLETAYQRPHYILAD  1606
+
+Query  110   GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+             G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  1607  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNKAKYQFMCYFD  1656
+
+
+> UniRef100_P25247 RNA2 polyprotein n=4 Tax=Tomato ringspot virus 
+RepID=POL2_TORVR
+Length=1882
+
+ Score = 43.1 bits (100),  Expect = 0.087, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51    ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+             ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  1547  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHKDASLTLETAYQRPHYILAD  1606
+
+Query  110   GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+             G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  1607  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNKAKYQFMCYFD  1656
+
+
+> UniRef100_A3FEM9 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=A3FEM9_9SECO
+Length=562
+
+ Score = 42.7 bits (99),  Expect = 0.093, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+            ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  227  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRYKDASLTLETAYQRPHYILAD  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  287  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNKAKYQFMCYFD  336
+
+
+> UniRef100_A0A0C5BF36 CP protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A0C5BF36_ARMV
+Length=504
+
+ Score = 42.7 bits (99),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 38/148 (26%), Positives = 56/148 (38%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  S++  S+S   G  +        +Y+ +++S  LG  G + G V   S   CT 
+Sbjct  187  EYDLSTSSAYKSVSLILGQTLIDGAHKVYNYNNSLLSFYLGIGGVVKGRVHICSP--CTY  244
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  +G FEI I++       RL  A       
+Sbjct  245  GIVLRVVSEWN-GVTNNWNQLFKYPGCYVDEEGNFEIEIRSPYHRTPLRLRDAQVASTFT  303
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  304  SSLNFYAISGPIAPSGETAKMRVVVQIN  331
+
+
+> UniRef100_B1A9X8 Polyprotein P2 (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=B1A9X8_ARMV
+Length=521
+
+ Score = 42.7 bits (99),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 38/148 (26%), Positives = 56/148 (38%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  204  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNYNNTLLSYYLGIGGVVKGKVHICSP--CTY  261
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL  A +     
+Sbjct  262  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDAQSASSFT  320
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  321  STLNFYAISGPIAPSGETARMPVVVQIN  348
+
+
+> UniRef100_Q80JS5 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=Q80JS5_BRAV
+Length=458
+
+ Score = 42.4 bits (98),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 45/167 (27%), Positives = 67/167 (40%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKH-SKKHAISYSRAVMS  59
+            PT+T P   G    +D +       L G T  LS S + G  V   S    +S+  A   
+Sbjct  100  PTLTLPQAFGGDLPLDLWRGPYTFPLGGGTKRLSTSLDIGRSVTTVSGWRTVSFPAAYAL  159
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I I
+Sbjct  160  LLQGHGGSLVGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPSGEGKFHIKI  219
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  220  QTPYGRLSTLTPD-CVLYVYLAGGPIAVAPMSVPYQFCIHLERLVDD  265
+
+
+> UniRef100_A3FEN0 Coat protein (Fragment) n=2 Tax=Tomato ringspot 
+virus RepID=A3FEN0_9SECO
+Length=562
+
+ Score = 42.4 bits (98),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 56/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+            ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+  
+Sbjct  227  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRYKDASLTLETAYQRPHYILAD  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H+A +  E   RL I  ++GP +P  +   Y+F+ + +
+Sbjct  287  GQGAFSLPISTP-HAATSFLEDVLRLEIFAIAGPFSPKDNKAKYQFMCYFD  336
+
+
+> UniRef100_A0A076E6S4 Polyprotein 2 n=1 Tax=Mulberry mosaic roll 
+leaf-associated virus RepID=A0A076E6S4_9SECO
+Length=1093
+
+ Score = 42.4 bits (98),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 41/161 (25%), Positives = 64/161 (40%), Gaps = 7/161 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            P  TWP       ++ RY     +    S + +  S   G   K S    +S+  AV S 
+Sbjct  757  PVATWPPA---PISLSRYLGPFTVNSGTSLNDVDFSIALGSVSKFSGGAIMSFPSAVFSC  813
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+              G SG++   ++   SLFCTA F+         P+  Q +W  H ++   G+    +  
+Sbjct  814  FQGSSGSLRFVLEPTCSLFCTAKFICVLVFGSFVPSTAQ-MWKMHHVVVTGGEVS-TLPF  871
+
+Query  121  RLHSAATTEEGF--GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+             +   A    G    R    P+ G  AP    G YE ++H+
+Sbjct  872  DVPFGAVPNVGLKGARFICRPIGGVKAPKDFTGKYECLIHL  912
+
+
+> UniRef100_W0NLC4 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NLC4_9SECO
+Length=309
+
+ Score = 42.0 bits (97),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 56/121 (46%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAP-PTLRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R+++  PH ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVAYREIIKVPHVLLTG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNAQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_W0NIA7 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NIA7_9SECO
+Length=309
+
+ Score = 41.6 bits (96),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 56/121 (46%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAP-PTLRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R+++  PH ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLIKIGSGLVQVDIALAMWHDNADMVAYREIIKVPHVLLTG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNAQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_Q6JX06 P2 protein n=2 Tax=Grapevine Anatolian ringspot 
+virus RepID=Q6JX06_9SECO
+Length=1350
+
+ Score = 42.0 bits (97),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 29/117 (25%), Positives = 55/117 (47%), Gaps = 2/117 (2%)
+
+Query  43    VKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLW  102
+             V  SK+ + SY+  ++S  LG  G +   V+  SS F ++   +  W   A  T+ Q+  
+Sbjct  1057  VSASKRVSYSYAAGLLSHFLGVGGILHFKVQCTSSAFVSSRLRVALW--GAQITMIQLCQ  1114
+
+Query  103   GPHQIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              PH  +       + I++  ++ A   +      + P+S P+AP+A   + E+ + I
+Sbjct  1115  MPHVDVDVGVTASLKIQSPFYATANLGDSDAAFWVTPMSSPMAPEAIESALEYYIQI  1171
+
+
+> UniRef100_G0YW79 Polyprotein P2 n=1 Tax=Arabis mosaic virus RepID=G0YW79_ARMV
+Length=1110
+
+ Score = 42.0 bits (97),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 38/148 (26%), Positives = 56/148 (38%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  793  EYDLSTTSAYKSVSLLLGQTLTDGTHKVYNYNNTLLSFFLGIGGVVKGRVHICSP--CTY  850
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL +A       
+Sbjct  851  GIVLRVVSEWN-GVTNNWNQLFKYPGCYVDEDGNFEIEIRSPYHRTPLRLLNAQAASSFT  909
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  910  SSLNFYAISGPIAPSGETARMSVVVQIN  937
+
+
+> UniRef100_W0NI38 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NI38_9SECO
+Length=309
+
+ Score = 41.6 bits (96),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 56/121 (46%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAP-PTLRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R+++  PH ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLIKIGSGLVQVDIALAMWHDNADMVAYREIIKIPHVLLTG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNAQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_B4YNP8 Polyprotein 2 n=2 Tax=Arabis mosaic virus RepID=B4YNP8_ARMV
+Length=1118
+
+ Score = 41.6 bits (96),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 38/148 (26%), Positives = 55/148 (37%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  801  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNYNNTLLSYYLGIGGVVKGKVHICSP--CTY  858
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL  A       
+Sbjct  859  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDAQAASSFT  917
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  918  STLNFYAISGPIAPSGETAKMPVVVQIN  945
+
+
+> UniRef100_Q9IV56 Polyprotein n=1 Tax=Olive latent ringspot virus 
+RepID=Q9IV56_9SECO
+Length=1145
+
+ Score = 41.2 bits (95),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 37/167 (22%), Positives = 62/167 (37%), Gaps = 8/167 (5%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            P    P+       +DR      I +D ++       + G  +   K    ++S A  S 
+Sbjct  804  PLCILPLSPSVVHNLDRTLGPFSISIDANSHETYHGIDLGSDLMTDKGKIANFSSAWFSH  863
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIK-  119
+             LG+ G + G +   S + CT+ F++             +    H  + G G F   +  
+Sbjct  864  WLGFQGILHGRITVSSPITCTSIFLLCMCYKRNASAYTSIYRKRHITLEGGGNFSFPLDS  923
+
+Query  120  ------TRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+                  TR  S A +  G   L +  + GPIAP   V   E+ +H +
+Sbjct  924  PFSSAPTRYVSTADSSSG-CELYVDTICGPIAPADSVTKLEYFLHFD  969
+
+
+> UniRef100_A0A0E4G221 Polyprotein n=1 Tax=Tomato black ring virus 
+RepID=A0A0E4G221_9SECO
+Length=1343
+
+ Score = 41.2 bits (95),  Expect = 0.34, Method: Compositional matrix adjust.
+ Identities = 35/159 (22%), Positives = 71/159 (45%), Gaps = 4/159 (3%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAI-SYSRAVMSRN  61
+             +T+PI  G    +D   ++  + + G+ +M+ +  +    +  +    + SY+  ++S  
+Sbjct  1004  LTYPIAPGHLEDLDLILKSGSVAI-GTYTMVKVPVSLAMRIDSAAMRLVYSYAAGILSHF  1062
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  G I+  V S +S F   S  I  W      T  ++   PH  +  D +  + I++ 
+Sbjct  1063  LGVGGDITFRVHSTASNFVYCSMSIALWG--TISTTDELAQIPHVDVTLDTKATLQIQSP  1120
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+               + A   +    L I  L  P+AP+     +++ +HI+
+Sbjct  1121  FFATANFGDDGTALYISTLCAPLAPETMENGFQYYIHIH  1159
+
+
+> UniRef100_P14547 RNA2 polyprotein n=3 Tax=Beet ringspot virus 
+RepID=POL2_BRSV
+Length=1357
+
+ Score = 41.2 bits (95),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 36/158 (23%), Positives = 69/158 (44%), Gaps = 4/158 (3%)
+
+Query  3     MTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKH-SKKHAISYSRAVMSRN  61
+             +++PI+      ++     K+I + G+ +M++   +    ++  S + A SY+  ++S  
+Sbjct  1009  LSYPIEARHLTDLNLMLAPKQIAV-GTYAMITFPVSLAAKLQSTSGRTAYSYAAGLLSHF  1067
+
+Query  62    LGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTR  121
+             LG  GTI   V++ SS F T+   I  W     P   Q+   PH  +  +    + I++ 
+Sbjct  1068  LGVGGTIHFVVRTTSSAFVTSKLRIALW--GTVPETDQLAQMPHVDVEVNVDASLQIQSP  1125
+
+Query  122   LHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI  159
+               S A          +  L  P+AP+      E+ + I
+Sbjct  1126  FFSTANFGNSGSAFYVSTLCAPMAPETVETGSEYYIQI  1163
+
+
+> UniRef100_X2D7T3 Capsid protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=X2D7T3_ARMV
+Length=272
+
+ Score = 40.4 bits (93),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 53/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V       CT 
+Sbjct  61   EYDLSATSAYKSVSLLLGQTLVDGTHRVFNYNNTLLSYYLGIGGVVKGKVHICGP--CTY  118
+
+Query  83   SF---VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+                 V+  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  119  GIFLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAARSFT  177
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  178  STLNFYAISGPIAPSGETAKMPVVVQIN  205
+
+
+> UniRef100_X2D7N3 Capsid protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=X2D7N3_ARMV
+Length=272
+
+ Score = 40.4 bits (93),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 53/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V       CT 
+Sbjct  61   EYDLSATSAYKSVSLLLGQTLVDGTHRVFNYNNTLLSYYLGIGGVVKGKVHICGP--CTY  118
+
+Query  83   SF---VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+                 V+  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  119  GIILRVVNEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  177
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  178  STLNFYAISGPIAPSGETAKMPVVVQIN  205
+
+
+> UniRef100_X2D7B5 Capsid protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=X2D7B5_ARMV
+Length=272
+
+ Score = 40.4 bits (93),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 53/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V       CT 
+Sbjct  61   EYDLSATSAYKSVSLLLGQTLVDGTHRVFNYNNTLLSYYLGIGGVVKGKVHICGP--CTY  118
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  119  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  177
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  178  STLNFYAISGPIAPSGETAKMPVVVQIN  205
+
+
+> UniRef100_X2D7R5 Capsid protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=X2D7R5_ARMV
+Length=272
+
+ Score = 40.0 bits (92),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 53/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V       CT 
+Sbjct  61   EYDLSATSAYKSVSLLLGQTLVDGTHRVFNYNNTLLSYYLGIGGVVKGKVHICGP--CTY  118
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  119  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  177
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  178  STLNFYAISGPIAPSGETAKMPVVVQIN  205
+
+
+> UniRef100_A0A023ZTD4 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZTD4_ARMV
+Length=505
+
+ Score = 40.4 bits (93),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 37/148 (25%), Positives = 54/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNYNNTLLSYYLGIGGVVKGKVHICSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGSFEIEIRSPYHRTPLRLLDGQAASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQIN  332
+
+
+> UniRef100_I6LL58 Polyprotein P2-IV n=3 Tax=Arabis mosaic virus 
+RepID=I6LL58_ARMV
+Length=1118
+
+ Score = 40.4 bits (93),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 37/147 (25%), Positives = 55/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  801  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNYNNTLLSYYLGIGGVVKGKVHICSP--CTY  858
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG+FEI I++       RL          
+Sbjct  859  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGRFEIEIRSPYHRTPLRLLDGQAASSFT  917
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+            G L    +SGPIAP         +V I
+Sbjct  918  GTLNFYAISGPIAPSGETAKMPVVVQI  944
+
+
+> UniRef100_X2D5V2 Capsid protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=X2D5V2_ARMV
+Length=272
+
+ Score = 40.0 bits (92),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 53/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V       CT 
+Sbjct  61   EYDLSATSAYKSVSLLLGQTLVDGTHRVFNYNNTLLSYYLGIGGVVKGKVHICGP--CTY  118
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  119  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPHHRTPLRLLDGQAASSFT  177
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  178  STLNFYAISGPIAPSGETAKMPVVVQIN  205
+
+
+> UniRef100_A0A059PQD7 Polyprotein n=1 Tax=Grapevine fanleaf virus 
+RepID=A0A059PQD7_GFLV
+Length=1110
+
+ Score = 40.4 bits (93),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 34/147 (23%), Positives = 56/147 (38%), Gaps = 7/147 (5%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFV  85
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  797  LTAVTALRSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIRGKVHICAPIFYSIVLW  856
+
+Query  86   IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGILP  139
+            +       P    ++   P   +  DG FE+ I++  H       A  ++     L I  
+Sbjct  857  VVSEWTGTPMDWNELYKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNIYA  916
+
+Query  140  LSGPIAPDAHVGSYEFIVHINTW-RPD  165
+            ++GPIAP         +V I+   RPD
+Sbjct  917  IAGPIAPSGETARLPIVVQIDEIVRPD  943
+
+
+> UniRef100_E0D3E8 Polyprotein n=1 Tax=Melon mild mottle virus 
+RepID=E0D3E8_9SECO
+Length=1120
+
+ Score = 40.0 bits (92),  Expect = 0.79, Method: Compositional matrix adjust.
+ Identities = 44/177 (25%), Positives = 65/177 (37%), Gaps = 9/177 (5%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            P   WP  L  T  IDR++     KL  +T  + I  N     +      I+   A +S 
+Sbjct  780  PYHVWPPALPSTVKIDRWFPPLSFKLGATTRSVQIPLNLARIEETGYGKCINLISAFLSN  839
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWG-PHQIMHGDG-QFEIAI  118
+                 G +   +   SS+F  A            P  R+ LW  PH  +   G +FE+ I
+Sbjct  840  FQSIGGRLRCRLLPTSSIFVGAELAA-AITSTGDPVPRKDLWTMPHVRLDSLGCEFELEI  898
+
+Query  119  KTRLHSAATTEEG---FGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            ++         +       L I  +SG  AP      +EF + I +     Q H PM
+Sbjct  899  RSSYLVTPLRSKDPKLHPHLQIYLVSGVTAPKDSSSDFEFAIKIESI---EQAHSPM  952
+
+
+> UniRef100_A0A097GWW5 Polyprotein n=1 Tax=Tomato ringspot virus 
+RepID=A0A097GWW5_9SECO
+Length=1886
+
+ Score = 40.0 bits (92),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 59/119 (50%), Gaps = 2/119 (2%)
+
+Query  51    ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMH-  109
+             ++ ++A++    G +G + G +K + +   TAS ++         +L + L  PH I+  
+Sbjct  1551  LNANQALLRFFQGSNGVLHGRIKKIGTALTTASLLLSLRHKHTDISLEEALQRPHFILKD  1610
+
+Query  110   GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQV  168
+             G G F + I T   +A+  E+   RL I  ++GP +P  +   ++F+ + +    D QV
+Sbjct  1611  GQGAFSLPISTPFAAASFLEDML-RLEIFAIAGPFSPRDNKAKFQFMCYFDHIELDEQV  1668
+
+
+> UniRef100_Q65028 Polyprotein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=Q65028_ARMV
+Length=737
+
+ Score = 39.7 bits (91),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 56/148 (38%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  420  EYDLSATSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGVVKGKVHICSP--CTY  477
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL  A +     
+Sbjct  478  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDAQSASSFT  536
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V I+
+Sbjct  537  STLNFYAISGPIAPSGETAKMPVVVQID  564
+
+
+> UniRef100_Q9QRA5 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=Q9QRA5_9SECO
+Length=562
+
+ Score = 39.7 bits (91),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 58/119 (49%), Gaps = 2/119 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMH-  109
+            ++ ++A++    G +G + G +K + +   TAS ++         +L + L  PH I+  
+Sbjct  227  LNANQALLRFFQGSNGVLHGRIKKIGTALTTASLLLSLRHKHTDISLEEALQRPHFILKD  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQV  168
+            G G F + I T   +A+  E+   RL I  ++GP +P  +   + F+ + +    D QV
+Sbjct  287  GQGAFSLPISTPFAAASFLEDML-RLEIFAIAGPFSPRDNKAKFHFMCYFDHIELDEQV  344
+
+
+> UniRef100_A0A9J6 Polyprotein P2 123kDa n=1 Tax=Arabis mosaic 
+virus RepID=A0A9J6_ARMV
+Length=1122
+
+ Score = 39.3 bits (90),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 30/133 (23%), Positives = 48/133 (36%), Gaps = 6/133 (5%)
+
+Query  34   SISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEA  93
+            SI  N G  +        +++  ++S  LG  G + G V   S +F      I       
+Sbjct  817  SIPLNLGQTLSDGTSKVYNFNNTLLSYYLGLGGKLRGRVLFCSPIFYGVVLRIVSEWNGV  876
+
+Query  94   PPTLRQVLWGPHQIMHGDGQFEIAIKTRLH------SAATTEEGFGRLGILPLSGPIAPD  147
+                 Q+   P   +  +G FEI I++  H          T      + +  +SGPIAP 
+Sbjct  877  TNNWNQLFKYPGVNLEQEGPFEIEIRSPFHRTPMRLQGTQTASSMSSINMYAVSGPIAPG  936
+
+Query  148  AHVGSYEFIVHIN  160
+                    +V I+
+Sbjct  937  GETADMAVVVQID  949
+
+
+> UniRef100_A0A023ZT61 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZT61_ARMV
+Length=505
+
+ Score = 39.3 bits (90),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 54/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGVVKGKVHICSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V IN
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQIN  332
+
+
+> UniRef100_A0A059PR27 Polyprotein n=1 Tax=Grapevine fanleaf virus 
+RepID=A0A059PR27_GFLV
+Length=1110
+
+ Score = 39.3 bits (90),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  797  LTAVTALRSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIKGKVHICAPIFYSIVLW  856
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W    P    ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  857  VVSEWNG-TPMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  915
+
+Query  139  PLSGPIAPDAHVGSYEFIVHINTW-RPD  165
+             ++GPIAP         +V I+   RPD
+Sbjct  916  AIAGPIAPSGETARLPIVVQIDEIVRPD  943
+
+
+> UniRef100_L7W236 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7W236_9SECO
+Length=269
+
+ Score = 38.9 bits (89),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  137  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPSVLLKG  196
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  197  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNAQLP  255
+
+Query  170  P  170
+            P
+Sbjct  256  P  256
+
+
+> UniRef100_Q9QRA2 Coat protein (Fragment) n=1 Tax=Tomato ringspot 
+virus RepID=Q9QRA2_9SECO
+Length=562
+
+ Score = 38.9 bits (89),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 29/111 (26%), Positives = 55/111 (50%), Gaps = 2/111 (2%)
+
+Query  51   ISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIM-H  109
+            ++ ++A++    G +GT+ G +K + +   T S ++     +A  TL      PH I+ +
+Sbjct  227  LNANQALLRFFQGSNGTLHGRIKKIGTALTTCSLLLSLRHKDADLTLETAYQRPHYILAN  286
+
+Query  110  GDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+            G G F + I T  H+A +  E   RL I  ++GP +P  +     F+ + +
+Sbjct  287  GQGAFSLPISTP-HAATSFLEDMLRLEIFAIAGPFSPKDNNAKIPFMCYFD  336
+
+
+> UniRef100_B5KFZ7 Polyprotein P2 n=1 Tax=Arabis mosaic virus RepID=B5KFZ7_ARMV
+Length=1110
+
+ Score = 39.3 bits (90),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 56/148 (38%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  793  EYDLGTTSAYKSVSLLLGQTLVDGAHKVYNYNNTLLSFYLGIGGVVKGRVHICSP--CTY  850
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  +G FEI I++       RL  A       
+Sbjct  851  GIVLRVVSEWN-GVTNNWNQLFKYPGCYVDENGNFEIEIRSPYHRTPLRLRDAQVASSFT  909
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP   +     +V I+
+Sbjct  910  STLNFYAISGPIAPSGEIAKMPVVVQID  937
+
+
+> UniRef100_L7W2Z8 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7W2Z8_9SECO
+Length=277
+
+ Score = 38.9 bits (89),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  142  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLRG  201
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  202  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  260
+
+Query  170  P  170
+            P
+Sbjct  261  P  261
+
+
+> UniRef100_L7VXK8 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7VXK8_9SECO
+Length=253
+
+ Score = 38.5 bits (88),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  121  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLKG  180
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  181  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  239
+
+Query  170  P  170
+            P
+Sbjct  240  P  240
+
+
+> UniRef100_L7W230 Polyprotein (Fragment) n=2 Tax=Cherry leaf roll 
+virus RepID=L7W230_9SECO
+Length=272
+
+ Score = 38.5 bits (88),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  138  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLKG  197
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  198  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  256
+
+Query  170  P  170
+            P
+Sbjct  257  P  257
+
+
+> UniRef100_L7W1P5 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7W1P5_9SECO
+Length=288
+
+ Score = 38.5 bits (88),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  137  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLKG  196
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  197  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  255
+
+Query  170  P  170
+            P
+Sbjct  256  P  256
+
+
+> UniRef100_L7W587 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7W587_9SECO
+Length=272
+
+ Score = 38.5 bits (88),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  140  SFHQAALSYYISYGGTIHGRLIKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLKG  199
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  200  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  258
+
+Query  170  P  170
+            P
+Sbjct  259  P  259
+
+
+> UniRef100_Q2HYV4 56K (Fragment) n=1 Tax=Grapevine fanleaf virus 
+RepID=Q2HYV4_GFLV
+Length=504
+
+ Score = 38.5 bits (88),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  191  LTAVTALRSAGLTLGQVPMVGTTRVYNLNSALVSCVLGMGGTIRGKVHICAPIFYSIVLW  250
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  251  VVSEWN-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  309
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPD  165
+             +SGPIAP         +V I+   RPD
+Sbjct  310  AISGPIAPSGETARLPIVVQIDEIVRPD  337
+
+
+> UniRef100_W0NIB3 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NIB3_9SECO
+Length=309
+
+ Score = 38.5 bits (88),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLKG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_L7W1Q0 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7W1Q0_9SECO
+Length=269
+
+ Score = 38.5 bits (88),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  137  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHENADMVDFRDIIKIPCVLLKG  196
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  197  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  255
+
+Query  170  P  170
+            P
+Sbjct  256  P  256
+
+
+> UniRef100_W0NLC8 Coat protein (Fragment) n=2 Tax=Cherry leaf 
+roll virus RepID=W0NLC8_9SECO
+Length=309
+
+ Score = 38.5 bits (88),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFRDIIKIPCVLLKG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_Q3L0R2 Polyprotein P2 n=1 Tax=Grapevine fanleaf virus 
+RepID=Q3L0R2_GFLV
+Length=1110
+
+ Score = 38.9 bits (89),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G         A + +  ++S  LG  GTI G V   + +F +    
+Sbjct  797  LTAVTALRSAGLTLGQVPMVGTTKAYNLNSTLVSCVLGMGGTIRGRVHICAPIFYSIVLW  856
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   M  DG FE+ I++  H       A  ++     L   
+Sbjct  857  VVSEWNGTTM-DWNELFKYPGVYMEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  915
+
+Query  139  PLSGPIAPDAHVGSYEFIVHINTW-RPD  165
+             ++GPIAP         ++ I+   RPD
+Sbjct  916  AIAGPIAPSGETARLPIVIQIDEIVRPD  943
+
+
+> UniRef100_Q5L448 Coat protein (Fragment) n=1 Tax=Grapevine fanleaf 
+virus RepID=Q5L448_GFLV
+Length=426
+
+ Score = 38.5 bits (88),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 36/150 (24%), Positives = 57/150 (38%), Gaps = 9/150 (6%)
+
+Query  24   IKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTAS  83
+              L   T++ S     G           + + A+ S  LG  GTI G V   +S+F +  
+Sbjct  111  FDLTAVTALRSAGLTLGQVPMVGTTKVYNLNSALASCVLGMGGTIRGRVHICASIFYSIV  170
+
+Query  84   F-VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLG  136
+              V+  W         ++   P   +  DG FE+ I++  H       A  ++     L 
+Sbjct  171  LWVVSEWN-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLN  229
+
+Query  137  ILPLSGPIAPDAHVGSYEFIVHIN-TWRPD  165
+               ++GPIAP         +V I+   RPD
+Sbjct  230  FYAIAGPIAPSGETARLPIVVQIDEIVRPD  259
+
+
+> UniRef100_C4MBZ3 Polyprotein P2 (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=C4MBZ3_GFLV
+Length=539
+
+ Score = 38.5 bits (88),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 58/151 (38%), Gaps = 9/151 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  226  LTAVTALKSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIRGKVHICAPIFYSIVLW  285
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W+        ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  286  VVSEWD-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  344
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPDSQV  168
+             ++GPIAP         +V IN   RPD  +
+Sbjct  345  AIAGPIAPSGETAQLPIVVQINEIVRPDLSI  375
+
+
+> UniRef100_Q9YK98 RNA2 polyprotein n=5 Tax=Blackcurrant reversion 
+association virus RepID=POL2_BRAV
+Length=1626
+
+ Score = 38.5 bits (88),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 42/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1     PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKH-SKKHAISYSRAVMS  59
+             PT+  P   G    +D +       L G T  LS S + G      S    +S+  A   
+Sbjct  1268  PTLVLPQAFGGDLPLDLWRGPYTFPLGGGTKRLSTSLDIGTSTTTVSGWRTVSFPAAYAL  1327
+
+Query  60    RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+                G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I +
+Sbjct  1328  FLQGHGGSLVGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPSGEGKFHIKV  1387
+
+Query  119   KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+             +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  1388  QTPYGRLSTLTPDCA-LYVYLAGGPIAVAPMSVPYQFCIHLERLVDD  1433
+
+
+> UniRef100_A1YYW3 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=A1YYW3_BRAV
+Length=380
+
+ Score = 38.5 bits (88),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 41/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFG-GPVKHSKKHAISYSRAVMS  59
+            PT+  P   G    +D +       L G T  +S S + G      S    +S+  A   
+Sbjct  175  PTLILPQAFGGDLPLDLWRGPYTFPLGGGTKRISTSLDIGRSTTTVSGWRTVSFPAAYAL  234
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I +
+Sbjct  235  FLQGHGGSLVGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPSGEGKFHIKV  294
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  295  QTPYGRLSTLTPDCA-LYVYLAGGPIAVAPMSVPYQFCIHLERLVDD  340
+
+
+> UniRef100_Q91HK4 RNA2 polyprotein n=5 Tax=Arabis mosaic virus 
+RepID=POL2_ARMVN
+Length=1110
+
+ Score = 38.5 bits (88),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 37/148 (25%), Positives = 55/148 (37%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  793  EYDLSTTSAYKSVSLLLGQTLIDGTHKVYNYNNTLLSYYLGIGGVVKGRVHICSP--CTY  850
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL  A       
+Sbjct  851  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIGEDGNFEIEIRSPYHRTPLRLLDAQAASAFT  909
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V I+
+Sbjct  910  STLNFYAISGPIAPSGETAKMPVVVQID  937
+
+
+> UniRef100_A0A023ZTE0 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZTE0_ARMV
+Length=505
+
+ Score = 38.5 bits (88),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 36/147 (24%), Positives = 54/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  + +  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSATNAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGIVKGKVHVCSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG F I I++       RL  A +T    
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIEEDGSFAIEIRSPYHRTPLRLIDAQSTSSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              L    +SGPIAP         +V I
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQI  331
+
+
+> UniRef100_A0A0G2SRZ0 Coat protein (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=A0A0G2SRZ0_GFLV
+Length=504
+
+ Score = 38.5 bits (88),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  191  LTAVTALRSAGLTLGQVPMVGTTRVYNLNSALVSCVLGMGGTIKGKVHICAPIFYSIVLW  250
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  +++    L   
+Sbjct  251  VVSEWN-GTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQKDMSSLNFY  309
+
+Query  139  PLSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+             ++GPIAP         +V I    RPD
+Sbjct  310  AIAGPIAPSGETARLPIVVQIEEIVRPD  337
+
+
+> UniRef100_W0NMD4 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NMD4_9SECO
+Length=309
+
+ Score = 38.1 bits (87),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 53/121 (44%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R+++  P  ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFREIIKIPSVLLKG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G F + I       +T + G   L +  +SG +AP      Y F+++ +    + Q+ 
+Sbjct  218  GEGDFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNGQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_W0NMC5 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NMC5_9SECO
+Length=309
+
+ Score = 38.1 bits (87),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R ++  P  ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDSADMVDFRDIIKIPCVLLKG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_A0A0A1I6A0 Polyprotein (Fragment) n=2 Tax=Grapevine 
+fanleaf virus RepID=A0A0A1I6A0_GFLV
+Length=1107
+
+ Score = 38.5 bits (88),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 58/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  794  LTAVTALKSAGLTLGQVPMVGTTRVYNLNSALVSCVLGMGGTIKGRVHICAPIFYSIVLW  853
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W+        ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  854  VVSEWDGTTM-DWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  912
+
+Query  139  PLSGPIAPDAHVGSYEFIVHINTW-RPD  165
+             ++GPIAP         +V I+   RPD
+Sbjct  913  AIAGPIAPSGETARLPIVVQIDEIVRPD  940
+
+
+> UniRef100_Q6JLQ5 Coat protein (Fragment) n=1 Tax=Grapevine fanleaf 
+virus RepID=Q6JLQ5_GFLV
+Length=504
+
+ Score = 38.1 bits (87),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 31/122 (25%), Positives = 51/122 (42%), Gaps = 9/122 (7%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-VIFPWECEAPPTLRQVLWGPHQIMHG  110
+            + +  ++S  LG  GTI G V   + +F +    V+  W         ++   P   +  
+Sbjct  217  NLNSTLVSCVLGMGGTIRGKVHICAPIFYSIVLWVVSEWN-GTTMDWNELFKYPGVYVEE  275
+
+Query  111  DGQFEIAIKTRLHS------AATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN-TWR  163
+            DG FE+ I++  H       A  ++ G   L    ++GPIAP         +V I+   R
+Sbjct  276  DGSFEVKIRSPYHRTPARLLAGQSQRGMSSLNFYAIAGPIAPSGETARLPIVVQIDEIVR  335
+
+Query  164  PD  165
+            PD
+Sbjct  336  PD  337
+
+
+> UniRef100_W0NMD0 Coat protein (Fragment) n=1 Tax=Cherry leaf 
+roll virus RepID=W0NMD0_9SECO
+Length=309
+
+ Score = 38.1 bits (87),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 26/121 (21%), Positives = 55/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAP-PTLRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     R+++  P  ++ G
+Sbjct  158  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVAYREIIKIPPVLLTG  217
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + +       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  218  GEGEFALPVNAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVESNAQLP  276
+
+Query  170  P  170
+            P
+Sbjct  277  P  277
+
+
+> UniRef100_A0A059PQ01 Polyprotein n=1 Tax=Grapevine fanleaf virus 
+RepID=A0A059PQ01_GFLV
+Length=1107
+
+ Score = 38.1 bits (87),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 33/147 (22%), Positives = 55/147 (37%), Gaps = 7/147 (5%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFV  85
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  794  LTAVTALKSAGLTLGQVPMVGTTRVYNLNSTLVSCVLGMGGTIRGKVHICAPIFYSIVLW  853
+
+Query  86   IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGILP  139
+            +F           ++   P   +  DG FE+ I++  H       A  ++     L    
+Sbjct  854  VFSEWNGTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFYA  913
+
+Query  140  LSGPIAPDAHVGSYEFIVHINTW-RPD  165
+            ++GPIAP         +V I+   RPD
+Sbjct  914  IAGPIAPSGETAQLPIVVQIDEIVRPD  940
+
+
+> UniRef100_A3KLP5 Coat protein (Fragment) n=2 Tax=Grapevine fanleaf 
+virus RepID=A3KLP5_GFLV
+Length=253
+
+ Score = 37.7 bits (86),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 35/150 (23%), Positives = 57/150 (38%), Gaps = 9/150 (6%)
+
+Query  24   IKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTAS  83
+              L   T++ S     G           + + A++S  LG  GTI G V   + +F +  
+Sbjct  25   FDLTAVTALRSAGLTLGQVPMVGTTKVYNLNSALVSCVLGMGGTIRGKVHICAPIFYSIV  84
+
+Query  84   F-VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLG  136
+              V+  W         ++   P   +  DG FE+ I++  H       A  ++     L 
+Sbjct  85   LWVVSEWN-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLN  143
+
+Query  137  ILPLSGPIAPDAHVGSYEFIVHIN-TWRPD  165
+               ++GPIAP         +V I+   RPD
+Sbjct  144  FYAIAGPIAPSGETARLPIVVQIDEIVRPD  173
+
+
+> UniRef100_A0A0G2SSH7 Coat protein (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=A0A0G2SSH7_GFLV
+Length=504
+
+ Score = 38.1 bits (87),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 56/148 (38%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  191  LTAVTALRSAGLTLGQVPMVGTTRVYNLNSALVSCVLGMGGTIKGKVHICAPIFYSIVLW  250
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  251  VVSEWN-GTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  309
+
+Query  139  PLSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+             ++GPIAP         +V I    RPD
+Sbjct  310  AIAGPIAPSGETARLPIVVQIEEIVRPD  337
+
+
+> UniRef100_Q6JLN4 Coat protein (Fragment) n=1 Tax=Grapevine fanleaf 
+virus RepID=Q6JLN4_GFLV
+Length=504
+
+ Score = 37.7 bits (86),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  191  LTAVTALRSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIRGKVHICAPIFYSVVLW  250
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++L  P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  251  VVSEWN-GTTMDWNELLKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  309
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPD  165
+             ++GPIAP         +V I+   RPD
+Sbjct  310  AIAGPIAPSGETARLPIVVQIDEIVRPD  337
+
+
+> UniRef100_A0A0G2SS89 Coat protein (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=A0A0G2SS89_GFLV
+Length=504
+
+ Score = 37.7 bits (86),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 56/148 (38%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  191  LTAVTALRSAGLTLGQVPMVGTTKVYNLNSALVSCVLGMGGTIRGKVHICAPIFYSIVLW  250
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  251  VVSEWN-GTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  309
+
+Query  139  PLSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+             ++GPIAP         +V I    RPD
+Sbjct  310  AIAGPIAPSGETAQLPIVVQIEEIVRPD  337
+
+
+> UniRef100_C4MBZ2 Polyprotein P2 (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=C4MBZ2_GFLV
+Length=539
+
+ Score = 37.7 bits (86),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 57/151 (38%), Gaps = 9/151 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  226  LTAVTALKSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIRGKVHICAPIFYSIVLW  285
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  286  VVSEWN-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  344
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPDSQV  168
+             ++GPIAP         +V IN   RPD  +
+Sbjct  345  AIAGPIAPSGETAQLPIVVQINEIVRPDLSI  375
+
+
+> UniRef100_A1YYV8 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=A1YYV8_BRAV
+Length=380
+
+ Score = 37.7 bits (86),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 41/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFG-GPVKHSKKHAISYSRAVMS  59
+            PT+  P   G    +D +       L G T  +S S + G      S    +S+  A   
+Sbjct  175  PTLILPQAFGGDLPLDLWRGPYTFPLGGGTKRISTSLDVGRSTTTVSGWRTVSFPAAYAL  234
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I +
+Sbjct  235  FLQGHGGSLIGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPSGEGKFHIKV  294
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  295  QTPYGRLSTLTPDCA-LYVYLAGGPIAVAPMSVPYQFCIHLERLVDD  340
+
+
+> UniRef100_C4MBZ1 Polyprotein P2 (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=C4MBZ1_GFLV
+Length=539
+
+ Score = 37.7 bits (86),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 57/151 (38%), Gaps = 9/151 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  226  LTAVTALKSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIRGKVHICAPIFYSIVLW  285
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  286  VVSEWN-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  344
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPDSQV  168
+             ++GPIAP         +V IN   RPD  +
+Sbjct  345  AIAGPIAPSGETAQLPIVVQINEIVRPDLSI  375
+
+
+> UniRef100_L7W2Z1 Polyprotein (Fragment) n=1 Tax=Cherry leaf roll 
+virus RepID=L7W2Z1_9SECO
+Length=269
+
+ Score = 37.4 bits (85),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 26/121 (21%), Positives = 54/121 (45%), Gaps = 3/121 (2%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPT-LRQVLWGPHQIMHG  110
+            S+ +A +S  + + GTI G +  + S        +  W   A     + ++  P  ++ G
+Sbjct  138  SFHQAALSYYISYGGTIHGRLVKIGSGLVQVDIALAMWHDNADMVDFKDIIKVPCVLLKG  197
+
+Query  111  -DGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             +G+F + I       +T + G   L +  +SG +AP      Y F+++ +    ++Q+ 
+Sbjct  198  GEGEFALPINAPFGHTSTRDRG-PTLAVCLVSGVVAPKDCSAPYRFMIYFDRVEFNTQLP  256
+
+Query  170  P  170
+            P
+Sbjct  257  P  257
+
+
+> UniRef100_A1YYW2 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=A1YYW2_BRAV
+Length=527
+
+ Score = 37.7 bits (86),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 41/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFG-GPVKHSKKHAISYSRAVMS  59
+            PT+  P   G    +D +       L G T  +S S + G      S    +S+  A   
+Sbjct  322  PTLILPQAFGGDLPLDLWRGPYTFPLGGGTKRISTSLDIGRSTTTVSGWRTVSFPAAYAL  381
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I +
+Sbjct  382  FLQGHGGSLIGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPSGEGKFHIKV  441
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  442  QTPYGRLSTLTPDCA-LYVYLAGGPIAVAPMSVPYQFCIHLERLVDD  487
+
+
+> UniRef100_A0A059PQ06 Polyprotein n=1 Tax=Grapevine fanleaf virus 
+RepID=A0A059PQ06_GFLV
+Length=1111
+
+ Score = 37.7 bits (86),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  798  LTAVTALKSAGLTLGQVPMVGTTKVYNLNSALVSCVLGMGGTIKGRVHICAPIFYSIVLW  857
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  858  VVSEWNGTTM-DWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  916
+
+Query  139  PLSGPIAPDAHVGSYEFIVHINTW-RPD  165
+             ++GPIAP         +V I+   RPD
+Sbjct  917  AIAGPIAPSGETAQLPIVVQIDEIVRPD  944
+
+
+> UniRef100_A5H0K7 Coat protein (Fragment) n=2 Tax=Grapevine fanleaf 
+virus RepID=A5H0K7_GFLV
+Length=426
+
+ Score = 37.4 bits (85),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 35/150 (23%), Positives = 56/150 (37%), Gaps = 9/150 (6%)
+
+Query  24   IKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTAS  83
+              L   T++ S     G     S     + +  ++S  LG  GTI G V   + +F +  
+Sbjct  111  FDLTAVTALRSAGLTLGQVPMVSTTKVYNLNSTLVSCVLGMGGTIKGRVHICAPIFYSIV  170
+
+Query  84   F-VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLG  136
+              V+  W         ++   P   +  DG FE+ I++  H       A  ++     L 
+Sbjct  171  LWVVSEWN-GTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQRDMSSLN  229
+
+Query  137  ILPLSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+               ++GPIAP         +V I    RPD
+Sbjct  230  FYAIAGPIAPSGETARLPIVVQIEEIVRPD  259
+
+
+> UniRef100_C5HUZ7 Polyprotein P2 (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=C5HUZ7_GFLV
+Length=539
+
+ Score = 37.7 bits (86),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 33/125 (26%), Positives = 52/125 (42%), Gaps = 15/125 (12%)
+
+Query  52   SYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWE-CEAPPTL---RQVLWGPHQI  107
+            + +  ++S  LG  GTI G V   + +F    + I  W  CE   T     ++   P   
+Sbjct  252  NLNSTLVSCVLGMGGTIKGRVHICAPIF----YSIVLWVVCEWNGTTMDWNELFKYPGVY  307
+
+Query  108  MHGDGQFEIAIKTRLHS------AATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN-  160
+            +  DG FE+ I++  H       A  ++     L    ++GPIAP         +V I+ 
+Sbjct  308  VEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFYAIAGPIAPSGETARLPIVVQIDE  367
+
+Query  161  TWRPD  165
+              RPD
+Sbjct  368  IMRPD  372
+
+
+> UniRef100_Q80JS8 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=Q80JS8_BRAV
+Length=533
+
+ Score = 37.4 bits (85),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 42/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFG-GPVKHSKKHAISYSRAVMS  59
+            PT+T P        +D +       L G T  LS S + G      S    +S+  A   
+Sbjct  175  PTLTLPQAFEGNLPLDLWRGPYTFPLGGGTKRLSTSLDVGRSTTTVSGWRTVSFPAAYAL  234
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I +
+Sbjct  235  FLQGHGGSLVGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPSGEGKFHIKV  294
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  295  QTPYGRLSTLTPDCA-LYVYLAGGPIAVAPMSVPYQFCIHLERLVDD  340
+
+
+> UniRef100_A0A023ZTH0 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZTH0_ARMV
+Length=505
+
+ Score = 37.4 bits (85),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 54/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGVVKGKVHICSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V I+
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQID  332
+
+
+> UniRef100_A0A0A2KBB0 Uncharacterized protein n=1 Tax=Penicillium 
+italicum RepID=A0A0A2KBB0_PENIT
+Length=497
+
+ Score = 37.4 bits (85),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 26/98 (27%), Positives = 39/98 (40%), Gaps = 15/98 (15%)
+
+Query  74   SVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTEEGFG  133
+            + +S     S+ I   +C    T+    W P+ I++GD Q  I   T  H+A T    F 
+Sbjct  306  ATTSRNAVQSYAISQTKCPVT-TVGMSTWNPNAILYGDSQSGIFTPTNFHAATTNTSSFT  364
+
+Query  134  RLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPP  171
+              GI P              + I ++NT  P  +  PP
+Sbjct  365  LKGIDP--------------DMITNLNTAIPPRENRPP  388
+
+
+> UniRef100_Q9DY05 Capsid protein (Fragment) n=1 Tax=Grapevine 
+fanleaf virus RepID=Q9DY05_GFLV
+Length=436
+
+ Score = 37.4 bits (85),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 57/148 (39%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + + A++S  LG  GTI G V   + +F +    
+Sbjct  123  LTAVTALKSAGLTLGQVPMVGTTKVYNLNSALVSCVLGMGGTIKGRVHICAPIFYSIVLW  182
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  183  VVSEWN-GTTMDWNELFKYPGVYVEEDGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  241
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPD  165
+             ++GPIAP         +V I+   RPD
+Sbjct  242  AIAGPIAPSGETARLPIVVQIDEIVRPD  269
+
+
+> UniRef100_Q80JS6 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=Q80JS6_BRAV
+Length=458
+
+ Score = 37.4 bits (85),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 42/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFG-GPVKHSKKHAISYSRAVMS  59
+            PT+  P   G    +D +       L G T  +S S + G      S    +S+  A   
+Sbjct  100  PTLILPQAFGGDLPLDLWRGPYTFPLGGGTKRISTSLDIGRSTTTVSGWRTVSFPAAYAL  159
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I I
+Sbjct  160  FLQGHGGSLVGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPTGEGKFHIKI  219
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  220  QTPYGRLSTLTPD-CVLYVYLAGGPIAVAPMSVPYQFCIHLERMVED  265
+
+
+> UniRef100_Q1LZV6 Coat protein (Fragment) n=1 Tax=Grapevine fanleaf 
+virus RepID=Q1LZV6_GFLV
+Length=492
+
+ Score = 37.4 bits (85),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 34/148 (23%), Positives = 56/148 (38%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  179  LTAVTALKSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIKGKVHICAPIFYSIVLW  238
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P   +  DG FE+ I++  H       A  ++     L   
+Sbjct  239  VVSEWN-GTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFY  297
+
+Query  139  PLSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+             ++GPIAP   +     +V I    RPD
+Sbjct  298  AIAGPIAPSGEIARLPIVVQIEEIVRPD  325
+
+
+> UniRef100_A0A9J8 Polyprotein P2 119kDa n=1 Tax=Arabis mosaic 
+virus RepID=A0A9J8_ARMV
+Length=1083
+
+ Score = 37.4 bits (85),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 54/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  766  EYDLSTTSAYKSVSLLLGQTLVDGIHKVYNYNNTLLSYYLGIGGVVKGRVHICSP--CTY  823
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG FEI I++       RL          
+Sbjct  824  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  882
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V I+
+Sbjct  883  STLNFYAISGPIAPSGETAKMPVVVQID  910
+
+
+> UniRef100_A0A023ZT68 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZT68_ARMV
+Length=505
+
+ Score = 37.4 bits (85),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 54/148 (36%), Gaps = 13/148 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +Y+  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSTTSAYKSVSLLLGQTLVDGTHKVYNYNNTLLSYYLGIGGVVKGKVHICSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         ++   P   +  DG FEI I++       RL          
+Sbjct  246  GIVLRVVSEWN-GVTNNWNRLFKYPGCYIDEDGNFEIEIRSPYHRTPLRLLDGQAASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+              L    +SGPIAP         +V I+
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQID  332
+
+
+> UniRef100_A3KLP9 Coat protein (Fragment) n=2 Tax=Grapevine fanleaf 
+virus RepID=A3KLP9_GFLV
+Length=253
+
+ Score = 37.0 bits (84),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 32/147 (22%), Positives = 53/147 (36%), Gaps = 7/147 (5%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFV  85
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  27   LTAVTALKSAGLTLGQVPMVGTTRVYNLNSTLVSCVLGMGGTIKGKVHICAPIFYSIVLR  86
+
+Query  86   IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGILP  139
+            +            ++   P   +  DG FE+ I++  H       A  ++     L    
+Sbjct  87   VVSEWNGTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQRDMSSLNFYA  146
+
+Query  140  LSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+            ++GPIAP         +V I    RPD
+Sbjct  147  IAGPIAPSGETAQLPIVVQIEEVVRPD  173
+
+
+> UniRef100_A3KLP7 Coat protein (Fragment) n=1 Tax=Grapevine fanleaf 
+virus RepID=A3KLP7_GFLV
+Length=253
+
+ Score = 36.6 bits (83),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 34/150 (23%), Positives = 55/150 (37%), Gaps = 9/150 (6%)
+
+Query  24   IKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTAS  83
+              L   T++ S     G           + +  ++S  LG  GTI G V   + +F +  
+Sbjct  25   FDLTAVTALKSAGLTLGQVPMVGTTRVYNLNSTLVSCVLGMGGTIKGKVHICAPIFYSIV  84
+
+Query  84   F-VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLG  136
+              V+  W         ++   P   +  DG FE+ I++  H       A  ++     L 
+Sbjct  85   LWVVSEWN-GTTMDWNELFKYPGVYVEADGSFEVKIRSPYHRTPARLLAGQSQRDMSSLN  143
+
+Query  137  ILPLSGPIAPDAHVGSYEFIVHI-NTWRPD  165
+               ++GPIAP         +V I    RPD
+Sbjct  144  FYAIAGPIAPSGETAQLPIVVQIEEIVRPD  173
+
+
+> UniRef100_A0A023ZUD2 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZUD2_ARMV
+Length=505
+
+ Score = 37.0 bits (84),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 35/147 (24%), Positives = 54/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSATSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGIVKGKVHVCSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG F I I++       RL  A +     
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIEEDGSFAIEIRSPYHRTPLRLIDAQSASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              L    +SGPIAP         +V I
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQI  331
+
+
+> UniRef100_Q6JLQ4 Coat protein (Fragment) n=1 Tax=Grapevine fanleaf 
+virus RepID=Q6JLQ4_GFLV
+Length=504
+
+ Score = 37.0 bits (84),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 34/148 (23%), Positives = 56/148 (38%), Gaps = 9/148 (6%)
+
+Query  26   LDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASF-  84
+            L   T++ S     G           + +  ++S  LG  GTI G V   + +F +    
+Sbjct  191  LTAVTALRSAGLTLGQVPMVGTTKVYNLNSTLVSCVLGMGGTIRGRVHICAPIFYSIVLW  250
+
+Query  85   VIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHS------AATTEEGFGRLGIL  138
+            V+  W         ++   P      DG FE+ I++  H       A  ++ G   L   
+Sbjct  251  VVSEWN-GTTMDWNELFKYPGVYAEEDGSFEVKIRSPYHRTPARLLAGQSQRGMSSLNFY  309
+
+Query  139  PLSGPIAPDAHVGSYEFIVHIN-TWRPD  165
+             ++GPIAP         ++ I+   RPD
+Sbjct  310  AIAGPIAPSGETARLPIVIQIDEIVRPD  337
+
+
+> UniRef100_Q24M89 Polyprotein 2 n=1 Tax=Raspberry ringspot virus 
+RepID=Q24M89_9SECO
+Length=1107
+
+ Score = 37.0 bits (84),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 35/164 (21%), Positives = 65/164 (40%), Gaps = 6/164 (4%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PT+ WP   G               LDG+ + L   +  G  +    +   +  R + S 
+Sbjct  768  PTLKWPPTPGIISTFKEVRGPYAFSLDGTKARLDFGFLPGVSLVEGSETVRTCPRVLASF  827
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVI-FPWECEAPPTLRQVLWGPHQIMHGDGQFEIAI-  118
+               W+G +  S++ VSS+F T S+++   W   A   L  +    H ++     F++ + 
+Sbjct  828  YRSWTGKLRISIEEVSSIFLTGSYMVGVAW--NAGDDLGGITTRKHWMVKSGEIFDLDLY  885
+
+Query  119  --KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHIN  160
+                   + A    G   + +  + G + P    GS+ F +HI+
+Sbjct  886  GPHGEYPTFAGKANGTPYIVVQKVGGIVGPKDSTGSFGFFLHIH  929
+
+
+> UniRef100_A0A023ZSU6 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZSU6_ARMV
+Length=505
+
+ Score = 37.0 bits (84),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 35/147 (24%), Positives = 54/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSATSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGIVKGKVHVCSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG F I I++       RL  A +     
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIEEDGSFAIEIRSPYHRTPLRLIDAQSASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              L    +SGPIAP         +V I
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQI  331
+
+
+> UniRef100_P24819 RNA2 polyprotein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=POL2_ARMV
+Length=506
+
+ Score = 37.0 bits (84),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 35/147 (24%), Positives = 54/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  189  EYDLSATSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGIVKGKVHVCSP--CTY  246
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG F I I++       RL  A +     
+Sbjct  247  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIEEDGSFAIEIRSPYHRTPLRLIDAQSASSFT  305
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              L    +SGPIAP         +V I
+Sbjct  306  STLNFYAISGPIAPSGETAKMPVVVQI  332
+
+
+> UniRef100_Q80JS7 Coat protein (Fragment) n=1 Tax=Blackcurrant 
+reversion association virus RepID=Q80JS7_BRAV
+Length=533
+
+ Score = 37.0 bits (84),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 42/167 (25%), Positives = 65/167 (39%), Gaps = 3/167 (2%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFG-GPVKHSKKHAISYSRAVMS  59
+            PT+  P   G    +D +       L G T  +S S + G      S    +S+  A   
+Sbjct  175  PTLVLPQAFGGDLPLDLWRGPYTFPLGGGTKRISTSLDIGRSTTTVSGWRTVSFPAAYAL  234
+
+Query  60   RNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGP-HQIMHGDGQFEIAI  118
+               G  G++ G V    S   + +  +      APPTL + L  P  ++  G+G+F I I
+Sbjct  235  FLQGHGGSLIGEVVHTGSAAVSCALHLCISFGGAPPTLEEALVFPGFRLPTGEGKFHIKI  294
+
+Query  119  KTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPD  165
+            +T     +T       L +    GPIA       Y+F +H+     D
+Sbjct  295  QTPYGRLSTLTPD-CVLYVYLAGGPIAVAPMSVPYQFCIHLERMVED  340
+
+
+> UniRef100_A0A023ZT79 Coat protein (Fragment) n=1 Tax=Arabis mosaic 
+virus RepID=A0A023ZT79_ARMV
+Length=505
+
+ Score = 37.0 bits (84),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 35/147 (24%), Positives = 54/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSATSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGIVKGKVHVCSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG F I I++       RL  A +     
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIEEDGSFAIEIRSPYHRTPLRLIDAQSASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              L    +SGPIAP         +V I
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQI  331
+
+
+> UniRef100_A0A023ZT74 Coat protein (Fragment) n=5 Tax=Arabis mosaic 
+virus RepID=A0A023ZT74_ARMV
+Length=505
+
+ Score = 37.0 bits (84),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 35/147 (24%), Positives = 54/147 (37%), Gaps = 13/147 (9%)
+
+Query  23   EIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTA  82
+            E  L  +++  S+S   G  +        +++  ++S  LG  G + G V   S   CT 
+Sbjct  188  EYDLSSTSAYKSVSLLLGQTLVDGTHKVYNFNNTLLSYYLGIGGVVKGKVHICSP--CTY  245
+
+Query  83   SFV---IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT-------RLHSAATTEEGF  132
+              V   +  W         Q+   P   +  DG F I I++       RL  A +     
+Sbjct  246  GIVLRVVSEWN-GVTNNWNQLFKYPGCYIEEDGSFAIEIRSPYHRTPLRLLDAQSASSFT  304
+
+Query  133  GRLGILPLSGPIAPDAHVGSYEFIVHI  159
+              L    +SGPIAP         +V I
+Sbjct  305  STLNFYAISGPIAPSGETAKMPVVVQI  331
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 693238073190
+
+
+  Database: uniref100.fasta
+    Posted date:  Mar 8, 2016  11:35 AM
+  Number of letters in database: 27,736,644,057
+  Number of sequences in database:  74,897,059
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

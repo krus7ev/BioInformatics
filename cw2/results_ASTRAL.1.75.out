@@ -1,0 +1,201 @@
+BLASTP 2.3.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: astral.1.75.fa
+           16,712 sequences; 2,847,556 total letters
+
+
+
+Query= d1a6ca2 b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV
+(Tobacco ringspot virus) [TaxId: 12282]}
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  d1a6ca2 b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV (T...  357     3e-127
+  d1t6ja_ a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Fungi ...  28.9    0.45  
+  d2o3bb1 d.221.1.1 (B:1-135) Nuclease A inhibitor (NuiA) {Anabae...  26.9    0.97  
+  d1h80a_ b.80.1.8 (A:) iota-carrageenase {Alteromonas sp., atcc ...  27.3    1.2   
+  d2dcfa1 e.3.1.1 (A:5-392) 6-aminohexanoate-dimer hydrolase NylC...  26.9    1.4   
+  d1sb2b1 d.169.1.1 (B:2-128) Snake coagglutinin beta chain {Mala...  26.6    1.4   
+  d1ea9c1 b.1.18.2 (C:1-121) Maltogenic amylase, N-terminal domai...  25.4    3.0   
+  d1sqia1 d.32.1.3 (A:8-156) 4-hydroxyphenylpyruvate dioxygenase,...  25.4    4.3   
+  d1ulia1 b.33.1.2 (A:17-170) Biphenyl dioxygenase large subunit ...  24.6    7.3   
+
+
+> d1a6ca2 b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV 
+(Tobacco ringspot virus) [TaxId: 12282]}
+Length=172
+
+ Score = 357 bits (915),  Expect = 3e-127, Method: Compositional matrix adjust.
+ Identities = 172/172 (100%), Positives = 172/172 (100%), Gaps = 0/172 (0%)
+
+Query  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+            PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR
+Sbjct  1    PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSR  60
+
+Query  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+            NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT
+Sbjct  61   NLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKT  120
+
+Query  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+            RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM
+Sbjct  121  RLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM  172
+
+
+> d1t6ja_ a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Fungi 
+(Rhodosporidium toruloides) [TaxId: 5286]}
+Length=678
+
+ Score = 28.9 bits (63),  Expect = 0.45, Method: Composition-based stats.
+ Identities = 35/149 (23%), Positives = 53/149 (36%), Gaps = 28/149 (19%)
+
+Query  29   STSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFP  88
+            S S+  ++  FGG      + AIS  +A++   L   G +  S  S              
+Sbjct  68   SMSVYGVTTGFGGSADTRTEDAISLQKALLEHQL--CGVLPSSFDSF-------------  112
+
+Query  89   WECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAA--------TTEEGFGRLGILPL  140
+                    L   L  P +++ G     +   TR HSA         T     G   I+PL
+Sbjct  113  ---RLGRGLENSL--PLEVVRGAMTIRVNSLTRGHSAVRLVVLEALTNFLNHGITPIVPL  167
+
+Query  141  SGPIAPDAHVGSYEFIVHINTWRPDSQVH  169
+             G I+    +    +I    +  PDS+VH
+Sbjct  168  RGTISASGDLSPLSYIAAAISGHPDSKVH  196
+
+
+> d2o3bb1 d.221.1.1 (B:1-135) Nuclease A inhibitor (NuiA) {Anabaena 
+sp., pcc 7120 [TaxId: 1167]}
+Length=135
+
+ Score = 26.9 bits (58),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 26/55 (47%), Gaps = 6/55 (11%)
+
+Query  78   LFCTAS---FVIFPWECEAPPTLRQVLWGPHQIMHG-DGQFEIAIKTRLHSAATT  128
+            LF + S   F +F WE  APP   +++    Q  HG D  F++       S ATT
+Sbjct  20   LFMSESEYPFEVFLWEGSAPPVTHEIVL--QQTGHGQDAPFKVVDIDSFFSRATT  72
+
+
+> d1h80a_ b.80.1.8 (A:) iota-carrageenase {Alteromonas sp., atcc 
+43554 [TaxId: 232]}
+Length=464
+
+ Score = 27.3 bits (59),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 21/50 (42%), Gaps = 0/50 (0%)
+
+Query  86   IFPWECEAPPTLRQVLWGPHQIMHGDGQFEIAIKTRLHSAATTEEGFGRL  135
+            IF         L  V++GPH + +GD Q          SA  ++ GF  L
+Sbjct  235  IFADNIRCSKGLAAVMFGPHFMKNGDVQVTNVSSVSCGSAVRSDSGFVEL  284
+
+
+> d2dcfa1 e.3.1.1 (A:5-392) 6-aminohexanoate-dimer hydrolase NylC 
+{Flavobacterium sp. [TaxId: 239]}
+Length=388
+
+ Score = 26.9 bits (58),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 24/104 (23%), Positives = 39/104 (38%), Gaps = 14/104 (13%)
+
+Query  67   TISGSVKSVSSLFCTASFVIFPWECEAPPTLRQV------LWGPHQIMHGDGQFEIAIKT  120
+            T+ G   +    +C+A+  +  W  E    LR V      LW     +  D    I + T
+Sbjct  199  TLRGDGSTGEFQYCSANTDVLAWIVERVTGLRYVEALSTYLWAK---LDADRDATITVDT  255
+
+Query  121  RLHSAAT-----TEEGFGRLGILPLSGPIAPDAHVGSYEFIVHI  159
+                 A      T     R+G + L G +AP   V S +++  +
+Sbjct  256  TGFGFANGGVSCTARDLARVGRMMLDGGVAPGGRVVSEDWVRRV  299
+
+
+> d1sb2b1 d.169.1.1 (B:2-128) Snake coagglutinin beta chain {Malayan 
+pit viper (Calloselasma rhodostoma), rhodocetin [TaxId: 
+8717]}
+Length=127
+
+ Score = 26.6 bits (57),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 18/34 (53%), Gaps = 0/34 (0%)
+
+Query  57   VMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWE  90
+            +  RNL W+   S S +++   +    FV+ PWE
+Sbjct  71   LTERNLKWTNGASVSYENLYEPYIRKCFVVQPWE  104
+
+
+> d1ea9c1 b.1.18.2 (C:1-121) Maltogenic amylase, N-terminal domain 
+N {Bacillus sp., cyclomaltodextrinase [TaxId: 1409]}
+Length=121
+
+ Score = 25.4 bits (54),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 19/74 (26%), Positives = 30/74 (41%), Gaps = 8/74 (11%)
+
+Query  34   SISYNFGGPVKH----SKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPW  89
+            + SY + G   H    +KK  ++   A+      W  T+      ++ L     F    W
+Sbjct  13   NFSYAYNGTTVHLRIRTKKDDMTAVYALAGDKYMWDHTMEYV--PMTKLATDELFDY--W  68
+
+Query  90   ECEAPPTLRQVLWG  103
+            ECE  P  R+V +G
+Sbjct  69   ECEVTPPYRRVKYG  82
+
+
+> d1sqia1 d.32.1.3 (A:8-156) 4-hydroxyphenylpyruvate dioxygenase, 
+HppD {Human (Homo sapiens) [TaxId: 9606]}
+Length=149
+
+ Score = 25.4 bits (54),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 22/84 (26%), Positives = 33/84 (39%), Gaps = 15/84 (18%)
+
+Query  43   VKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIF------PWECEAPPT  96
+            V ++K+ A  Y   +    L + G  +GS + VS +      V        PW  E    
+Sbjct  19   VGNAKQAASFYCNKMGFEPLAYKGLETGSREVVSHVIKQGKIVFVLCSALNPWNKEM---  75
+
+Query  97   LRQVLWGPHQIMHGDGQFEIAIKT  120
+                  G H + HGDG  +IA + 
+Sbjct  76   ------GDHLVKHGDGVKDIAFEV  93
+
+
+> d1ulia1 b.33.1.2 (A:17-170) Biphenyl dioxygenase large subunit 
+BphA1, N-terminal domain {Rhodococcus sp. (strain RHA1) [TaxId: 
+101510]}
+Length=154
+
+ Score = 24.6 bits (52),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  82   ASFVIFPWECEAPPTLRQVLWGPHQ  106
+             + V  P+E +A P LR+  WGP Q
+Sbjct  113  GNLVSVPFEEQAFPGLRKEDWGPLQ  137
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 138974832
+
+
+  Database: astral.1.75.fa
+    Posted date:  Mar 23, 2016  11:45 AM
+  Number of letters in database: 2,847,556
+  Number of sequences in database:  16,712
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

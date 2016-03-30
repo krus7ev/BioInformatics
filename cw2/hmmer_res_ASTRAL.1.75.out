@@ -1,0 +1,53 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             1a6c.fa
+# target sequence database:        astral.1.75.fa
+# output directed to file:         phmmer_res_astral.1.75.out
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       d1a6ca2  [L=172]
+Description: b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV (Tobacco ringspot virus) [TaxId: 12282]}
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   4.5e-120  397.8   1.1     5e-120  397.7   1.1    1.0  1  d1a6ca2   b.121.4.2 (A:177-348) Nepovirus capsid protein {TRS
+
+
+Domain annotation for each sequence (and alignments):
+>> d1a6ca2  b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV (Tobacco ringspot virus) [TaxId: 12282]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  397.7   1.1    3e-124    5e-120       1     172 []       1     172 []       1     172 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 397.7 bits;  conditional E-value: 3e-124
+  d1a6ca2   1 ptmtwpiqlgdtfaidryyeakeikldgstsmlsisynfggpvkhskkhaisysravmsrnlgwsgtisgsvksvsslfctasfvifpweceapptlrqvlw 102
+              ptmtwpiqlgdtfaidryyeakeikldgstsmlsisynfggpvkhskkhaisysravmsrnlgwsgtisgsvksvsslfctasfvifpweceapptlrqvlw
+  d1a6ca2   1 PTMTWPIQLGDTFAIDRYYEAKEIKLDGSTSMLSISYNFGGPVKHSKKHAISYSRAVMSRNLGWSGTISGSVKSVSSLFCTASFVIFPWECEAPPTLRQVLW 102
+              9***************************************************************************************************** PP
+
+  d1a6ca2 103 gphqimhgdgqfeiaiktrlhsaatteegfgrlgilplsgpiapdahvgsyefivhintwrpdsqvhppm 172
+              gphqimhgdgqfeiaiktrlhsaatteegfgrlgilplsgpiapdahvgsyefivhintwrpdsqvhppm
+  d1a6ca2 103 GPHQIMHGDGQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFIVHINTWRPDSQVHPPM 172
+              *********************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (172 nodes)
+Target sequences:                        16712  (2847556 residues searched)
+Passed MSV filter:                       286  (0.0171135); expected 334.2 (0.02)
+Passed bias filter:                      255  (0.0152585); expected 334.2 (0.02)
+Passed Vit filter:                        19  (0.00113691); expected 16.7 (0.001)
+Passed Fwd filter:                         1  (5.98372e-05); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.11u 0.01s 00:00:00.12 Elapsed: 00:00:00.06
+# Mc/sec: 8162.99
+//
+[ok]
