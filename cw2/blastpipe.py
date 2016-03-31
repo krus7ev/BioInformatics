@@ -73,20 +73,20 @@ def queryDb(dbName, queryFile):
     return outFile
 
 # Recursively processes lines of content until a given character is found
-def processLinesUntil(content, index, until, stripLines):
+def processLinesUntil(content, index, until, stripLines, skipFirst):
     # Quit if we reach the end sequence
-    if content[index].startswith(until):
+    if index >= len(content) or (content[index].startswith(until) and not skipFirst):
         return "";
     line = content[index]
     if stripLines:
         line = line.replace("\n", '').replace("\r\n", '')
     # Keep processing the subsequent lines
-    return line + processLinesUntil(content, index + 1, until, stripLines)
+    return line + processLinesUntil(content, index + 1, until, stripLines, False)
 
-# Processes lines of a match file 
+# Processes lines of a match file
 def processMatchLine(content, index):
     # Length denotes the end of the output
-    line = processLinesUntil(content, index, "Length", True)
+    line = processLinesUntil(content, index, "Length", True, False)
     if line.startswith("> "):
         line = line[2:] # split off the "> " character
     return line
@@ -96,7 +96,7 @@ def findQueryMatches(outFile):
     print("Parsing query match results")
     content = getFileContents(outFile)
     matches = []
-    for i in range(1, len(content)):
+    for i in range(0, len(content)):
         line = content[i]
         if line.startswith(">"):
             match = processMatchLine(content, i)
@@ -114,16 +114,16 @@ def extractMatchedSequences(dbName, queryFile, matches):
     print("Extracting matching sequences from FASTA file \"" + dbFile + "\"")
     content = getFileContents(dbFile)
     sequences = []
-    for i in range(1, len(content)):
+    for i in range(0, len(content)):
         if content[i].startswith(">"):
             for match in matches:
                 identifier = getMatchIdentifier(match)
                 if content[i].startswith(">" + identifier):
-                    sequence = content[i] + processLinesUntil(content, i + 1, ">", False)
+                    sequence = content[i] + processLinesUntil(content, i + 1, ">", False, False)
                     sequences.append(sequence)
     return sequences
 
-# Extract matched sequences reading source db file 
+# Extract matched sequences reading source db file
 # line by line to optimise the process for large databases
 def extractReadMatchedSequences(dbFileName, matches):
     if not dbFileName.endswith(".fasta"):
@@ -132,14 +132,14 @@ def extractReadMatchedSequences(dbFileName, matches):
         raise IOError("Unable to find file \"" + dbFileName + "\"")
     else:
         print("Extracting matching sequences from \".fasta\" file \"" + dbFileName + "\"")
-        
+
     matchIds = []
     for match in matches:
-        matchIds += [getMatchIdentifier(match)]        
+        matchIds += [getMatchIdentifier(match)]
     sequences = []
     sequence = ""
-        
-    f = open(dbFileName)  
+
+    f = open(dbFileName)
     print ("Start Matching")
     line = f.readline()
     j = 0
@@ -152,18 +152,18 @@ def extractReadMatchedSequences(dbFileName, matches):
                 if line.startswith(">" + i):
                     matchIds.remove(i)
                     found_match = True
-                    print "Found hit matching uniprot entry #"+str(j)
+                    print ("Found hit matching uniprot entry #" +str(j))
                     sequence += line
                     line = f.readline()
-                    if not line: 
-                        print "EOF!"
+                    if not line:
+                        print ("EOF!")
                         break
                     while not line.startswith(">"):
-                        print "...adding line to sequence match at #"+str(j)
+                        print ("...adding line to sequence match at #" +str(j))
                         sequence += line
                         line = f.readline()
-                        if not line: 
-                            print "EOF!"
+                        if not line:
+                            print ("EOF!")
                             break
                     sequences.append(sequence)
                     sequence = ""
@@ -171,18 +171,18 @@ def extractReadMatchedSequences(dbFileName, matches):
                     break
             if not found_match:
                 line = f.readline()
-                if not line: 
-                    print "EOF!"
+                if not line:
+                    print ("EOF!")
                     break
         else:
             line = f.readline()
-            if not line: 
-                print "EOF!"
+            if not line:
+                print ("EOF!")
                 break
-        if not line: 
-            print "EOF!"    
+        if not line:
+            print ("EOF!")
             break
-    f.close()   
+    f.close()
     return sequences
 
 # Outputs the entire match description
@@ -211,7 +211,6 @@ def writeSequencesToFile(queryFile, sequences):
     for sequence in sequences:
         fh.write(sequence)
     fh.close()
-
     return sequenceFile
 
 # Creates a multiple sequence alignment file using MUSCLE
@@ -237,35 +236,80 @@ def phylogeneticTree(queryFile, alignmentFile):
     print("Wrote tree to \"" + treeFile + "\"")
     return treeFile
 
+# Parses a given query file and splits it up into multiple query files if required
+def extractQueryFiles(queryFile):
+    print("Finding queries in \"" + queryFile + "\"")
+    content = getFileContents(queryFile)
+    queries = []
+    for i in range(0, len(content)):
+        if content[i].startswith(">"):
+            sequence = processLinesUntil(content, i, ">", False, True)
+            queries.append(sequence)
+    if len(queries) is 0:
+        raise IOError("Unable to find any queries in \"" + queryFile + "\"")
+    # If the file only contained one query then just use the file itself
+    if len(queries) is 1:
+        return [queryFile]
+    queryFiles = []
+    count = 0
+    for query in queries:
+        filename = queryFile + "." + str(count)
+        queryFiles.append(filename)
+        fh = open(filename,"w")
+        for sequencePart in query:
+            fh.write(sequencePart)
+        fh.close()
+        count = count + 1
+    return queryFiles
+
 # Pipes the entire set of operations together
 def blastpipe(dbName, queryFile):
     global printVerbose
     global printIds
     global firstStageOnly
-    if dbName.endswith(".fa"):
-        dbName = dbName[:-3]
-        verifyDb(dbName)
+
+    # We process .fasta databases differently to .fa dbs
     if dbName.endswith(".fasta"):
         verifyFastaDb(dbName)
-    outFile = queryDb(dbName, queryFile)
-    matches = findQueryMatches(outFile)
-    if printVerbose:
-        printMatchesVerbose(matches)
-    if printIds:
-        printMatchesIdentifiers(matches)               
-    if not firstStageOnly:
-        if dbName.endswith(".fasta"):
-            sequences = extractReadMatchedSequences(dbName, matches)
-        else:
-            sequences = extractMatchedSequences(dbName, queryFile, matches)          
-        sequenceFile = writeSequencesToFile(queryFile, sequences)
-        # Process muscle and phyml if they are configured
-        if hasMuscle():
-            alignmentFile, phylipFileS, phylipFileI = sequenceAlignment(queryFile, sequenceFile)
-            if hasPhyml():
-                treeFile = phylogeneticTree(queryFile, alignmentFile)      
+    else:
+        if dbName.endswith(".fa"):
+            dbName = dbName[:-3]
+        verifyDb(dbName)
+    queryFiles = extractQueryFiles(queryFile)
+    treeFiles = []
+    for query in queryFiles:
+        outFile = queryDb(dbName, query)
+        matches = findQueryMatches(outFile)
+        if printVerbose:
+            printMatchesVerbose(matches)
+        if printIds:
+            printMatchesIdentifiers(matches)
+        if not firstStageOnly:
+            if dbName.endswith(".fasta"):
+                sequences = extractReadMatchedSequences(dbName, matches)
+            else:
+                sequences = extractMatchedSequences(dbName, query, matches)
+            sequenceFile = writeSequencesToFile(query, sequences)
+            # Process muscle and phyml if they are configured
+            if hasMuscle():
+                alignmentFile = sequenceAlignment(query, sequenceFile)
+                if hasPhyml():
+                    treeFile = phylogeneticTree(query, alignmentFile)
+                    treeFiles.append(treeFile)
+    # If there is more than one tree file they need to be combined
+    if len(treeFiles) > 1:
+        finalTree = queryFile + "_phyml_tree.txt"
+        print("Combining trees to \"" + finalTree + "\"")
+        fh = open(finalTree,"w")
+        fh.close()
+        for treeFile in treeFiles:
+            contents = getFileContents(treeFile)
+            fh = open(finalTree,"a")
+            for line in contents:
+                fh.write(line)
+            fh.close()
 
-# Generate output for specific question       
+# Generate output for specific question
 def printQuestion(number):
     print("Question " + number)
     print("--------------------------")
