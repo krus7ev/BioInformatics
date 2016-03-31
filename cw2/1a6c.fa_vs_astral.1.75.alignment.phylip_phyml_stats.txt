@@ -5,7 +5,7 @@
                          Copyright CNRS - Universite Montpellier II                                 
  oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
-. Sequence filename: 			1a6c.fa.alignment.fa.phylip
+. Sequence filename: 			1a6c.fa_vs_astral.1.75.alignment.phylip
 . Data set: 				#1
 . Tree topology search : 		NNIs
 . Initial tree: 			BioNJ
@@ -20,7 +20,7 @@
   - Gamma shape parameter: 		48.688
 
 . Run ID:				none
-. Random seed:				1459437758
+. Random seed:				1459446992
 . Subtree patterns aliasing:		no
 . Version:				20120412
 . Time used:				0h1m10s (70 seconds)
