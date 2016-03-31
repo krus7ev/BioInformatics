@@ -2,7 +2,7 @@
 
 import sys, getopt
 from os import path
-from subprocess import check_call#, check_output
+from subprocess import call, check_call#, check_output
 
 # Verifies MUSCLE path has been configured
 def hasMuscle():
@@ -219,15 +219,17 @@ def sequenceAlignment(queryFile, sequenceFile):
     global musclePath
     print("Using \"" + musclePath + "\" to calculate alignment of matched sequences")
     alignmentFile = queryFile + ".alignment.fa"
-    check_call([musclePath, "-in", sequenceFile, "-out", alignmentFile])
-    print("Wrote alignment to \"" + alignmentFile + "\"")
-    return alignmentFile
+    phylipFileS   = queryFile + ".alignment.s.phylip"
+    phylipFileI   = queryFile + ".alignment.i.phylip"
+    check_call([musclePath, "-in", sequenceFile, "-fastaout", alignmentFile, "-phyiout", phylipFileI, "-physout", phylipFileS])
+    print("Wrote alignment to \"" + alignmentFile + "\", \"" + phylipFileS + "\", \"" + phylipFileI + "\"" )
+    return alignmentFile, phylipFileS, phylipFileI
 
 # Creates a phylogenetic tree from an alignment file
 def phylogeneticTree(queryFile, alignmentFile):
     print("Converting \"" + alignmentFile + "\" to PhyML format")
     phymlFile = alignmentFile + ".phylip"
-    check_call(["py", "fastatophyml.py", alignmentFile, phymlFile])
+    check_call(["python", "fastatophyml.py", alignmentFile, phymlFile])
     global phymlPath
     print("Using \"" + phymlPath + "\" to generated phylogenetic tree")
     treeFile = phymlFile + "_phyml_tree.txt"
@@ -259,7 +261,7 @@ def blastpipe(dbName, queryFile):
         sequenceFile = writeSequencesToFile(queryFile, sequences)
         # Process muscle and phyml if they are configured
         if hasMuscle():
-            alignmentFile = sequenceAlignment(queryFile, sequenceFile)
+            alignmentFile, phylipFileS, phylipFileI = sequenceAlignment(queryFile, sequenceFile)
             if hasPhyml():
                 treeFile = phylogeneticTree(queryFile, alignmentFile)      
 
