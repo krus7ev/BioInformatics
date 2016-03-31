@@ -222,7 +222,7 @@ def sequenceAlignment(queryFile, sequenceFile):
     phylipFileI   = queryFile + ".alignment.i.phylip"
     check_call([musclePath, "-in", sequenceFile, "-fastaout", alignmentFile, "-phyiout", phylipFileI, "-physout", phylipFileS])
     print("Wrote alignment to \"" + alignmentFile + "\", \"" + phylipFileS + "\", \"" + phylipFileI + "\"" )
-    return alignmentFile, phylipFileS, phylipFileI
+    return alignmentFile
 
 # Creates a phylogenetic tree from an alignment file
 def phylogeneticTree(queryFile, alignmentFile):
