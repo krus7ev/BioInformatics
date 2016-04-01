@@ -1,0 +1,304 @@
+>>>>>question0<<<<<
+Please enter the information about the sequence you have chosen, including the identifier. 
+(1 mark)
+
+>>>>>answer0<<<<<
+Protein: [1a6c] Nepovirus capsid protein from TRSV (Tobacco ringspot virus) 
+
+Family:          Comoviridae-like VP
+Superfamily:     Positive stranded ssRNA viruses
+Fold:            Nucleoplasmin-like/VP (viral coat and capsid proteins)
+Class:           All beta proteins
+
+
+
+>>>>>question1<<<<<
+By examining the ASTRAL file which is in FASTA format, find the sequence which corresponds to the domain which you have chosen. Create a new FASTA format file of your own which contains only this sequence. Paste the contents of this file as you answer to question 1.
+(3 marks)
+Using BLAST you should now search your sequence against the whole ASTRAL file which you downloaded. You will need to index the database first using the 'makeblastdb' program. The --help switch gives the options; remember, throughout this exercise there is no harm in getting help on the correct commands and arguments from the unit forum, Google, Researchgate and other online information resources. Look at your results and how the scores correspond to the SCOP classification. You may find the classification shorthand very useful, e.g. from the 1plc example, b.6.1.1 (the first letter corresponds to the SCOP class, then the numbers go fold, superfamily, family). 
+N.B. see question 17.
+
+>>>>>answer1<<<<<
+>d1a6ca2 b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV (Tobacco ringspot virus) [TaxId: 12282]}
+ptmtwpiqlgdtfaidryyeakeikldgstsmlsisynfggpvkhskkhaisysravmsr
+nlgwsgtisgsvksvsslfctasfvifpweceapptlrqvlwgphqimhgdgqfeiaikt
+Rlhsaatteegfgrlgilplsgpiapdahvgsyefivhintwrpdsqvhppm
+
+
+
+>>>>>question2<<<<<
+For question 2 please describe what scores you got for other domains within the SCOP hierarchy, and then explain whether this is what you should expect or not. Use less than 100 words.
+(4 marks)
+Now you should search your chosen sequence against UniProt. I have already indexed UniProt for you. You will notice that it takes much longer than searching the ASTRAL sequences! Take a look at your results again; you should store your results in a file and include this in your submission. Put the search on the ASTRAL results in a file also and include it in your submission.
+
+>>>>>answer2<<<<<
+Apart from our actual domain, we get a few significant hits with scores gravitating around 25.
+
+
+
+>>>>>question3<<<<< 
+List the filenames of your two results files here. You probably got more hits searching UniProt than the ASTRAL sequences. How many sequences do you think are homologous? How did you decide which hits are significant and which ones are not? One line answer please.
+(3 marks)
+
+>>>>>answer3<<<<<
+Query result files:
+    results_ASTRAL.1.75.out
+    results_UniProt.out
+
+As expected searching against UniProt using BLAST yields more results in comparison to searching ASTRAL. From a total of 156 results, there are 33 excessively significant hits with scores between 353 and 48.9 bits and E Values smaller than 0.001. The e-value gives the expected number of times a random alignment would produce a given similarity score. Expectation value < 0.001 is a generally accepted threshold for inferring homology between sequences using statistical methods like BLAST (though it is not guaranteed to list all homologues in a database). The E parameter depends on the size of the database compared against and in the case of UniProt should be representative.
+
+[1] http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820096/
+
+
+
+>>>>>question4<<<<<
+Are any of the sequences matched in UniProt the same as in ASTRAL? Comment on why. One line answer please.
+(2 marks)
+Make two new FASTA format files: one containing all of the sequences with significant hits in ASTRAL, and another with all the sequences with significant hits in UniProt. If there are a very large number of sequences then you will have to find a way to extract them via their identifiers from the UniProt FASTA file. 
+N.B. You may well find the PERL script listed on the unit page from the lecture on PERL useful here. You may also want to write your own script in PERL or Python or modify this one. If you have any questions or problems with PERL/Python/Ruby please do not hesitate to ask on the forum as you need to succeed in creating these FASTA files to be able to tackle some of the later questions.
+
+>>>>>answer4<<<<<
+None of the matches found by BLAST from the two databases overlap. UniProt outputs a large number of very similar and closely related sequences. The lowest score is 37 whereas the highest one from ASTRAL is 28, apart from the original.
+
+The two FASTA files produced by our script blastpipe.py are: 
+    1a6c.fa_vs_astral.1.75.matched_sequences.fa
+    1a6c.fa_vs_uniref100.fasta.matched_sequences.fa
+
+
+
+>>>>>question5<<<<< 
+If you want to try some other software for pair-wise sequence comparison, then rerun the searches on both databases and compare the results to BLAST. Is there any difference? Is this what you should expect? Less than 50 words.
+(3 marks)
+
+>>>>>answer5<<<<<
+We tried HMMER as it is straight-forward to use locally from the command line like BLAST. The results are in the two output files: 
+  -> hmmer_res_ASTRAL.1.75.out: a single hit corresponding to the sequence itself. 
+  -> hmmer_res_UniProt.out: 430 results - similar to BLAST ones but with slightly different scores.
+
+
+
+>>>>>question6<<<<<
+Comment on the lengths of the sequences in each of the two FASTA files you have created. If the some of the sequences in the UniProt results are longer, why is this? If not, why might you have expected some to be longer? Less than 50 words.
+(3 marks)
+
+>>>>>answer6<<<<<
+The lengths of a large number of the sequences in '1a6c.fa_vs_uniref100.fasta.matched_sequences.fa', containig the UniProt hits, are considerably longer than the chosen sequence <1a6c.fa> and the ones in '1a6c.fa_vs_astral.1.75.matched_sequences.fa', contining the ASTRAL hits. Since none of them overlap we cannot comment on expectations about identical hits. In general however our observations are expectable since the UniProt hits come in significantly larger numbers and precision - many of them quite long containing a region aligning to some degree with our sequence of interest. 
+
+
+
+>>>>>question7<<<<<
+Look at the names and annotation of the sequences in UniProt that have been found homologous. Do some of them look similar to the SCOP domain description of your chosen sequence? Do some of them look different? Explain why this might be. Use less than 100 words.
+(3 marks)
+
+>>>>>answer7<<<<<
+In the names of the UniProt result sequences the identifier seems to followed by information about the fold in the SCOP hierarchy. For our sequence this is "Nucleoplasmin-like/VP (viral coat and capsid proteins)". Some of the results' names indicate exactly coat and capsid protein fragments. Many results however are from other folds - mainly 'polyprotein', 'RNA Polyprotein', 'Polyprotein P2'. Perhaps this is due to the omnipresence of polyproteins in viruses. After this comes a 'Tax' label giving the actual name of the protein followed by a 'RepId' which is different to the 'TaxId' from SCOP. Most of the found sequences belong to proteins of various leaf viruses.
+
+
+
+>>>>>question8<<<<<
+Download any multiple sequence alignment tool. MUSCLE (http://www.drive5.com/muscle/download3.6.html) is one which should be easy to use. Create multiple sequence alignments from both of your FASTA format files. If the sequence alignment takes too long, then try different software or reduce the number of sequences. Include these alignment files in your submission. 
+List the filenames of your alignments here. Describe very briefly how you produced the alignments: what software did you use, any options you used or anything special you needed to do. What output format did you choose? One line or two should be enough detail.
+(3 marks)
+When you ran your pair-wise sequence comparison it will have produced pair-wise alignments. If not make sure you rerun it to produce alignments. Compare the alignment of the initial sequence you started with in the multiple sequence alignment to the corresponding pair-wise alignment. 
+
+>>>>>answer8<<<<<
+We used MUSCLE as suggested using the following commands:
+    muscle3.8.31_i86linux64 -in       1a6c.fa_vs_astral.1.75.matched_sequences.fa 
+                            -fastaout 1a6c.fa_vs_astral.1.75.alignment.fa 
+                            -phyiout  1a6c.fa_vs_astral.1.75.alignment.i.phylip
+                            -physout  1a6c.fa_vs_astral.1.75.alignment.s.phylip
+                      
+    muscle3.8.31_i86linux64 -in       d1plc_.fa_vs_astral.1.75.matched_sequences.fa 
+                            -fastaout d1plc_.fa_vs_astral.1.75.alignment.fa 
+                            -phyiout  d1plc_.fa_vs_astral.1.75.alignment.i.phylip
+                            -physout  d1plc_.fa_vs_astral.1.75.alignment.s.phylip
+
+This outputs us the alignment in fasta format as well as phylip interleaved and sequential formats in the respective outputfiles specified in the command above.
+
+#K: we don't use the phylip files anyware yet -- experimented with this but didn't get the phyML tool we use for tree-building to work with neither of the two files though the sequential one seems semantically identical to the one generated with 'fatatophyml.py' - 'd1plc_.fa_vs_astral.1.75.alignment.phylip'...
+
+
+
+>>>>>question9<<<<<
+Do you see any differences? If so which one do you think is better, and why? Less than 50 words.
+(3 marks)
+Examine the multiple alignments in two ways: graphically and numerically. You can download software for visual inspection of multiple sequence alignments but it may be easier to find an online service that allows you to do it on the web, e.g. Jalview (http://www.jalview.org/examples/applets.html). Here (http://supfam.cs.bris.ac.uk/SUPERFAMILY/alignment_stats.html) is a web service I wrote for generating simple statistics on multiple sequence alignments (scroll to the right for conserved residues). You may equally use any other tool for examining the columns of the alignment numerically. N.B. This service is quite flaky and sometimes doesn't work. Please report any bugs to me.
+
+You should also go to the SUPERFAMILY website and find the superfamily of your starting sequence. You can get this by searching for it by name or by PDB ID. Click on 'models' in the search result and then click on one of the model IDs to get an image of a hidden Markov model representing the domain. Compare the columns in your alignmet viewer to the numerical analysis of the columns and the corresponding columns in the picture of the hidden Markov model.
+
+>>>>>answer9<<<<<
+#K: Tried the Jalview tool he suggests. Still deciphering the exact meaning of this abstractly defined task.
+
+
+
+>>>>>question10<<<<<
+(optional)
+Make an image of one of your multiple sequence alignments and include it in your submission listing the filename here. You may need to only display a part of your alignment to get a good image. Also copy or crop one of the hidden Markov model images which correspond to the same region of the alignment and include this in your submission; list the filename here. Pick some of the statistics or numerical breakdown of the columns in your alignment and enter it in the answer to this question.
+(3 marks)
+
+>>>>>answer10<<<<<
+
+
+
+>>>>>question11<<<<<
+(optional)
+Comment briefly on what you see in commmon for certain columns between the multiple alignment, the statistics you wrote in question 10 and the columns of the hidden Markov model, referring to the specific column. Numbering or labelling of columns may help here. Less than 50 words.
+(2 marks)
+
+>>>>>answer11<<<<<
+
+
+
+>>>>>question12<<<<<
+Download the HMMER3 (http://hmmer.janelia.org/) package. You may also use the version installed at: 
+/home/pgrad/bs8959/linux/Public/COMS30003/
+Documentation is available on the HMMER3 website.
+
+The next step is to build a hidden Markov model from each alignment. You will need to use the 'hmmbuild' program. Now score your model against ASTRAL and UniProt using the 'hmmsearch' program. Submit the HMM model files and list the names here. How do your results compare to the BLAST searches? How do the results compare between the two different models? Why do you think you see these differences (if any)?Use less than 100 words.
+(4 marks)
+
+>>>>>answer12<<<<<
+
+
+
+
+>>>>>question13<<<<<
+(optional)
+You should try the searches both with and without the heuristics switched on (use the -max option) on the ASTRAL sequence set. The non-heuristic search of UniProt may take an extremely long time, so you should not run it on snowy but you can try it in the computer lab if you like (run using screen and a high 'nice' value). What are the effects on the results and on run time (if any) with and without heuristics?Use less than 50 words.
+(1 mark)
+
+>>>>>answer13<<<<<
+
+
+
+>>>>>question14<<<<<
+(optional)
+Produce multiple sequence alignments of your two FASTA files (as you did before question 8) but instead of using sequence alignment software, use one of your HMM models and the 'hmmalign' program. Submit the files and list them here. How does the speed compare to the multiple alignment software? One line.
+(2 marks)
+
+>>>>>answer14<<<<<
+
+
+
+>>>>>Question 15<<<<<
+So far the profiles (HMMs) that you have built are from a single iteration. You could now in theory create a new FASTA file from the results of your HMM search on UniProt in question 12, then use the procedure in question 14 to produce an alignment and then build a new model as in question 12 and re-search UniProt ... etc. getting more and more results. Luckily this process has already been automated. The HMMER3 program is 'jackhmmer' and the BLAST program is 'psiblast' (also referred to as PSI-BLAST). Documentation on PSI-BLAST can be seen here (http://www.ncbi.nlm.nih.gov/staff/tao/URLAPI/blastpgp.html#1.1).
+
+Run PSI-BLAST with 3 iterations on UniProt using your initial starting sequence. Submit and list your results file here. How many significant hits does this find? How does this compare to straighforward BLAST and your two HMM model searches? Is this what you should have expected to find? Less than 50 words.
+(3 marks)
+
+>>>>>answer15<<<<<
+
+
+
+>>>>>Question 16<<<<<
+(optional)
+Convert your PSI-BLAST profile (checkpoint file) to a hidden Markov model. You may need to rerun the PSI-BLAST search setting an option for outputting the checkpoint file. You can use a component (see the 'convert_to_prc' program described under downloads ner the bottom) of the PRC package (http://supfam.mrc-lmb.cam.ac.uk/PRC/) that somebody in my research group wrote but it converts to HMMER2 format. The HMMER3 package has a program for converting from the old HMMER2 format to HMMER3, as well as other useful programs for this task. Alternatively get the PSI-BLAST alignment frmo the last iteration into a format that you can run 'hmmbuild' on from teh HMMER package to build your own model from the same alignment. Now use HMMER to search the HMM against UniProt and compare the results to the PSI-BLAST results. What is the difference in the number of significant hits, and why do you think this is? Less than 50 words.
+(3 marks)
+
+>>>>>answer16<<<<<
+
+
+
+>>>>>question17<<<<<
+Write a program which takes as in input the name of a file. This file will contain a single FASTA format sequence. Your program will search this input sequence against the ASTRAL file (also in FASTA format) using BLAST and output the identifiers of the significant hits; to do this you will need to find a way to parse BLAST output. Include this program in your submission and indicate which one it is and how to run it. One line.
+(3 marks)
+
+>>>>>answer17<<<<<
+blastpipe.py contains our pipeline script in a single file (all questions) and blastpipereadme.txt contains instructions on how to use it for this question the command should be “py blastpipe.py -? 17 -q <pathToQueryFile>”
+
+
+
+>>>>>question18<<<<<
+Now extend your code so that instead of outputting the list of IDs, it uses this list to retrieve the sequences from the ASTRAL file and output a new file of FASTA sequences containing only those in your list, i.e. the FASTA sequences of those significant BLAST hits to your original input sequence. Run this for the following input file:
+/home/pgrad/bs8959/linux/Public/COMS30003/d1plc_.fa
+Include the program and the output file in your submission. One line.
+(1 marks)
+
+>>>>>answer18<<<<<
+Program: blastpipe.py, Command: “py blastpipe.py -? 18 -q d1plc_.fa”, Output: d1plc_.fa.matched_sequences.fa 
+
+
+
+>>>>>question19<<<<<
+Now extend your code so that (using the method of your choosing) it creates a multiple sequence alignment from your FASTA sequences. Include the program and the output alignment for the d1plc_.fa input file in your submission. One line.
+(3 marks)
+
+>>>>>answer19<<<<<
+Program: blastpipe.py, Command: “py blastpipe.py -? 19 -q d1plc_.fa -m <path to MUSCLE>”, Output: d1plc_.fa.alignment.fa (note you need to specify a path to the MUSCLE command or binary with “-m <path to muscle>”)
+
+
+
+>>>>question20<<<<<
+Now extend your code so that (using the method of your choosing) it creates a phylogenetic tree in Newick format from your alignment. Include the program and paste the Newick tree in your submission. A few lines.
+(3 marks) 
+Visualise and plot your tree using any method of your choosing.
+(optional part)
+Now extend your code so that the input file can support multiple sequences in FASTA format in the input file and output multiple Newick trees into an output file (one Newick tree for each FASTA sequence seperately), by running your pipeline. Include the program and the output file containing multiple Newick trees for the multiple.fa input file in your submission. One line.
+(3 marks) 
+/home/pgrad/bs8959/linux/Public/COMS30003/multiple.fa
+
+>>>>>answer20<<<<<
+Program: blastpipe.py, Command: “py blastpipe.py -? 20 -q d1plc_.fa -m <path to MUSCLE> -p <path to PhyML>”, (note that as well as the MUSCLE path you need to specify a path to the PhyML command or binary with “-p <path to phyml>”). See d1plc_treerender.png for a rendering of the tree.
+
+(d1efna_:0.09928959,d1shfa_:0.11712234,(d1plca_:0.11672490,(d9pcya_:0.13987742,(d1ag6a_:0.07381126,(d1bypa_:0.19201715,(d1plaa_:0.17070030,(d1d4oa_:4.37279599,(((d2plta_:0.19841088,(d2fpoa1:3.23732413,((d2ibaa2:5.20185444,d1fmta1:4.96532500)0.000000:0.00000277,((d1pcsa_:0.19232298,((d1bxua_:0.24849752,(d2cj3a1:0.42068882,d2q5ba1:0.26679477)0.954000:0.21249433)0.835000:0.12192907,(d2jxma1:0.68534469,(d2ov0a1:0.30437611,d1id2a_:0.30712872)0.999000:0.95066120)0.616000:0.11475479)0.433000:0.07906882)0.706000:0.22328026,((d1g2912:4.51203033,(d2cd0a_:2.37775301,(d1l1ya_:2.34452264,d2bsya2:4.07822781)0.669000:0.64836979)0.024000:0.27814802)0.523000:0.18343108,((d1pmya_:0.55670400,(d1bqka_:0.10109349,(d1adwa_:0.32321081,d1paza_:0.33589477)0.827000:0.10043919)0.876000:0.33748209)0.791000:0.59302544,(d1wpxb1:2.68373921,d1c4ka3:3.09957864)0.830000:1.16278790)0.938000:1.13052529)0.859000:0.27033953)0.000000:0.05737049)0.651000:0.00010698)0.792000:0.26861061)0.906000:0.18139935,(d8ohma2:3.61025633,(d1knwa2:4.23061561,g2gac.1:2.52357681)0.000000:0.87137902)0.741000:0.78067020)0.000000:0.00000809,(d1kdja_:1.31065082,(d1iuza_:0.09430707,d7pcya_:0.08927699)0.926000:0.24506298)0.540000:0.03950598)0.579000:0.13955876)0.184000:0.12488910)0.941000:0.17356511)0.806000:0.07106086)0.740000:0.04369151)0.058000:0.08100136)1.000000:3.89605134);
+
+
+
+>>>>>question21<<<<<
+Please write a description of your pipeline and the justification for any choices made. The quality of your pipeline and code may affect your marks for 17-20 as well as this question. Up to 300 words.
+(2 marks)
+
+>>>>>answer21<<<<<
+We wrote the pipeline in Python because that is the scripting language in which we have the most experience. It is easy to use and works on many different operating systems. We also chose MUSCLE (sequence alignment) and PhyML (phylogenetic tree generation) because they were available with both Linux and Windows binaries without having to compile the sources.
+
+A single python script was used to answer all questions and a shortcut command was added (-q <question number>) so that the same program can be used to output what is needed for each question.
+
+Each section or task of the pipeline is broken down into sub functions that are only a few lines long and then return the result of the operation (usually a filename). This makes it much easier to edit the pipeline and add steps to it.
+
+The pipeline pre-parses any query files to check if they contain multiple sequences. If a query file does then it is instead split into multiple query files (1 per sequence) and executes once per split. The phylogenetic tree output is then combined.
+
+We used a script from https://www.biostars.org/p/56153/ to convert from FASTA to PhyLip formats (PhyML takes in PhyLip but MUSCLE outputs alignments in FASTA format). We decided not to write our own version of this script because there was no need to create our own solution for a problem that had already been solved. This script was written in Python2 so we had to perform some minor modifications to get it to work in Python3.
+
+
+
+>>>>>question22<<<<<
+Find an online server where you can do the UniProt search from question 2 and repeat the search using the server. Write here the link to the page where you entered your sequence for the search. One line.
+(1 mark)
+(optional part)
+Find other online server(s) which do a similar search to question 17, but using a different algorithm to BLAST. You may not be able to find a server that searches UniProt, but any other equivalent or similar large database will do. List the URL where you submit the sequence, the database which you searched and the algorithm used in each case. A few lines.
+(1 mark)
+
+>>>>>answer22<<<<<
+http://www.uniprot.org/blast/
+http://www.ebi.ac.uk/Tools/sss/psisearch/ searching UniProt databse with Protein Similary Search algorithm (PSI-Search)
+
+
+
+>>>>>question23<<<<<
+Find an online server for multiple sequence alignment and repeat question 8 using different software than you used for question 8. List here the URL, software used, and submit the alignments and list their names here.
+(1 mark)
+
+>>>>>answer23<<<<<
+
+
+
+>>>>>question24<<<<<
+Using any online service, create a multiple sequence alignment of homologues to your sequence. Now take that multiple sequence alignment and generate some statistics or visualise the level of conservation in the columns of the alignment. There is a web page here: http://supfam.org/SUPERFAMILY/alignment_stats.html that may be able to help but it is slow and may not be entirely reliable, especially for large alignments and it can be very sensitive to the exact format of the alignment; you may want to find an alternative online resource. Write the URL of any statistics page, but also submit a copy of it (in case it is deleted from the server) and list the filename. 
+(2 marks)
+(optional)
+Write a short explanation of how the statistics at one or two sites relates to the corresponding position(s) in the structure (specifying the amino acid number in the PDB file) and say something about the relevance to the specific site in the structure. 50-150 words. 
+(2 marks)
+
+>>>>>answer24<<<<<
+
+
+
+>>>>>question25<<<<<
+Find an online server for iterative profile or HMM building and use your initial sequence to generate a model or profile. For this answer show the URL where you submit your sequence, and submit the model produced listing the filename here. Extra credit for choosing one that is not PSI-BLAST or HMMER.
+(2 mark)
+
+>>>>>answer25<<<<<
+
+
+
+
