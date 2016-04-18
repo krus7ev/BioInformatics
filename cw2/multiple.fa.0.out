@@ -1,0 +1,589 @@
+BLASTP 2.3.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: astral.1.75.fa
+           16,712 sequences; 2,847,556 total letters
+
+
+
+Query= 1plc
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  d1plca_ b.6.1.1 (A:) Plastocyanin {Poplar (Populus nigra), vari...  199     1e-067
+  d1ag6a_ b.6.1.1 (A:) Plastocyanin {Spinach (Spinacia oleracea) ...  169     2e-055
+  d9pcya_ b.6.1.1 (A:) Plastocyanin {French bean (Phaseolus vulga...  163     2e-053
+  d1bypa_ b.6.1.1 (A:) Plastocyanin {White campion (Silene praten...  147     6e-047
+  d1plaa_ b.6.1.1 (A:) Plastocyanin {Parsley (Petroselinum crispu...  135     2e-042
+  d2plta_ b.6.1.1 (A:) Plastocyanin {Green alga (Chlamydomonas re...  126     5e-039
+  d1iuza_ b.6.1.1 (A:) Plastocyanin {Ulva pertusa, a sea lettuce ...  119     6e-036
+  d7pcya_ b.6.1.1 (A:) Plastocyanin {Green alga (Enteromorpha pro...  115     8e-035
+  d1pcsa_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocysti...  93.2    7e-026
+  d2q5ba1 b.6.1.1 (A:1-105) Plastocyanin {Cyanobacterium (Phormid...  88.6    4e-024
+  d2cj3a1 b.6.1.1 (A:1-105) Plastocyanin {Anabaena variabilis [Ta...  85.5    8e-023
+  d1bxua_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocysti...  83.2    3e-022
+  d2jxma1 b.6.1.1 (A:1-97) Plastocyanin {Photosynthetic prokaryot...  77.4    8e-020
+  d1kdja_ b.6.1.1 (A:) Plastocyanin {Fern (Adiantum capillus-vene...  66.6    1e-015
+  d1bqka_ b.6.1.1 (A:) Pseudoazurin {Achromobacter cycloclastes [...  51.2    5e-010
+  d1id2a_ b.6.1.1 (A:) Amicyanin {Paracoccus versutus (Thiobacill...  42.7    4e-007
+  d1adwa_ b.6.1.1 (A:) Pseudoazurin {Thiosphaera pantotropha [Tax...  41.6    1e-006
+  d1pmya_ b.6.1.1 (A:) Pseudoazurin {Methylobacterium extorquens,...  40.0    4e-006
+  d1paza_ b.6.1.1 (A:) Pseudoazurin {Alcaligenes faecalis, strain...  40.0    4e-006
+  d2ov0a1 b.6.1.1 (A:1-105) Amicyanin {Paracoccus denitrificans [...  35.4    2e-004
+  d2ibaa2 d.96.1.4 (A:137-295) Urate oxidase (uricase) {Aspergill...  26.2    0.91  
+  d2bsya2 b.85.4.1 (A:121-256) Monomeric viral dUTPase {Epstein-b...  25.8    0.93  
+  d1l1ya_ a.102.1.2 (A:) Processive endocellulase CelF (Cel48F) {...  26.2    1.2   
+  g2gac.1 d.153.1.5 (A:,B:) Glycosylasparaginase (aspartylglucosa...  24.6    3.0   
+  d1fmta1 b.46.1.1 (A:207-314) Methionyl-tRNAfmet formyltransfera...  24.3    3.2   
+  d1knwa2 c.1.6.1 (A:32-278) Diaminopimelate decarboxylase LysA {...  24.3    4.8   
+  d1efna_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 d...  23.1    5.0   
+  d2fpoa1 c.66.1.46 (A:10-192) Methylase YhhF {Escherichia coli [...  23.9    5.1   
+  d2cd0a_ b.1.1.1 (A:) Immunoglobulin light chain lambda variable...  23.9    5.3   
+  d1c4ka3 d.125.1.1 (A:570-730) Ornithine decarboxylase C-termina...  23.9    5.3   
+  d8ohma2 c.37.1.14 (A:326-624) HCV helicase domain {Human hepati...  23.9    5.6   
+  d1wpxb1 b.17.1.1 (B:501-719) Carboxypeptidase Y inhibitor {Bake...  23.5    6.8   
+  d1d4oa_ c.31.1.4 (A:) Transhydrogenase domain III (dIII) {Cow (...  23.5    7.3   
+  d1g2912 c.37.1.12 (1:1-240) Maltose transport protein MalK, N-t...  23.5    7.5   
+  d1shfa_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 d...  22.3    9.3   
+
+
+> d1plca_ b.6.1.1 (A:) Plastocyanin {Poplar (Populus nigra), variant 
+italica [TaxId: 3691]}
+Length=99
+
+ Score = 199 bits (506),  Expect = 1e-067, Method: Compositional matrix adjust.
+ Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+           IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE
+Sbjct  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+
+Query  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN
+Sbjct  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+
+
+> d1ag6a_ b.6.1.1 (A:) Plastocyanin {Spinach (Spinacia oleracea) 
+[TaxId: 3562]}
+Length=99
+
+ Score = 169 bits (427),  Expect = 2e-055, Method: Compositional matrix adjust.
+ Identities = 78/99 (79%), Positives = 90/99 (91%), Gaps = 0/99 (0%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+           ++VLLG DDGSLAF+P +FS++ GE+IVFKNNAGFPHN+VFDED IPSGVDA+KISMSEE
+Sbjct  1   VEVLLGGDDGSLAFLPGDFSVASGEEIVFKNNAGFPHNVVFDEDEIPSGVDAAKISMSEE  60
+
+Query  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           DLLNA GET++V L+ KG Y FYCSPHQGAGMVGKVTVN
+Sbjct  61  DLLNAPGETYKVTLTEKGTYKFYCSPHQGAGMVGKVTVN  99
+
+
+> d9pcya_ b.6.1.1 (A:) Plastocyanin {French bean (Phaseolus vulgaris) 
+[TaxId: 3885]}
+Length=99
+
+ Score = 163 bits (412),  Expect = 2e-053, Method: Compositional matrix adjust.
+ Identities = 78/99 (79%), Positives = 86/99 (87%), Gaps = 0/99 (0%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+           ++VLLG+ DGSL FVPSEFS+  GEKIVFKNNAGFPHN+VFDED IP+GVDA KISM EE
+Sbjct  1   LEVLLGSGDGSLVFVPSEFSVPSGEKIVFKNNAGFPHNVVFDEDEIPAGVDAVKISMPEE  60
+
+Query  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           +LLNA GET+ V L  KG YSFYCSPHQGAGMVGKVTVN
+Sbjct  61  ELLNAPGETYVVTLDTKGTYSFYCSPHQGAGMVGKVTVN  99
+
+
+> d1bypa_ b.6.1.1 (A:) Plastocyanin {White campion (Silene pratensis) 
+[TaxId: 52853]}
+Length=99
+
+ Score = 147 bits (370),  Expect = 6e-047, Method: Compositional matrix adjust.
+ Identities = 68/98 (69%), Positives = 80/98 (82%), Gaps = 0/98 (0%)
+
+Query  2   DVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEED  61
+           +VLLG+ DG LAFVPS+ SI+ GEKI FKNNAGFPHN +FD+  +P+GVD +KISM EED
+Sbjct  2   EVLLGSSDGGLAFVPSDLSIASGEKITFKNNAGFPHNDLFDKKEVPAGVDVTKISMPEED  61
+
+Query  62  LLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           LLNA GE + V L+ KG Y FYC+PH GAGMVGKVTVN
+Sbjct  62  LLNAPGEEYSVTLTEKGTYKFYCAPHAGAGMVGKVTVN  99
+
+
+> d1plaa_ b.6.1.1 (A:) Plastocyanin {Parsley (Petroselinum crispum) 
+[TaxId: 4043]}
+Length=97
+
+ Score = 135 bits (340),  Expect = 2e-042, Method: Compositional matrix adjust.
+ Identities = 64/98 (65%), Positives = 75/98 (77%), Gaps = 2/98 (2%)
+
+Query  2   DVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEED  61
+           +V LG+DDG L F PS F+++ GEKI FKNNAGFPHNIVFDED +P+GV+A KIS  E  
+Sbjct  2   EVKLGSDDGGLVFSPSSFTVAAGEKITFKNNAGFPHNIVFDEDEVPAGVNAEKISQPE--  59
+
+Query  62  LLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+            LN  GET+EV L+ KG Y FYC PH GAGM G+VTVN
+Sbjct  60  YLNGAGETYEVTLTEKGTYKFYCEPHAGAGMKGEVTVN  97
+
+
+> d2plta_ b.6.1.1 (A:) Plastocyanin {Green alga (Chlamydomonas 
+reinhardtii) [TaxId: 3055]}
+Length=98
+
+ Score = 126 bits (317),  Expect = 5e-039, Method: Compositional matrix adjust.
+ Identities = 61/97 (63%), Positives = 71/97 (73%), Gaps = 2/97 (2%)
+
+Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
+           V LGAD G+L FVP   +I  GE + F NNAGFPHNIVFDED+IPSGV+A  I  S +D 
+Sbjct  4   VKLGADSGALEFVPKTLTIKSGETVNFVNNAGFPHNIVFDEDAIPSGVNADAI--SRDDY  61
+
+Query  63  LNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           LNA GET+ V L+  GEY +YC PHQGAGMVGK+ V 
+Sbjct  62  LNAPGETYSVKLTAAGEYGYYCEPHQGAGMVGKIIVQ  98
+
+
+> d1iuza_ b.6.1.1 (A:) Plastocyanin {Ulva pertusa, a sea lettuce 
+[TaxId: 3120]}
+Length=98
+
+ Score = 119 bits (297),  Expect = 6e-036, Method: Compositional matrix adjust.
+ Identities = 60/97 (62%), Positives = 69/97 (71%), Gaps = 2/97 (2%)
+
+Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
+           V LG DDGSLAFVPS+ S++ GE I F NNAGFPHNIVFDED++P+GVDA  IS   +D 
+Sbjct  4   VKLGGDDGSLAFVPSKISVAAGEAIEFVNNAGFPHNIVFDEDAVPAGVDADAISY--DDY  61
+
+Query  63  LNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           LN+KGET    LS  G Y  YC PH GAGM   +TV 
+Sbjct  62  LNSKGETVVRKLSTPGVYGVYCEPHAGAGMKMTITVQ  98
+
+
+> d7pcya_ b.6.1.1 (A:) Plastocyanin {Green alga (Enteromorpha prolifera) 
+[TaxId: 3117]}
+Length=98
+
+ Score = 115 bits (289),  Expect = 8e-035, Method: Compositional matrix adjust.
+ Identities = 57/97 (59%), Positives = 67/97 (69%), Gaps = 2/97 (2%)
+
+Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
+           V LG DDGSLAFVP+  ++  GE I F NNAGFPHNIVFDED++P+GVDA  I  S ED 
+Sbjct  4   VKLGGDDGSLAFVPNNITVGAGESIEFINNAGFPHNIVFDEDAVPAGVDADAI--SAEDY  61
+
+Query  63  LNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           LN+KG+T    L+  G Y  YC PH GAGM   +TV 
+Sbjct  62  LNSKGQTVVRKLTTPGTYGVYCDPHSGAGMKMTITVQ  98
+
+
+> d1pcsa_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocystis 
+sp.), pcc 6803 [TaxId: 1143]}
+Length=98
+
+ Score = 93.2 bits (230),  Expect = 7e-026, Method: Compositional matrix adjust.
+ Identities = 45/96 (47%), Positives = 61/96 (64%), Gaps = 3/96 (3%)
+
+Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
+           V +G+D G+L F PS  +I  GE++ + NN   PHNIVFD D +P+   A    +S + L
+Sbjct  5   VKMGSDSGALVFEPSTVTIKAGEEVKWVNNKLSPHNIVFDADGVPADTAAK---LSHKGL  61
+
+Query  63  LNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+           L A GE+F    +  G Y++YC PH+GAGMVGKV V
+Sbjct  62  LFAAGESFTSTFTEPGTYTYYCEPHRGAGMVGKVVV  97
+
+
+> d2q5ba1 b.6.1.1 (A:1-105) Plastocyanin {Cyanobacterium (Phormidium 
+laminosum) [TaxId: 32059]}
+Length=105
+
+ Score = 88.6 bits (218),  Expect = 4e-024, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 62/99 (63%), Gaps = 3/99 (3%)
+
+Query  3    VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
+            V +GAD G L F P+  ++ PG+ + + NN   PHNI+FD+  +P         +S   L
+Sbjct  5    VKMGADSGLLQFEPANVTVHPGDTVKWVNNKLPPHNILFDDKQVPGASKELADKLSHSQL  64
+
+Query  63   LNAKGETFEVALSN---KGEYSFYCSPHQGAGMVGKVTV  98
+            + + GE++E+  S+    G Y++YC+PH+GAGMVGK+TV
+Sbjct  65   MFSPGESYEITFSSDFPAGTYTYYCAPHRGAGMVGKITV  103
+
+
+> d2cj3a1 b.6.1.1 (A:1-105) Plastocyanin {Anabaena variabilis [TaxId: 
+1172]}
+Length=105
+
+ Score = 85.5 bits (210),  Expect = 8e-023, Method: Compositional matrix adjust.
+ Identities = 43/99 (43%), Positives = 60/99 (61%), Gaps = 3/99 (3%)
+
+Query  3    VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
+            V LG+D G L F P++ +I PG+ + F NN   PHN+VFD    P+       S+S + L
+Sbjct  5    VKLGSDKGLLVFEPAKLTIKPGDTVEFLNNKVPPHNVVFDAALNPAKSADLAKSLSHKQL  64
+
+Query  63   LNAKGETFEVAL---SNKGEYSFYCSPHQGAGMVGKVTV  98
+            L + G++        +  GEY+FYC PH+GAGMVGK+TV
+Sbjct  65   LMSPGQSTSTTFPADAPAGEYTFYCEPHRGAGMVGKITV  103
+
+
+> d1bxua_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocystis 
+sp.), pcc 7942 [TaxId: 1143]}
+Length=91
+
+ Score = 83.2 bits (204),  Expect = 3e-022, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 57/99 (58%), Gaps = 10/99 (10%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+           + + +GAD+G LAF PS   I  G+ + + NN   PHN+V +           +  +S +
+Sbjct  3   VAIKMGADNGMLAFEPSTIEIQAGDTVQWVNNKLAPHNVVVE----------GQPELSHK  52
+
+Query  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+           DL  + GETFE   S  G Y++YC PH+GAGMVGK+ V 
+Sbjct  53  DLAFSPGETFEATFSEPGTYTYYCEPHRGAGMVGKIVVQ  91
+
+
+> d2jxma1 b.6.1.1 (A:1-97) Plastocyanin {Photosynthetic prokaryote 
+(Prochlorothrix hollandica) [TaxId: 1223]}
+Length=97
+
+ Score = 77.4 bits (189),  Expect = 8e-020, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 57/98 (58%), Gaps = 4/98 (4%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+           + + +G D  +  + P   SIS G+ + F  N   PHN++FD+  +P+G  A   ++S  
+Sbjct  3   VQIKMGTDKYAPLYEPKALSISAGDTVEFVMNKVGPHNVIFDK--VPAGESAP--ALSNT  58
+
+Query  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+            L  A G  + V L   G YSFYC+PH+GAGMVG +TV
+Sbjct  59  KLAIAPGSFYSVTLGTPGTYSFYCTPHRGAGMVGTITV  96
+
+
+> d1kdja_ b.6.1.1 (A:) Plastocyanin {Fern (Adiantum capillus-veneris) 
+[TaxId: 13818]}
+Length=102
+
+ Score = 66.6 bits (161),  Expect = 1e-015, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 55/100 (55%), Gaps = 3/100 (3%)
+
+Query  3    VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKI---SMSE  59
+            V +G + G+  F P   ++S GE + F       HNIVFD  +   G  AS++   SM E
+Sbjct  3    VEVGDEVGNFKFYPDSITVSAGEAVEFTLVGETGHNIVFDIPAGAPGTVASELKAASMDE  62
+
+Query  60   EDLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+             DLL+    +F+  +S  G Y+FYC+PH+ A M G +TV 
+Sbjct  63   NDLLSEDEPSFKAKVSTPGTYTFYCTPHKSANMKGTLTVK  102
+
+
+> d1bqka_ b.6.1.1 (A:) Pseudoazurin {Achromobacter cycloclastes 
+[TaxId: 223]}
+Length=124
+
+ Score = 51.2 bits (121),  Expect = 5e-010, Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 49/99 (49%), Gaps = 12/99 (12%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVF-KNNAGFPHNIVFDEDSIPSGVDASKISMSE  59
+           + +L    DG++ F P+   ++PG+ + F   + G  HN+   +  IP G +A K  ++E
+Sbjct  5   VHMLNKGKDGAMVFEPASLKVAPGDTVTFIPTDKG--HNVETIKGMIPDGAEAFKSKINE  62
+
+Query  60  EDLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+                     ++V  +  G Y   C+PH G GMVG V V
+Sbjct  63  ---------NYKVTFTAPGVYGVKCTPHYGMGMVGVVQV  92
+
+
+> d1id2a_ b.6.1.1 (A:) Amicyanin {Paracoccus versutus (Thiobacillus 
+versutus) [TaxId: 34007]}
+Length=106
+
+ Score = 42.7 bits (99),  Expect = 4e-007, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 42/88 (48%), Gaps = 10/88 (11%)
+
+Query  11   SLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDLLNAKGETF  70
+             + ++  E +I  GE + + N    PHN+ F +  +  G DA +  M  +D      + +
+Sbjct  28   KMKYLTPEVTIKAGETVYWVNGEVMPHNVAFKKGIV--GEDAFRGEMMTKD------QAY  79
+
+Query  71   EVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+             +  +  G Y ++C+PH    M GKV V
+Sbjct  80   AITFNEAGSYDYFCTPH--PFMRGKVIV  105
+
+
+> d1adwa_ b.6.1.1 (A:) Pseudoazurin {Thiosphaera pantotropha [TaxId: 
+82367]}
+Length=123
+
+ Score = 41.6 bits (96),  Expect = 1e-006, Method: Compositional matrix adjust.
+ Identities = 27/98 (28%), Positives = 48/98 (49%), Gaps = 10/98 (10%)
+
+Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
+           + +L   + G++ F P+     PG+ I F       HN+   ++ +P GV++ K  ++E 
+Sbjct  5   VHMLNKGESGAMVFEPAFVRAEPGDVINFVPTDK-SHNVEAIKEILPEGVESFKSKINE-  62
+
+Query  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+                   ++ + ++  G Y   C+PH G GMVG V V
+Sbjct  63  --------SYTLTVTEPGLYGVKCTPHFGMGMVGLVQV  92
+
+
+> d1pmya_ b.6.1.1 (A:) Pseudoazurin {Methylobacterium extorquens, 
+strain am1 [TaxId: 408]}
+Length=123
+
+ Score = 40.0 bits (92),  Expect = 4e-006, Method: Compositional matrix adjust.
+ Identities = 27/90 (30%), Positives = 40/90 (44%), Gaps = 12/90 (13%)
+
+Query  10  GSLAFVPSEFSISPGEKIVF-KNNAGFPHNIVFDEDSIPSGVDASKISMSEEDLLNAKGE  68
+           G + F P+   + PG+ I F   + G  HN+   +   P G D  K ++ +E +      
+Sbjct  14  GMMVFDPALVRLKPGDSIKFLPTDKG--HNVETIKGMAPDGADYVKTTVGQEAV------  65
+
+Query  69  TFEVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+              V    +G Y F C+PH   GMV  V V
+Sbjct  66  ---VKFDKEGVYGFKCAPHYMMGMVALVVV  92
+
+
+> d1paza_ b.6.1.1 (A:) Pseudoazurin {Alcaligenes faecalis, strain 
+s-6 [TaxId: 511]}
+Length=120
+
+ Score = 40.0 bits (92),  Expect = 4e-006, Method: Compositional matrix adjust.
+ Identities = 24/94 (26%), Positives = 42/94 (45%), Gaps = 18/94 (19%)
+
+Query  9   DGSLAFVPSEFSISPGEKIVFKNNAGFP----HNIVFDEDSIPSGVDASKISMSEEDLLN  64
+           +G++ F P+    +PG+ + F      P    HN+   +D IP G +  K  ++E  +L 
+Sbjct  13  EGAMVFEPAYIKANPGDTVTF-----IPVDKGHNVESIKDMIPEGAEKFKSKINENYVLT  67
+
+Query  65  AKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTV  98
+                    ++  G Y   C+PH   GM+  + V
+Sbjct  68  ---------VTQPGAYLVKCTPHYAMGMIALIAV  92
+
+
+> d2ov0a1 b.6.1.1 (A:1-105) Amicyanin {Paracoccus denitrificans 
+[TaxId: 266]}
+Length=105
+
+ Score = 35.4 bits (80),  Expect = 2e-004, Method: Compositional matrix adjust.
+ Identities = 23/92 (25%), Positives = 39/92 (42%), Gaps = 10/92 (11%)
+
+Query  8    DDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDLLNAKG  67
+            D   + +   E  +  G+ + + N    PHN+ F    +  G  A K  M +      K 
+Sbjct  24   DIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVL--GEAALKGPMMK------KE  75
+
+Query  68   ETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
+            + + +  +  G Y ++C+PH    M GKV V 
+Sbjct  76   QAYSLTFTEAGTYDYHCTPHP--FMRGKVVVE  105
+
+
+> d2ibaa2 d.96.1.4 (A:137-295) Urate oxidase (uricase) {Aspergillus 
+flavus [TaxId: 5059]}
+Length=159
+
+ Score = 26.2 bits (56),  Expect = 0.91, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 28/57 (49%), Gaps = 2/57 (4%)
+
+Query  40   VFDEDSIPSGVDASKISMSEEDLLNAKG-ETFEVALSNKGEYSFYCSPHQGAGMVGK  95
+             F ED+  S V A+   M+E+ L   +  ET E +L NK  +    S H+G    GK
+Sbjct  82   TFAEDNSAS-VQATMYKMAEQILARQQLIETVEYSLPNKHYFEIDLSWHKGLQNTGK  137
+
+
+> d2bsya2 b.85.4.1 (A:121-256) Monomeric viral dUTPase {Epstein-barr 
+virus [TaxId: 10376]}
+Length=136
+
+ Score = 25.8 bits (55),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 1/47 (2%)
+
+Query  49   GVDASKISMSEEDLLNAKGETF-EVALSNKGEYSFYCSPHQGAGMVG  94
+            GVD S  + S++ +   K   F ++   +K   + + SPH  AG++G
+Sbjct  70   GVDVSLTNFSDQTVFLNKYRRFCQLVYLHKHHLTSFYSPHSDAGVLG  116
+
+
+> d1l1ya_ a.102.1.2 (A:) Processive endocellulase CelF (Cel48F) 
+{Clostridium thermocellum [TaxId: 1515]}
+Length=642
+
+ Score = 26.2 bits (56),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 18/34 (53%), Gaps = 2/34 (6%)
+
+Query  60   EDLLNAKGETFEVALSNKGEYSFYCSPHQGAGMV  93
+            E  L+ K       L N+  Y+FYCS  +G G+V
+Sbjct  515  EGKLDTKARDMAAELVNRAWYNFYCS--EGKGVV  546
+
+
+> g2gac.1 d.153.1.5 (A:,B:) Glycosylasparaginase (aspartylglucosaminidase, 
+AGA) {Flavobacterium meningosepticum [TaxId: 238]}
+Length=276
+
+ Score = 24.6 bits (52),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 10/29 (34%), Positives = 17/29 (59%), Gaps = 6/29 (21%)
+
+Query  62   LLNAKGETFE------VALSNKGEYSFYC  84
+            ++N +G+  +      +AL+ KGEY  YC
+Sbjct  228  IVNRRGKNLKDIQVGFIALNKKGEYGAYC  256
+
+
+> d1fmta1 b.46.1.1 (A:207-314) Methionyl-tRNAfmet formyltransferase, 
+C-terminal domain {Escherichia coli [TaxId: 562]}
+Length=108
+
+ Score = 24.3 bits (51),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  52   ASKISMSEEDLLNAKGETF  70
+            A K +MS +DLLN++ E F
+Sbjct  83   AGKKAMSAQDLLNSRREWF  101
+
+
+> d1knwa2 c.1.6.1 (A:32-278) Diaminopimelate decarboxylase LysA 
+{Escherichia coli [TaxId: 562]}
+Length=247
+
+ Score = 24.3 bits (51),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 9/28 (32%), Positives = 15/28 (54%), Gaps = 0/28 (0%)
+
+Query  10   GSLAFVPSEFSISPGEKIVFKNNAGFPH  37
+            GS+  +     +SPG ++  + N GF H
+Sbjct  91   GSVDMLDQLGQVSPGHRVWLRVNPGFGH  118
+
+
+> d1efna_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 
+domain {Human (Homo sapiens) [TaxId: 9606]}
+Length=57
+
+ Score = 23.1 bits (48),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  56  SMSEEDLLNAKGETFEVALSNKGEY  80
+           +++E+DL   KGE F++  S++G++
+Sbjct  11  AITEDDLSFHKGEKFQILNSSEGDW  35
+
+
+> d2fpoa1 c.66.1.46 (A:10-192) Methylase YhhF {Escherichia coli 
+[TaxId: 562]}
+Length=183
+
+ Score = 23.9 bits (50),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 17/33 (52%), Gaps = 0/33 (0%)
+
+Query  29   FKNNAGFPHNIVFDEDSIPSGVDASKISMSEED  61
+            F    G PHNIVF +     G+    I++ E++
+Sbjct  104  FLAQKGTPHNIVFVDPPFRRGLLEETINLLEDN  136
+
+
+> d2cd0a_ b.1.1.1 (A:) Immunoglobulin light chain lambda variable 
+domain, VL-lambda {Human (Homo sapiens), cluster 1 [TaxId: 
+9606]}
+Length=111
+
+ Score = 23.9 bits (50),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  36  PHNIVFDEDSIPSGVDASKISMSEEDLLNAKGETFEVALSNKGEYSFYC  84
+           P  ++F++D  PSGV   + S S +   N+   T    L  + E  +YC
+Sbjct  45  PTTVIFEDDHRPSGV-PDRFSGSVDTSSNSASLTIS-GLKTEDEADYYC  91
+
+
+> d1c4ka3 d.125.1.1 (A:570-730) Ornithine decarboxylase C-terminal 
+domain {Lactobacillus sp., strain 30a [TaxId: 1591]}
+Length=161
+
+ Score = 23.9 bits (50),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  7    ADDGSLAFVPSEFSISPGEK  26
+            A +G+L + P  F ++PGEK
+Sbjct  84   ALEGALPYPPGVFCVAPGEK  103
+
+
+> d8ohma2 c.37.1.14 (A:326-624) HCV helicase domain {Human hepatitis 
+C virus (HCV), different isolates [TaxId: 11103]}
+Length=299
+
+ Score = 23.9 bits (50),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 10/13 (77%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  71  EVALSNKGEYSFY  83
+           EVALSN GE  FY
+Sbjct  13  EVALSNTGEIPFY  25
+
+
+> d1wpxb1 b.17.1.1 (B:501-719) Carboxypeptidase Y inhibitor {Baker's 
+yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Length=219
+
+ Score = 23.5 bits (49),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  36   PHNIVFDEDSIPSGVDASKIS  56
+            PH  VF     P GVD+SK S
+Sbjct  160  PHRYVFLLYKQPKGVDSSKFS  180
+
+
+> d1d4oa_ c.31.1.4 (A:) Transhydrogenase domain III (dIII) {Cow 
+(Bos taurus) [TaxId: 9913]}
+Length=177
+
+ Score = 23.5 bits (49),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  23  PGEKIVFKNNAGFPHNIVFDEDSI  46
+           PG+  V    AG P++IV + D I
+Sbjct  64  PGQLNVLLAEAGVPYDIVLEMDEI  87
+
+
+> d1g2912 c.37.1.12 (1:1-240) Maltose transport protein MalK, N-terminal 
+domain {Archaeon Thermococcus litoralis [TaxId: 2265]}
+Length=240
+
+ Score = 23.5 bits (49),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 19/35 (54%), Gaps = 2/35 (6%)
+
+Query  27   IVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEED  61
+            +VF++ A +PH  V+D  + P  +   K+   E D
+Sbjct  85   MVFQSYALYPHMTVYDNIAFP--LKLRKVPRQEID  117
+
+
+> d1shfa_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 
+domain {Human (Homo sapiens) [TaxId: 9606]}
+Length=59
+
+ Score = 22.3 bits (46),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  56  SMSEEDLLNAKGETFEVALSNKGEY  80
+           + +E+DL   KGE F++  S++G++
+Sbjct  12  ARTEDDLSFHKGEKFQILNSSEGDW  36
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.134    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 69468712
+
+
+  Database: astral.1.75.fa
+    Posted date:  Mar 24, 2016  2:12 AM
+  Number of letters in database: 2,847,556
+  Number of sequences in database:  16,712
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

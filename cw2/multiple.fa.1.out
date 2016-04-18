@@ -1,0 +1,1115 @@
+BLASTP 2.3.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: astral.1.75.fa
+           16,712 sequences; 2,847,556 total letters
+
+
+
+Query= d1babb_ Hemoglobin, beta-chain {Human (Homo sapiens)}
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  d2dn3b1 a.1.1.2 (B:2-146) Hemoglobin, beta-chain {Human (Homo s...  296     2e-104
+  d1shrb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Human (Homo sapien...  281     3e-098
+  d1fhjb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Maned wolf (Chryso...  272     1e-094
+  d1qpwb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Pig (Sus scrofa) [...  255     6e-088
+  d1ch4a_ a.1.1.2 (A:) Chimeric hemoglobin beta-alpha {Synthetic,...  244     1e-083
+  d1a9we_ a.1.1.2 (E:) Hemoglobin, beta-chain {Human (Homo sapien...  236     2e-080
+  d2qssb1 a.1.1.2 (B:1-145) Hemoglobin, beta-chain {Cow (Bos taur...  234     1e-079
+  d1i3da_ a.1.1.2 (A:) Hemoglobin, beta-chain {Human fetus (Homo ...  232     5e-079
+  d2d5xb1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Horse (Equus ...  230     3e-078
+  d1jebb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Mouse (Mus musculu...  225     3e-076
+  d1hdsb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Deer (Odocoileus v...  223     1e-075
+  d1a4fb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Bar-headed goose (...  219     7e-074
+  d1hbrb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Chicken (Gallus ga...  214     6e-072
+  d1wmub_ a.1.1.2 (B:) Hemoglobin, beta-chain {Aldabra giant tort...  206     1e-068
+  d1outb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Trout (Oncorhynchu...  172     1e-055
+  d1v4wb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Bluefin tuna (Thun...  155     1e-048
+  d1spgb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Fish (Leiostomus x...  154     2e-048
+  d3bj1b1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Yellow perch ...  143     3e-044
+  d2h8fb1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Emerald rockc...  143     4e-044
+  d3d1kb1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Antarctic fis...  142     1e-043
+  d2aa1b1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Antarctic fis...  130     5e-039
+  d3d1ka1 a.1.1.2 (A:1-142) Hemoglobin, alpha-chain {Antarctic fi...  122     3e-036
+  d1v4wa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Bluefin tuna (Thu...  121     9e-036
+  d1wmua_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Aldabra giant tor...  119     1e-034
+  d1xq5a_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Yellow perch (Per...  118     1e-034
+  d1outa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Trout (Oncorhynch...  118     2e-034
+  d2dn3a1 a.1.1.2 (A:2-141) Hemoglobin, alpha-chain {Human (Homo ...  114     4e-033
+  d1hbra_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Chicken (Gallus g...  114     5e-033
+  d1fhja_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Maned wolf (Chrys...  110     2e-031
+  d2qssa1 a.1.1.2 (A:1-141) Hemoglobin, alpha-chain {Cow (Bos tau...  108     9e-031
+  d2d5xa1 a.1.1.2 (A:1-141) Hemoglobin, alpha-chain {Horse (Equus...  106     7e-030
+  d1spga_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Fish (Leiostomus ...  105     1e-029
+  d1hdsa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Deer (Odocoileus ...  102     2e-028
+  d1qpwa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Pig (Sus scrofa) ...  102     2e-028
+  d1jeba_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Human (Homo sapie...  100     2e-027
+  d1gcvb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Houndshark (Mustel...  97.8    1e-026
+  d1a4fa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Bar-headed goose ...  96.7    4e-026
+  d1cg5b_ a.1.1.2 (B:) Hemoglobin, beta-chain {Cartilaginous fish...  82.8    6e-021
+  d1gcva_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Houndshark (Muste...  75.9    2e-018
+  d1urva_ a.1.1.2 (A:) Cytoglobin {Human (Homo sapiens) [TaxId: 9...  75.5    5e-018
+  d1lhta_ a.1.1.2 (A:) Myoglobin {Loggerhead sea turtle (Caretta ...  68.9    1e-015
+  d1cg5a_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Cartilaginous fis...  67.0    5e-015
+  d1myta_ a.1.1.2 (A:) Myoglobin {Yellowfin tuna (Thunnus albacar...  53.9    2e-010
+  d1hlma_ a.1.1.2 (A:) Hemoglobin, different isoforms {Caudina ar...  53.5    2e-010
+  d1mbsa_ a.1.1.2 (A:) Myoglobin {Common seal (Phoca vitulina) [T...  52.8    5e-010
+  d1v9ca_ c.23.17.1 (A:) Precorrin-8x methylmutase {Thermus therm...  28.1    0.48  
+  d1n67a1 b.2.3.4 (A:229-369) Clumping factor A {Staphylococcus a...  27.7    0.51  
+  d3sdha_ a.1.1.2 (A:) Hemoglobin I {Ark clam (Scapharca inaequiv...  26.6    1.3   
+  d2z1aa1 d.114.1.1 (A:330-534) 5'-nucleotidase (syn. UDP-sugar h...  25.4    3.1   
+  d1ry6a_ c.37.1.9 (A:) Kinesin {Malaria parasite (Plasmodium fal...  25.4    3.7   
+  d2mysb_ a.39.1.5 (B:) Myosin Essential Chain {Chicken (Gallus g...  24.6    4.7   
+  d1bg4a_ c.1.8.3 (A:) Xylanase {Penicillium simplicissimum [TaxI...  25.0    5.3   
+  d1jdfa1 c.1.11.2 (A:138-446) D-glucarate dehydratase {Escherich...  24.3    8.8   
+
+
+> d2dn3b1 a.1.1.2 (B:2-146) Hemoglobin, beta-chain {Human (Homo 
+sapiens) [TaxId: 9606]}
+Length=145
+
+ Score = 296 bits (759),  Expect = 2e-104, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  2    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  61
+            HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK
+Sbjct  1    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  60
+
+Query  62   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  121
+            AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE
+Sbjct  61   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  120
+
+Query  122  FTPPVQAAYQKVVAGVANALAHKYH  146
+            FTPPVQAAYQKVVAGVANALAHKYH
+Sbjct  121  FTPPVQAAYQKVVAGVANALAHKYH  145
+
+
+> d1shrb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Human (Homo sapiens), 
+delta-chain [TaxId: 9606]}
+Length=146
+
+ Score = 281 bits (719),  Expect = 3e-098, Method: Compositional matrix adjust.
+ Identities = 136/146 (93%), Positives = 141/146 (97%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VHLTPEEK+AV ALWGKVNVD VGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPKV
+Sbjct  1    VHLTPEEKTAVNALWGKVNVDAVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKVLGAFSDGLAHLDNLKGTF+ LSELHCDKLHVDPENFRLLGNVLVCVLA +FGK
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP +QAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQMQAAYQKVVAGVANALAHKYH  146
+
+
+> d1fhjb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Maned wolf (Chrysocyon 
+brachyurus) [TaxId: 68728]}
+Length=146
+
+ Score = 272 bits (695),  Expect = 1e-094, Method: Compositional matrix adjust.
+ Identities = 131/146 (90%), Positives = 137/146 (94%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VHLT EEKS V+ LWGKVNVDEVGGEALGRLL+VYPWTQRFF+SFGDLSTPDAVM N KV
+Sbjct  1    VHLTAEEKSLVSGLWGKVNVDEVGGEALGRLLIVYPWTQRFFDSFGDLSTPDAVMSNAKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKVL +FSDGL +LDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGK
+Sbjct  61   KAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP VQAAYQKVVAGVANALAHKYH
+Sbjct  121  EFTPQVQAAYQKVVAGVANALAHKYH  146
+
+
+> d1qpwb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Pig (Sus scrofa) 
+[TaxId: 9823]}
+Length=146
+
+ Score = 255 bits (651),  Expect = 6e-088, Method: Compositional matrix adjust.
+ Identities = 124/146 (85%), Positives = 130/146 (89%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VHL+ EEK AV  LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS  DAVMGNPKV
+Sbjct  1    VHLSAEEKEAVLGLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSNADAVMGNPKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKVL +FSDGL HLDNLKGTFA LSELHCD+LHVDPENFRLLGNV+V VLA   G 
+Sbjct  61   KAHGKKVLQSFSDGLKHLDNLKGTFAKLSELHCDQLHVDPENFRLLGNVIVVVLARRLGH  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            +F P VQAA+QKVVAGVANALAHKYH
+Sbjct  121  DFNPDVQAAFQKVVAGVANALAHKYH  146
+
+
+> d1ch4a_ a.1.1.2 (A:) Chimeric hemoglobin beta-alpha {Synthetic, 
+based on Homo sapiens sequence}
+Length=146
+
+ Score = 244 bits (622),  Expect = 1e-083, Method: Compositional matrix adjust.
+ Identities = 120/146 (82%), Positives = 126/146 (86%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV
+Sbjct  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKL VDP NF+LL + L+  LA H   
+Sbjct  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLRVDPVNFKLLSHCLLVTLAAHLPA  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP V A+  KV+A V+  L  KY 
+Sbjct  121  EFTPAVHASLDKVLASVSTVLTSKYR  146
+
+
+> d1a9we_ a.1.1.2 (E:) Hemoglobin, beta-chain {Human (Homo sapiens), 
+embryonic gower II [TaxId: 9606]}
+Length=145
+
+ Score = 236 bits (601),  Expect = 2e-080, Method: Compositional matrix adjust.
+ Identities = 109/145 (75%), Positives = 128/145 (88%), Gaps = 0/145 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VH T EEK+AVT+LW K+NV+E GGEALGRLLVVYPWTQRFF+SFG+LS+P A++GNPKV
+Sbjct  1    VHFTAEEKAAVTSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKVL +F D + ++DNLK  FA LSELHCDKLHVDPENF+LLGNV+V +LA HFGK
+Sbjct  61   KAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            EFTP VQAA+QK+V+ VA ALAHKY
+Sbjct  121  EFTPEVQAAWQKLVSAVAIALAHKY  145
+
+
+> d2qssb1 a.1.1.2 (B:1-145) Hemoglobin, beta-chain {Cow (Bos taurus) 
+[TaxId: 9913]}
+Length=145
+
+ Score = 234 bits (596),  Expect = 1e-079, Method: Compositional matrix adjust.
+ Identities = 122/144 (85%), Positives = 132/144 (92%), Gaps = 0/144 (0%)
+
+Query  3    LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA  62
+            LT EEK+AVTA WGKV VDEVGGEALGRLLVVYPWTQRFFESFGDLST DAVM NPKVKA
+Sbjct  2    LTAEEKAAVTAFWGKVKVDEVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMNNPKVKA  61
+
+Query  63   HGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEF  122
+            HGKKVL +FS+G+ HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA +FGKEF
+Sbjct  62   HGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARNFGKEF  121
+
+Query  123  TPPVQAAYQKVVAGVANALAHKYH  146
+            TP +QA +QKVVAGVANALAH+YH
+Sbjct  122  TPVLQADFQKVVAGVANALAHRYH  145
+
+
+> d1i3da_ a.1.1.2 (A:) Hemoglobin, beta-chain {Human fetus (Homo 
+sapiens), gamma-chain [TaxId: 9606]}
+Length=146
+
+ Score = 232 bits (591),  Expect = 5e-079, Method: Compositional matrix adjust.
+ Identities = 106/145 (73%), Positives = 126/145 (87%), Gaps = 0/145 (0%)
+
+Query  2    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  61
+            H T E+K+ +T+LWGKVNV++ GGE LGRLLVVYPWTQRFF+SFG+LS+  A+MGNPKVK
+Sbjct  2    HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVK  61
+
+Query  62   AHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  121
+            AHGKKVL +  D + HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKE
+Sbjct  62   AHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKE  121
+
+Query  122  FTPPVQAAYQKVVAGVANALAHKYH  146
+            FTP VQA++QK+V  VA+AL+ +YH
+Sbjct  122  FTPEVQASWQKMVTAVASALSSRYH  146
+
+
+> d2d5xb1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Horse (Equus 
+caballus) [TaxId: 9796]}
+Length=146
+
+ Score = 230 bits (586),  Expect = 3e-078, Method: Compositional matrix adjust.
+ Identities = 122/146 (84%), Positives = 132/146 (90%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V L+ EEK+AV ALW KVN +EVGGEALGRLLVVYPWTQRFF+SFGDLS P AVMGNPKV
+Sbjct  1    VQLSGEEKAAVLALWDKVNEEEVGGEALGRLLVVYPWTQRFFDSFGDLSNPGAVMGNPKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKVL +F +G+ HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLV VLA HFGK
+Sbjct  61   KAHGKKVLHSFGEGVHHLDNLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            +FTP +QA+YQKVVAGVANALAHKYH
+Sbjct  121  DFTPELQASYQKVVAGVANALAHKYH  146
+
+
+> d1jebb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Mouse (Mus musculus) 
+[TaxId: 10090]}
+Length=143
+
+ Score = 225 bits (573),  Expect = 3e-076, Method: Compositional matrix adjust.
+ Identities = 104/132 (79%), Positives = 118/132 (89%), Gaps = 0/132 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VHLT  EK+AV+ LWGKVN DEVGGEALGRLLVVYPWTQR+F+SFGDLS+  A+MGN KV
+Sbjct  1    VHLTDAEKAAVSGLWGKVNADEVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNAKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKV+ AF+DGL HLD+LKGTFA+LSELHCDKLHVDPENFRLLGN++V VL HH GK
+Sbjct  61   KAHGKKVITAFNDGLNHLDSLKGTFASLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGK  120
+
+Query  121  EFTPPVQAAYQK  132
+            +FTP  QAA+QK
+Sbjct  121  DFTPAAQAAFQK  132
+
+
+> d1hdsb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Deer (Odocoileus 
+virginianus) [TaxId: 9874]}
+Length=145
+
+ Score = 223 bits (569),  Expect = 1e-075, Method: Compositional matrix adjust.
+ Identities = 107/144 (74%), Positives = 123/144 (85%), Gaps = 0/144 (0%)
+
+Query  3    LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA  62
+            LT EEK+AVT  WGKV+VD VG +ALGRLLVVYPWTQRFF+ FG+LS+  AVM NPKVKA
+Sbjct  2    LTAEEKAAVTGFWGKVDVDVVGAQALGRLLVVYPWTQRFFQHFGNLSSAGAVMNNPKVKA  61
+
+Query  63   HGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEF  122
+            HGK+VL AF+ GL HLD+LKG FA LS LHC+KLHV+P+NFRLLGNVL  V+A +FG +F
+Sbjct  62   HGKRVLDAFTQGLKHLDDLKGAFAQLSGLHCNKLHVNPQNFRLLGNVLALVVARNFGGQF  121
+
+Query  123  TPPVQAAYQKVVAGVANALAHKYH  146
+            TP VQA +QKVVAGVANALAHKYH
+Sbjct  122  TPNVQALFQKVVAGVANALAHKYH  145
+
+
+> d1a4fb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Bar-headed goose 
+(Anser indicus) [TaxId: 8846]}
+Length=146
+
+ Score = 219 bits (558),  Expect = 7e-074, Method: Compositional matrix adjust.
+ Identities = 101/146 (69%), Positives = 120/146 (82%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VH + EEK  +T LWGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V
+Sbjct  1    VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            +AHGKKVL +F D + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF K
+Sbjct  61   RAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP  QAA+QK+V  VA+ALA KYH
+Sbjct  121  EFTPDCQAAWQKLVRVVAHALARKYH  146
+
+
+> d1hbrb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Chicken (Gallus 
+gallus) [TaxId: 9031]}
+Length=144
+
+ Score = 214 bits (545),  Expect = 6e-072, Method: Compositional matrix adjust.
+ Identities = 99/144 (69%), Positives = 118/144 (82%), Gaps = 0/144 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VH T EEK  +T LWGKVNV E G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V
+Sbjct  1    VHWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            +AHGKKVL +F D + +LDN+K TF+ LSELHCDKLHVDPENFRLLG++L+ VLA HF K
+Sbjct  61   RAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHK  144
+            +FTP  QAA+QK+V  VA+ALA K
+Sbjct  121  DFTPECQAAWQKLVRVVAHALARK  144
+
+
+> d1wmub_ a.1.1.2 (B:) Hemoglobin, beta-chain {Aldabra giant tortoise 
+(Geochelone gigantea) [TaxId: 167804]}
+Length=146
+
+ Score = 206 bits (523),  Expect = 1e-068, Method: Compositional matrix adjust.
+ Identities = 97/146 (66%), Positives = 118/146 (81%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VH T EEK  +T+LW KVNV EVGGEAL RLL+VYPWTQRFF SFG+LS+ +A++ N KV
+Sbjct  1    VHWTSEEKQYITSLWAKVNVGEVGGEALARLLIVYPWTQRFFASFGNLSSANAILHNAKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+             AHG+KVL +F + + +LDN+K TFA LSELHC+KLHVDPENF+LLGN+L+ VLA HF K
+Sbjct  61   LAHGQKVLTSFGEAVKNLDNIKKTFAQLSELHCEKLHVDPENFKLLGNILIIVLATHFPK  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP  QAA+ K+V  VA+ALA  YH
+Sbjct  121  EFTPASQAAWTKLVNAVAHALALGYH  146
+
+
+> d1outb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Trout (Oncorhynchus 
+mykiss) [TaxId: 8022]}
+Length=146
+
+ Score = 172 bits (437),  Expect = 1e-055, Method: Compositional matrix adjust.
+ Identities = 77/145 (53%), Positives = 104/145 (72%), Gaps = 0/145 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V  T  EKS ++A+WGKVN+DE+G  AL R+L+VYPWTQR+F SFG++STP A+MGNPKV
+Sbjct  1    VEWTDAEKSTISAVWGKVNIDEIGPLALARVLIVYPWTQRYFGSFGNVSTPAAIMGNPKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+             AHGK V GA    + ++ N+  T+ +LSE H +KL VDP+NFR+L +VL  V+A  FG 
+Sbjct  61   AAHGKVVCGALDKAVKNMGNILATYKSLSETHANKLFVDPDNFRVLADVLTIVIAAKFGA  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+             FTP +QA +QK +  V  A+  +Y
+Sbjct  121  SFTPEIQATWQKFMKVVVAAMGSRY  145
+
+
+> d1v4wb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Bluefin tuna (Thunnus 
+thynnus) [TaxId: 8237]}
+Length=146
+
+ Score = 155 bits (391),  Expect = 1e-048, Method: Compositional matrix adjust.
+ Identities = 70/146 (48%), Positives = 99/146 (68%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V  T +E+S +  ++  +N +++G +AL R L+VYPWTQR+F ++GDLSTPDA+ GN K+
+Sbjct  1    VEWTQQERSIIAGIFANLNYEDIGPKALARCLIVYPWTQRYFGAYGDLSTPDAIKGNAKI  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+             AHG KVL      + ++DN+   ++ LS LH DKLHVDP+NFR+LG+ L  V+A + G 
+Sbjct  61   AAHGVKVLHGLDRAVKNMDNINEAYSELSVLHSDKLHVDPDNFRILGDCLTVVIAANLGD  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+             FT   Q A+QK +A V  AL  KYH
+Sbjct  121  AFTVETQCAFQKFLAVVVFALGRKYH  146
+
+
+> d1spgb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Fish (Leiostomus 
+xanthurus) [TaxId: 59837]}
+Length=147
+
+ Score = 154 bits (389),  Expect = 2e-048, Method: Compositional matrix adjust.
+ Identities = 70/147 (48%), Positives = 100/147 (68%), Gaps = 1/147 (1%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V  T  E++A+ ALWGK++V E+G +AL RLL+VYPWTQR F+ FG++ST  A++GN KV
+Sbjct  1    VDWTDAERAAIKALWGKIDVGEIGPQALSRLLIVYPWTQRHFKGFGNISTNAAILGNAKV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG-  119
+              HGK V+G     + ++DN+K  +  LS  H +K+HVDP+NFRLLG ++   +   FG 
+Sbjct  61   AEHGKTVMGGLDRAVQNMDNIKNVYKQLSIKHSEKIHVDPDNFRLLGEIITMCVGAKFGP  120
+
+Query  120  KEFTPPVQAAYQKVVAGVANALAHKYH  146
+              FTP +  A+QK +A V +AL  +YH
+Sbjct  121  SAFTPEIHEAWQKFLAVVVSALGRQYH  147
+
+
+> d3bj1b1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Yellow perch 
+(Perca flavescens) [TaxId: 8167]}
+Length=146
+
+ Score = 143 bits (361),  Expect = 3e-044, Method: Compositional matrix adjust.
+ Identities = 64/143 (45%), Positives = 95/143 (66%), Gaps = 0/143 (0%)
+
+Query  4    TPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAH  63
+            T  E++ +  ++ K++ + VGG  L R L+VYPWTQR+F +FG+L    A+MGNP +  H
+Sbjct  4    TDFERATIADIFSKLDYEAVGGATLARCLIVYPWTQRYFGNFGNLYNAAAIMGNPMIAKH  63
+
+Query  64   GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFT  123
+            G  +L      + ++DN+K T+A LS LH +KLHVDP+NF+LL + L  V+A   GK F+
+Sbjct  64   GTTILHGLDRAVKNMDNIKATYAELSVLHSEKLHVDPDNFKLLSDCLTIVVAAQLGKAFS  123
+
+Query  124  PPVQAAYQKVVAGVANALAHKYH  146
+              VQAA+QK ++ V +AL  +YH
+Sbjct  124  GEVQAAFQKFLSVVVSALGKQYH  146
+
+
+> d2h8fb1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Emerald rockcod 
+(Pagothenia bernacchii) [TaxId: 40690]}
+Length=146
+
+ Score = 143 bits (360),  Expect = 4e-044, Method: Compositional matrix adjust.
+ Identities = 66/146 (45%), Positives = 96/146 (66%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V  T +E+S ++ ++  ++ D++G +AL R L+VYPWTQR F  FG+L   +A++GN  V
+Sbjct  1    VEWTDKERSIISDIFSHMDYDDIGPKALSRCLIVYPWTQRHFSGFGNLYNAEAIIGNANV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+             AHG KVL     G+ ++DN+  T+A LS LH +KLHVDP+NF+LL + +  VLA   G 
+Sbjct  61   AAHGIKVLHGLDRGVKNMDNIAATYADLSTLHSEKLHVDPDNFKLLSDCITIVLAAKMGH  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+             FT   Q A+QK +A V +AL  +YH
+Sbjct  121  AFTAETQGAFQKFLAVVVSALGKQYH  146
+
+
+> d3d1kb1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Antarctic fish 
+(Trematomus newnesi) [TaxId: 35730]}
+Length=146
+
+ Score = 142 bits (357),  Expect = 1e-043, Method: Compositional matrix adjust.
+ Identities = 64/146 (44%), Positives = 93/146 (64%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V  T +E+S ++ ++  ++ D++G +AL R LVVYPWTQR+F  FG+L   + +M N  V
+Sbjct  1    VEWTDKERSIISDIFSHMDYDDIGPKALSRCLVVYPWTQRYFSGFGNLYNAEGIMSNANV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+             AHG KVL     G+ ++DN+   +  LS LH +KLHVDP+NF+LL + +  VLA   G 
+Sbjct  61   AAHGIKVLHGLDRGMKNMDNIADAYTDLSTLHSEKLHVDPDNFKLLSDCITIVLAAKMGH  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+             FT   Q A+QK +A V +AL  +YH
+Sbjct  121  AFTAETQGAFQKFLAAVVSALGKQYH  146
+
+
+> d2aa1b1 a.1.1.2 (B:1-146) Hemoglobin, beta-chain {Antarctic fish 
+(Trematomus newnesi) [TaxId: 35730]}
+Length=146
+
+ Score = 130 bits (327),  Expect = 5e-039, Method: Compositional matrix adjust.
+ Identities = 62/146 (42%), Positives = 88/146 (60%), Gaps = 0/146 (0%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V  T  E++ +  ++ K+  D VG   L R LVVYPWTQR+F  FG+L    A+  N  V
+Sbjct  1    VEWTDFERATIKDIFSKLEYDVVGPATLARCLVVYPWTQRYFGKFGNLYNAAAIAQNAMV  60
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+              HG  +L      + ++D++  T+A LS LH +KLHVDP+NF+LL + L  V+A  FG 
+Sbjct  61   SKHGTTILNGLDRAVKNMDDITNTYAELSVLHSEKLHVDPDNFKLLADCLTIVVAARFGS  120
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+             FT  VQAA+QK +A V ++L  +Y 
+Sbjct  121  AFTGEVQAAFQKFMAVVVSSLGKQYR  146
+
+
+> d3d1ka1 a.1.1.2 (A:1-142) Hemoglobin, alpha-chain {Antarctic 
+fish (Trematomus newnesi) [TaxId: 35730]}
+Length=142
+
+ Score = 122 bits (307),  Expect = 3e-036, Method: Compositional matrix adjust.
+ Identities = 61/146 (42%), Positives = 93/146 (64%), Gaps = 7/146 (5%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+ ++K+AV ALW K+  + D +G +AL R++VVYP T+ +F  +     PD   G+P +
+Sbjct  2    LSDKDKAAVRALWSKIGKSSDAIGNDALSRMIVVYPQTKIYFSHW-----PDVTPGSPNI  56
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKV+G  +  ++ +D+LK     LSE H  KL VDP NF++L + ++ V++  F K
+Sbjct  57   KAHGKKVMGGIALAVSKIDDLKTGLMELSEQHAYKLRVDPSNFKILNHCILVVISTMFPK  116
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP    +  K ++GVA ALA +Y 
+Sbjct  117  EFTPEAHVSLDKFLSGVALALAERYR  142
+
+
+> d1v4wa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Bluefin tuna (Thunnus 
+thynnus) [TaxId: 8237]}
+Length=143
+
+ Score = 121 bits (304),  Expect = 9e-036, Method: Compositional matrix adjust.
+ Identities = 63/146 (43%), Positives = 92/146 (63%), Gaps = 7/146 (5%)
+
+Query  3    LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+ ++KS V ALWGK++   D +G +ALGR+L VYP T+ +F  + D+S      G+  V
+Sbjct  3    LSDKDKSTVKALWGKISKSADAIGADALGRMLAVYPQTKTYFSHWPDMSP-----GSGPV  57
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKV+G  +  ++ +D+L      LSELH  K+ VDP NF++L + ++ V+A  F K
+Sbjct  58   KAHGKKVMGGVALAVSKIDDLTTGLGDLSELHAFKMRVDPSNFKILSHCILVVVAKMFPK  117
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            EFTP    +  K +A VA ALA +Y 
+Sbjct  118  EFTPDAHVSLDKFLASVALALAERYR  143
+
+
+> d1wmua_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Aldabra giant tortoise 
+(Geochelone gigantea) [TaxId: 167804]}
+Length=141
+
+ Score = 119 bits (297),  Expect = 1e-034, Method: Compositional matrix adjust.
+ Identities = 61/145 (42%), Positives = 86/145 (59%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            LT ++K  +  +W KV  + ++ G EAL R+ +VYP T+ +F  F      D    + ++
+Sbjct  2    LTEDDKQLIQHVWEKVLEHQEDFGAEALERMFIVYPSTKTYFPHF------DLHHDSEQI  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            + HGKKV+GA  D + H+DNL  T + LS LH   L VDP NF+LL +    VL  H G+
+Sbjct  56   RHHGKKVVGALGDAVKHIDNLSATLSELSNLHAYNLRVDPVNFKLLSHCFQVVLGAHLGR  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            E+TP VQ AY K +A V+  LA KY
+Sbjct  116  EYTPQVQVAYDKFLAAVSAVLAEKY  140
+
+
+> d1xq5a_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Yellow perch (Perca 
+flavescens) [TaxId: 8167]}
+Length=142
+
+ Score = 118 bits (296),  Expect = 1e-034, Method: Compositional matrix adjust.
+ Identities = 60/146 (41%), Positives = 87/146 (60%), Gaps = 7/146 (5%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+ ++K  V ALWGK+    +E+G +AL R+L VYP T+ +F  + DLS      G+  V
+Sbjct  2    LSSKDKDTVKALWGKIADKAEEIGSDALSRMLAVYPQTKTYFSHWKDLSP-----GSAPV  56
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+              HGK ++G   D +A +D+L      LSELH   L VDP NF++L + ++ +LA  F K
+Sbjct  57   NKHGKTIMGGIVDAVASIDDLNAGLLALSELHAFTLRVDPANFKILSHCILVLLAVKFPK  116
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            +FTP V  +Y K  + +A ALA KY 
+Sbjct  117  DFTPEVHISYDKFFSALARALAEKYR  142
+
+
+> d1outa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Trout (Oncorhynchus 
+mykiss) [TaxId: 8022]}
+Length=142
+
+ Score = 118 bits (295),  Expect = 2e-034, Method: Compositional matrix adjust.
+ Identities = 64/146 (44%), Positives = 88/146 (60%), Gaps = 7/146 (5%)
+
+Query  3    LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            LT ++KS V A WGK++   D VG EALGR+L  YP T+ +F  + DLS      G+  V
+Sbjct  2    LTAKDKSVVKAFWGKISGKADVVGAEALGRMLTAYPQTKTYFSHWADLSP-----GSGPV  56
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            K HG  ++GA    +  +D+L G  + LS+LH  KL VDP NF++L + ++  LA HF  
+Sbjct  57   KKHGGIIMGAIGKAVGLMDDLVGGMSALSDLHAFKLRVDPGNFKILSHNILVTLAIHFPS  116
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            +FTP V  A  K +A V+ ALA KY 
+Sbjct  117  DFTPEVHIAVDKFLAAVSAALADKYR  142
+
+
+> d2dn3a1 a.1.1.2 (A:2-141) Hemoglobin, alpha-chain {Human (Homo 
+sapiens) [TaxId: 9606]}
+Length=140
+
+ Score = 114 bits (286),  Expect = 4e-033, Method: Compositional matrix adjust.
+ Identities = 63/145 (43%), Positives = 88/145 (61%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+P +K+ V A WGKV  +  E G EAL R+ + +P T+ +F  F DLS      G+ +V
+Sbjct  1    LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQV  54
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            K HGKKV  A ++ +AH+D++    + LS+LH  KL VDP NF+LL + L+  LA H   
+Sbjct  55   KGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPA  114
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            EFTP V A+  K +A V+  L  KY
+Sbjct  115  EFTPAVHASLDKFLASVSTVLTSKY  139
+
+
+> d1hbra_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Chicken (Gallus 
+gallus) [TaxId: 9031]}
+Length=141
+
+ Score = 114 bits (285),  Expect = 5e-033, Method: Compositional matrix adjust.
+ Identities = 63/145 (43%), Positives = 85/145 (59%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            LT E+K  +   W K   + +E G EAL R+   YP T+ +F  F DLS      G+ +V
+Sbjct  2    LTAEDKKLIQQAWEKAASHQEEFGAEALTRMFTTYPQTKTYFPHF-DLSP-----GSDQV  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            + HGKKVLGA  + + ++DNL    A LS LH   L VDP NF+LL   +  VLA H GK
+Sbjct  56   RGHGKKVLGALGNAVKNVDNLSQAMAELSNLHAYNLRVDPVNFKLLSQCIQVVLAVHMGK  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            ++TP V AA+ K ++ V+  LA KY
+Sbjct  116  DYTPEVHAAFDKFLSAVSAVLAEKY  140
+
+
+> d1fhja_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Maned wolf (Chrysocyon 
+brachyurus) [TaxId: 68728]}
+Length=141
+
+ Score = 110 bits (275),  Expect = 2e-031, Method: Compositional matrix adjust.
+ Identities = 62/145 (43%), Positives = 85/145 (59%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+P +K+ + + W K+  +  + GGEAL R    +P T+ +F  F DLS      G+ +V
+Sbjct  2    LSPADKTNIKSTWDKIGGHAGDYGGEALDRTFQSFPTTKTYFPHF-DLSP-----GSAQV  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKV  A +  +AHLD+L G  + LS+LH  KL VDP NF+LL + L+  LA H   
+Sbjct  56   KAHGKKVADALTTAVAHLDDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPT  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            EFTP V A+  K    V+  L  KY
+Sbjct  116  EFTPAVHASLDKFFTAVSTVLTSKY  140
+
+
+> d2qssa1 a.1.1.2 (A:1-141) Hemoglobin, alpha-chain {Cow (Bos taurus) 
+[TaxId: 9913]}
+Length=141
+
+ Score = 108 bits (270),  Expect = 9e-031, Method: Compositional matrix adjust.
+ Identities = 62/145 (43%), Positives = 84/145 (58%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  +K  V A WGKV  +  E G EAL R+ + +P T+ +F  F DLS      G+ +V
+Sbjct  2    LSAADKGNVKAAWGKVGGHAAEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQV  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            K HG KV  A +  + HLD+L G  + LS+LH  KL VDP NF+LL + L+  LA H   
+Sbjct  56   KGHGAKVAAALTKAVEHLDDLPGALSELSDLHAHKLRVDPVNFKLLSHSLLVTLASHLPS  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            +FTP V A+  K +A V+  L  KY
+Sbjct  116  DFTPAVHASLDKFLANVSTVLTSKY  140
+
+
+> d2d5xa1 a.1.1.2 (A:1-141) Hemoglobin, alpha-chain {Horse (Equus 
+caballus) [TaxId: 9796]}
+Length=141
+
+ Score = 106 bits (265),  Expect = 7e-030, Method: Compositional matrix adjust.
+ Identities = 62/145 (43%), Positives = 86/145 (59%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  +K+ V A W KV  +  E G EAL R+ + +P T+ +F  F DLS      G+ +V
+Sbjct  2    LSAADKTNVKAAWSKVGGHAGEYGAEALERMFLGFPTTKTYFPHF-DLS-----HGSAQV  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKV  A +  + HLD+L G  + LS+LH  KL VDP NF+LL + L+  LA H   
+Sbjct  56   KAHGKKVGDALTLAVGHLDDLPGALSNLSDLHAHKLRVDPVNFKLLSHCLLSTLAVHLPN  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            +FTP V A+  K ++ V+  L  KY
+Sbjct  116  DFTPAVHASLDKFLSSVSTVLTSKY  140
+
+
+> d1spga_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Fish (Leiostomus 
+xanthurus) [TaxId: 59837]}
+Length=143
+
+ Score = 105 bits (263),  Expect = 1e-029, Method: Compositional matrix adjust.
+ Identities = 56/146 (38%), Positives = 86/146 (59%), Gaps = 6/146 (4%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  +K+ V ALW K+     E+G EALGR+LV +P T+ +F  +G    P      P+V
+Sbjct  2    LSATDKARVKALWDKIEGKSAELGAEALGRMLVSFPQTKIYFSEWGQDLGPQ----TPQV  57
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            + HG  ++ A    +  +DNL G  + LSELH  KL VDP NF++L + ++ V++ +F  
+Sbjct  58   RNHGAVIMAAVGKAVKSIDNLVGGLSQLSELHAFKLRVDPANFKILAHNIILVISMYFPG  117
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+            +FTP V  +  K +A +A AL+ KY 
+Sbjct  118  DFTPEVHLSVDKFLACLALALSEKYR  143
+
+
+> d1hdsa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Deer (Odocoileus 
+virginianus) [TaxId: 9874]}
+Length=141
+
+ Score = 102 bits (255),  Expect = 2e-028, Method: Compositional matrix adjust.
+ Identities = 60/145 (41%), Positives = 80/145 (55%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+   KS V A WGKV  N    G +AL R+ + +P T+ +F  F DLS      G+ + 
+Sbjct  2    LSAANKSNVKAAWGKVGGNAPAYGAQALQRMFLSFPTTKTYFPHF-DLS-----HGSAQQ  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHG+KV  A +    HL++L GT + LS LH  KL V+P NF+LL + L+  LA H   
+Sbjct  56   KAHGQKVANALTKAQGHLNDLPGTLSNLSNLHAHKLRVNPVNFKLLSHSLLVTLASHLPT  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+             FTP V A   K +A  +  L  KY
+Sbjct  116  NFTPAVHANLNKFLANDSTVLTSKY  140
+
+
+> d1qpwa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Pig (Sus scrofa) 
+[TaxId: 9823]}
+Length=141
+
+ Score = 102 bits (255),  Expect = 2e-028, Method: Compositional matrix adjust.
+ Identities = 60/145 (41%), Positives = 84/145 (58%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  +K+ V A WGKV       G EAL R+ + +P T+ +F  F +LS      G+ +V
+Sbjct  2    LSAADKANVKAAWGKVGGQAGAHGAEALERMFLGFPTTKTYFPHF-NLS-----HGSDQV  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHG+KV  A +  + HLD+L G  + LS+LH  KL VDP NF+LL + L+  LA H   
+Sbjct  56   KAHGQKVADALTKAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHHPD  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            +F P V A+  K +A V+  L  KY
+Sbjct  116  DFNPSVHASLDKFLANVSTVLTSKY  140
+
+
+> d1jeba_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Human (Homo sapiens), 
+zeta isoform [TaxId: 9606]}
+Length=141
+
+ Score = 100 bits (248),  Expect = 2e-027, Method: Compositional matrix adjust.
+ Identities = 52/145 (36%), Positives = 83/145 (57%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKVNV--DEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            LT  E++ + ++W K++   D +G E L RL + +P T+ +F  F      D   G+ ++
+Sbjct  2    LTKTERTIIVSMWAKISTQADTIGTETLERLFLSHPQTKTYFPHF------DLHPGSAQL  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            +AHG KV+ A  D +  +D++ G  + LSELH   L VDP NF+LL + L+  LA  F  
+Sbjct  56   RAHGSKVVAAVGDAVKSIDDIGGALSKLSELHAYILRVDPVNFKLLSHCLLVTLAARFPA  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            +FT    AA+ K ++ V++ L  KY
+Sbjct  116  DFTAEAHAAWDKFLSVVSSVLTEKY  140
+
+
+> d1gcvb_ a.1.1.2 (B:) Hemoglobin, beta-chain {Houndshark (Mustelus 
+griseus) [TaxId: 89020]}
+Length=136
+
+ Score = 97.8 bits (242),  Expect = 1e-026, Method: Compositional matrix adjust.
+ Identities = 49/146 (34%), Positives = 77/146 (53%), Gaps = 10/146 (7%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            VH T EE+  ++  +   ++  V  +AL R+  VYPWT R+F+   D  +          
+Sbjct  1    VHWTQEERDEISKTFQGTDMKTVVTQALDRMFKVYPWTNRYFQKRTDFRSS---------  51
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+              H   V+GA  D + H+D++K  F  LS+ H D LHVDP +F LL + ++  LA+    
+Sbjct  52   -IHAGIVVGALQDAVKHMDDVKTLFKDLSKKHADDLHVDPGSFHLLTDCIIVELAYLRKD  110
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+             FTP +Q  + K    V +A++ +YH
+Sbjct  111  CFTPHIQGIWDKFFEVVIDAISKQYH  136
+
+
+> d1a4fa_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Bar-headed goose 
+(Anser indicus) [TaxId: 8846]}
+Length=141
+
+ Score = 96.7 bits (239),  Expect = 4e-026, Method: Compositional matrix adjust.
+ Identities = 51/145 (35%), Positives = 79/145 (54%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  +K+ V  ++ K++   +E G E L R+   YP T+ +F  F      D   G+ ++
+Sbjct  2    LSAADKTNVKGVFSKISGHAEEYGAETLERMFTAYPQTKTYFPHF------DLQHGSAQI  55
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            KAHGKKV+ A  + + H+D++ G  + LS+LH  KL VDP NF+ LG+  + V+A H   
+Sbjct  56   KAHGKKVVAALVEAVNHIDDIAGALSKLSDLHAQKLRVDPVNFKFLGHCFLVVVAIHHPS  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+              T  V A+  K +  V   L  KY
+Sbjct  116  ALTAEVHASLDKFLCAVGTVLTAKY  140
+
+
+> d1cg5b_ a.1.1.2 (B:) Hemoglobin, beta-chain {Cartilaginous fish 
+akaei (Dasyatis akajei) [TaxId: 31902]}
+Length=141
+
+ Score = 82.8 bits (203),  Expect = 6e-021, Method: Compositional matrix adjust.
+ Identities = 48/146 (33%), Positives = 74/146 (51%), Gaps = 5/146 (3%)
+
+Query  1    VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            V L+ +++  +  +W  V+  ++  +AL R+ VVYPWT R F     L + + +     V
+Sbjct  1    VKLSEDQEHYIKGVWKDVDHKQITAKALERVFVVYPWTTRLFSKLQGLFSANDI----GV  56
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            + H  KV  A  + +  L  ++  F  LS  H + + VD +NF+LLG   +  LA H+ K
+Sbjct  57   QQHADKVQRALGEAIDDLKKVEINFQNLSGKHQE-IGVDTQNFKLLGQTFMVELALHYKK  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKYH  146
+             F P   AA  K    VA AL+  YH
+Sbjct  116  TFRPKEHAAAYKFFRLVAEALSSNYH  141
+
+
+> d1gcva_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Houndshark (Mustelus 
+griseus) [TaxId: 89020]}
+Length=140
+
+ Score = 75.9 bits (185),  Expect = 2e-018, Method: Compositional matrix adjust.
+ Identities = 43/122 (35%), Positives = 64/122 (52%), Gaps = 7/122 (6%)
+
+Query  24   GGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKG  83
+            G E L RL V +P ++ +FE + D S   A     KV+ HG KV+ A      H+D+L  
+Sbjct  25   GAECLARLFVTHPGSKSYFE-YKDYSAAGA-----KVQVHGGKVIRAVVKAAEHVDDLHS  78
+
+Query  84   TFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAH  143
+               TL+  H  KL VDP+NF +L   ++  LA H   EF+P    A  K+++ +   L+ 
+Sbjct  79   HLETLALTHGKKLLVDPQNFPMLSECIIVTLATHL-TEFSPDTHCAVDKLLSAICQELSS  137
+
+Query  144  KY  145
+            +Y
+Sbjct  138  RY  139
+
+
+> d1urva_ a.1.1.2 (A:) Cytoglobin {Human (Homo sapiens) [TaxId: 
+9606]}
+Length=154
+
+ Score = 75.5 bits (184),  Expect = 5e-018, Method: Compositional matrix adjust.
+ Identities = 39/136 (29%), Positives = 73/136 (54%), Gaps = 5/136 (4%)
+
+Query  3    LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  E+ AV A+W ++  N ++VG   L R  V +P  +++F  F  +  P  +  +P++
+Sbjct  2    LSEAERKAVQAMWARLYANSEDVGVAILVRFFVNFPSAKQYFSQFKHMEDPLEMERSPQL  61
+
+Query  61   KAHGKKVLGAFSDGLAHL---DNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHH  117
+            + H  +V+GA +  + +L   D +    A + + H  K  V+P  F++L  V++ V+A  
+Sbjct  62   RKHASRVMGALNTVVENLHDPDKVSSVLALVGKAHALKHKVEPVYFKILSGVILEVVAEE  121
+
+Query  118  FGKEFTPPVQAAYQKV  133
+            F  +F P  Q A+ K+
+Sbjct  122  FASDFPPETQRAWAKL  137
+
+
+> d1lhta_ a.1.1.2 (A:) Myoglobin {Loggerhead sea turtle (Caretta 
+caretta) [TaxId: 8467]}
+Length=153
+
+ Score = 68.9 bits (167),  Expect = 1e-015, Method: Compositional matrix adjust.
+ Identities = 45/145 (31%), Positives = 70/145 (48%), Gaps = 2/145 (1%)
+
+Query  3    LTPEEKSAVTALWGKVNVDEV--GGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+ +E + V  +W KV  D    G E + RL  ++P TQ  F  F +L+T DA+  + +V
+Sbjct  2    LSDDEWNHVLGIWAKVEPDLSAHGQEVIIRLFQLHPETQERFAKFKNLTTIDALKSSEEV  61
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            K HG  VL A    L   +N +     L+E H  K  +  +    +  ++V V+A     
+Sbjct  62   KKHGTTVLTALGRILKQKNNHEQELKPLAESHATKHKIPVKYLEFICEIIVKVIAEKHPS  121
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            +F    QAA +K +    N +A KY
+Sbjct  122  DFGADSQAAMKKALELFRNDMASKY  146
+
+
+> d1cg5a_ a.1.1.2 (A:) Hemoglobin, alpha-chain {Cartilaginous fish 
+akaei (Dasyatis akajei) [TaxId: 31902]}
+Length=141
+
+ Score = 67.0 bits (162),  Expect = 5e-015, Method: Compositional matrix adjust.
+ Identities = 50/145 (34%), Positives = 71/145 (49%), Gaps = 8/145 (6%)
+
+Query  3    LTPEEKSAVTALWG--KVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+ + K A+  L    K N +  G +AL RL  ++P T+ +F  F           N +V
+Sbjct  2    LSSQNKKAIEELGNLIKANAEAWGADALARLFELHPQTKTYFSKFSGFEA-----CNEQV  56
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            K HGK+V+ A +D   HLDNL      L+  H + L VDP NF L  + +V  LA +  +
+Sbjct  57   KKHGKRVMNALADATHHLDNLHLHLEDLARKHGENLLVDPHNFHLFADCIVVTLAVNL-Q  115
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+             FTP    A  K +  VA  L+  Y
+Sbjct  116  AFTPVTHCAVDKFLELVAYELSSCY  140
+
+
+> d1myta_ a.1.1.2 (A:) Myoglobin {Yellowfin tuna (Thunnus albacares) 
+[TaxId: 8236]}
+Length=146
+
+ Score = 53.9 bits (128),  Expect = 2e-010, Method: Compositional matrix adjust.
+ Identities = 35/107 (33%), Positives = 49/107 (46%), Gaps = 3/107 (3%)
+
+Query  10   AVTALWGKVNVD--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKV  67
+            AV   WG V  D   +GG  L RL   +P TQ+ F  F  ++  D + GN  + AHG  V
+Sbjct  5    AVLKCWGPVEADYTTMGGLVLTRLFKEHPETQKLFPKFAGIAQAD-IAGNAAISAHGATV  63
+
+Query  68   LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVL  114
+            L    + L    +       L+  H  K  +   NF+L+  VLV V+
+Sbjct  64   LKKLGELLKAKGSHAAILKPLANSHATKHKIPINNFKLISEVLVKVM  110
+
+
+> d1hlma_ a.1.1.2 (A:) Hemoglobin, different isoforms {Caudina 
+arenicola, also known as Molpadia arenicola [TaxId: 7698]}
+Length=158
+
+ Score = 53.5 bits (127),  Expect = 2e-010, Method: Compositional matrix adjust.
+ Identities = 43/147 (29%), Positives = 64/147 (44%), Gaps = 6/147 (4%)
+
+Query  3    LTPEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            LTP EK  + + W ++     G   +   R+    P  QR F     LS P  +  + ++
+Sbjct  12   LTPAEKDLIRSTWDQLMTHRTGFVADVFIRIFHNDPTAQRKFPQMAGLS-PAELRTSRQM  70
+
+Query  61   KAHGKKVLGAFSDGLAHLDN--LKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHF  118
+             AH  +V    +  +  +D   L    ATL+  H DK HV  +N+ L G VL+  +    
+Sbjct  71   HAHAIRVSALMTTYIDEMDTEVLPELLATLTRTH-DKNHVGKKNYDLFGKVLMEAIKAEL  129
+
+Query  119  GKEFTPPVQAAYQKVVAGVANALAHKY  145
+            G  FT  V  A+ K  A V   L  K+
+Sbjct  130  GVGFTKQVHDAWAKTFAIVQGVLITKH  156
+
+
+> d1mbsa_ a.1.1.2 (A:) Myoglobin {Common seal (Phoca vitulina) 
+[TaxId: 9720]}
+Length=153
+
+ Score = 52.8 bits (125),  Expect = 5e-010, Method: Compositional matrix adjust.
+ Identities = 40/145 (28%), Positives = 61/145 (42%), Gaps = 2/145 (1%)
+
+Query  3    LTPEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  E   V  +WGKV  D  G   E L RL   +P T   F+ F  L + D +  +  +
+Sbjct  2    LSDGEWHLVLNVWGKVETDLAGHGQEVLIRLFKSHPETLEKFDKFKHLKSEDDMRRSEDL  61
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            + HG  VL A    L    + +     L++ H  K  +  +    +   ++ VL      
+Sbjct  62   RKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSKHPA  121
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            EF    QAA +K +    N +A KY
+Sbjct  122  EFGADAQAAMKKALELFRNDIAAKY  146
+
+
+> d1v9ca_ c.23.17.1 (A:) Precorrin-8x methylmutase {Thermus thermophilus 
+[TaxId: 274]}
+Length=204
+
+ Score = 28.1 bits (61),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 18/53 (34%), Positives = 25/53 (47%), Gaps = 2/53 (4%)
+
+Query  66   KVLGAFSDGL--AHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAH  116
+            K L  FS G   A L  ++     L +       ++PE  RL GN +V +LAH
+Sbjct  41   KALTRFSQGAVEAGLKAIQAGARILVDARMIACGLNPERLRLFGNEVVELLAH  93
+
+
+> d1n67a1 b.2.3.4 (A:229-369) Clumping factor A {Staphylococcus 
+aureus [TaxId: 1280]}
+Length=141
+
+ Score = 27.7 bits (60),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 30/61 (49%), Gaps = 8/61 (13%)
+
+Query  52   DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLV  111
+            D V+ N  + + G  V+  F+D +   D++K T    +       ++DPEN +  GNV +
+Sbjct  73   DQVLANGVIDSDGN-VIYTFTDYVNTKDDVKATLTMPA-------YIDPENVKKTGNVTL  124
+
+Query  112  C  112
+             
+Sbjct  125  A  125
+
+
+> d3sdha_ a.1.1.2 (A:) Hemoglobin I {Ark clam (Scapharca inaequivalvis) 
+[TaxId: 6561]}
+Length=145
+
+ Score = 26.6 bits (57),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 29/143 (20%), Positives = 56/143 (39%), Gaps = 8/143 (6%)
+
+Query  2    HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  61
+             LT + K  +   W  +  D+  G  +  +  ++   Q     F  L      M N K++
+Sbjct  8    QLTADVKKDLRDSWKVIGSDK-KGNGVALMTTLFADNQETIGYFKRLGNVSQGMANDKLR  66
+
+Query  62   AHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHF  118
+             H   ++ A  + +  LDN       + +    H  +     E  ++ G +   + + +F
+Sbjct  67   GHSITLMYALQNFIDQLDNPDDLVCVVEKFAVNHITRKISAAEFGKINGPIKKVLASKNF  126
+
+Query  119  GKEFTPPVQAAYQKVVAGVANAL  141
+            G ++      A+ K+VA V  AL
+Sbjct  127  GDKYAN----AWAKLVAVVQAAL  145
+
+
+> d2z1aa1 d.114.1.1 (A:330-534) 5'-nucleotidase (syn. UDP-sugar 
+hydrolase), C-terminal domain {Thermus thermophilus [TaxId: 
+274]}
+Length=205
+
+ Score = 25.4 bits (54),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 10/30 (33%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  63   HGKKVLGAFSDGLAHLDNLKGTFATLSELH  92
+             GK++L A  +G++  +N  G F  +S L 
+Sbjct  83   KGKEILAALENGVSQWENTAGRFLQVSGLR  112
+
+
+> d1ry6a_ c.37.1.9 (A:) Kinesin {Malaria parasite (Plasmodium falciparum) 
+[TaxId: 5833]}
+Length=330
+
+ Score = 25.4 bits (54),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  79   DNLKGTFATLSELHCDKLH  97
+            DN KG F +  E++C KL+
+Sbjct  134  DNTKGIFISFYEIYCGKLY  152
+
+
+> d2mysb_ a.39.1.5 (B:) Myosin Essential Chain {Chicken (Gallus 
+gallus) [TaxId: 9031]}
+Length=145
+
+ Score = 24.6 bits (52),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 14/55 (25%), Positives = 25/55 (45%), Gaps = 0/55 (0%)
+
+Query  67   VLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKE  121
+            V+   +DG+   D+L+ TFA +  L+     +D       G +   V    FG++
+Sbjct  15   VIDQNADGIIDKDDLRETFAAMGRLNVKNEELDAMIKEASGPINFTVFLTMFGEK  69
+
+
+> d1bg4a_ c.1.8.3 (A:) Xylanase {Penicillium simplicissimum [TaxId: 
+69488]}
+Length=302
+
+ Score = 25.0 bits (53),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 22/50 (44%), Gaps = 4/50 (8%)
+
+Query  53   AVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPEN  102
+            +V  + K KAHGKK LG   D      N K      + +  D   + PEN
+Sbjct  3    SVSIDAKFKAHGKKYLGTIGDQYTLTKNTKNP----AIIKADFGQLTPEN  48
+
+
+> d1jdfa1 c.1.11.2 (A:138-446) D-glucarate dehydratase {Escherichia 
+coli [TaxId: 562]}
+Length=309
+
+ Score = 24.3 bits (51),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 28/63 (44%), Gaps = 7/63 (11%)
+
+Query  64   GKKVLGAF--SDGLAHLDNLKGTFA-----TLSELHCDKLHVDPENFRLLGNVLVCVLAH  116
+            G++V+  F  + GL    N+  T       TLS    D    DP  + + G+V V  + H
+Sbjct  134  GREVMAEFRRATGLPTATNMIATDWRQMGHTLSLQSVDIPLADPHFWTMQGSVRVAQMCH  193
+
+Query  117  HFG  119
+             FG
+Sbjct  194  EFG  196
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 104993360
+
+
+  Database: astral.1.75.fa
+    Posted date:  Mar 24, 2016  2:12 AM
+  Number of letters in database: 2,847,556
+  Number of sequences in database:  16,712
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
