@@ -27,48 +27,48 @@ Length=99
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  d1plca_ b.6.1.1 (A:) Plastocyanin {Poplar (Populus nigra), vari...  199     1e-067
-  d1ag6a_ b.6.1.1 (A:) Plastocyanin {Spinach (Spinacia oleracea) ...  169     2e-055
-  d9pcya_ b.6.1.1 (A:) Plastocyanin {French bean (Phaseolus vulga...  163     2e-053
-  d1bypa_ b.6.1.1 (A:) Plastocyanin {White campion (Silene praten...  147     6e-047
-  d1plaa_ b.6.1.1 (A:) Plastocyanin {Parsley (Petroselinum crispu...  135     2e-042
-  d2plta_ b.6.1.1 (A:) Plastocyanin {Green alga (Chlamydomonas re...  126     5e-039
-  d1iuza_ b.6.1.1 (A:) Plastocyanin {Ulva pertusa, a sea lettuce ...  119     6e-036
-  d7pcya_ b.6.1.1 (A:) Plastocyanin {Green alga (Enteromorpha pro...  115     8e-035
-  d1pcsa_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocysti...  93.2    7e-026
-  d2q5ba1 b.6.1.1 (A:1-105) Plastocyanin {Cyanobacterium (Phormid...  88.6    4e-024
-  d2cj3a1 b.6.1.1 (A:1-105) Plastocyanin {Anabaena variabilis [Ta...  85.5    8e-023
-  d1bxua_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocysti...  83.2    3e-022
-  d2jxma1 b.6.1.1 (A:1-97) Plastocyanin {Photosynthetic prokaryot...  77.4    8e-020
-  d1kdja_ b.6.1.1 (A:) Plastocyanin {Fern (Adiantum capillus-vene...  66.6    1e-015
-  d1bqka_ b.6.1.1 (A:) Pseudoazurin {Achromobacter cycloclastes [...  51.2    5e-010
-  d1id2a_ b.6.1.1 (A:) Amicyanin {Paracoccus versutus (Thiobacill...  42.7    4e-007
-  d1adwa_ b.6.1.1 (A:) Pseudoazurin {Thiosphaera pantotropha [Tax...  41.6    1e-006
-  d1pmya_ b.6.1.1 (A:) Pseudoazurin {Methylobacterium extorquens,...  40.0    4e-006
-  d1paza_ b.6.1.1 (A:) Pseudoazurin {Alcaligenes faecalis, strain...  40.0    4e-006
-  d2ov0a1 b.6.1.1 (A:1-105) Amicyanin {Paracoccus denitrificans [...  35.4    2e-004
-  d2ibaa2 d.96.1.4 (A:137-295) Urate oxidase (uricase) {Aspergill...  26.2    0.91  
-  d2bsya2 b.85.4.1 (A:121-256) Monomeric viral dUTPase {Epstein-b...  25.8    0.93  
-  d1l1ya_ a.102.1.2 (A:) Processive endocellulase CelF (Cel48F) {...  26.2    1.2   
-  g2gac.1 d.153.1.5 (A:,B:) Glycosylasparaginase (aspartylglucosa...  24.6    3.0   
-  d1fmta1 b.46.1.1 (A:207-314) Methionyl-tRNAfmet formyltransfera...  24.3    3.2   
-  d1knwa2 c.1.6.1 (A:32-278) Diaminopimelate decarboxylase LysA {...  24.3    4.8   
-  d1efna_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 d...  23.1    5.0   
-  d2fpoa1 c.66.1.46 (A:10-192) Methylase YhhF {Escherichia coli [...  23.9    5.1   
-  d2cd0a_ b.1.1.1 (A:) Immunoglobulin light chain lambda variable...  23.9    5.3   
-  d1c4ka3 d.125.1.1 (A:570-730) Ornithine decarboxylase C-termina...  23.9    5.3   
-  d8ohma2 c.37.1.14 (A:326-624) HCV helicase domain {Human hepati...  23.9    5.6   
-  d1wpxb1 b.17.1.1 (B:501-719) Carboxypeptidase Y inhibitor {Bake...  23.5    6.8   
-  d1d4oa_ c.31.1.4 (A:) Transhydrogenase domain III (dIII) {Cow (...  23.5    7.3   
-  d1g2912 c.37.1.12 (1:1-240) Maltose transport protein MalK, N-t...  23.5    7.5   
-  d1shfa_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 d...  22.3    9.3   
+  d1plca_ b.6.1.1 (A:) Plastocyanin {Poplar (Populus nigra), vari...  199     1e-67
+  d1ag6a_ b.6.1.1 (A:) Plastocyanin {Spinach (Spinacia oleracea) ...  169     2e-55
+  d9pcya_ b.6.1.1 (A:) Plastocyanin {French bean (Phaseolus vulga...  163     2e-53
+  d1bypa_ b.6.1.1 (A:) Plastocyanin {White campion (Silene praten...  147     6e-47
+  d1plaa_ b.6.1.1 (A:) Plastocyanin {Parsley (Petroselinum crispu...  135     2e-42
+  d2plta_ b.6.1.1 (A:) Plastocyanin {Green alga (Chlamydomonas re...  126     5e-39
+  d1iuza_ b.6.1.1 (A:) Plastocyanin {Ulva pertusa, a sea lettuce ...  119     6e-36
+  d7pcya_ b.6.1.1 (A:) Plastocyanin {Green alga (Enteromorpha pro...  115     8e-35
+  d1pcsa_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocysti...  93.2    7e-26
+  d2q5ba1 b.6.1.1 (A:1-105) Plastocyanin {Cyanobacterium (Phormid...  88.6    4e-24
+  d2cj3a1 b.6.1.1 (A:1-105) Plastocyanin {Anabaena variabilis [Ta...  85.5    8e-23
+  d1bxua_ b.6.1.1 (A:) Plastocyanin {Cyanobacterium (Synechocysti...  83.2    3e-22
+  d2jxma1 b.6.1.1 (A:1-97) Plastocyanin {Photosynthetic prokaryot...  77.4    8e-20
+  d1kdja_ b.6.1.1 (A:) Plastocyanin {Fern (Adiantum capillus-vene...  66.6    1e-15
+  d1bqka_ b.6.1.1 (A:) Pseudoazurin {Achromobacter cycloclastes [...  51.2    5e-10
+  d1id2a_ b.6.1.1 (A:) Amicyanin {Paracoccus versutus (Thiobacill...  42.7    4e-07
+  d1adwa_ b.6.1.1 (A:) Pseudoazurin {Thiosphaera pantotropha [Tax...  41.6    1e-06
+  d1pmya_ b.6.1.1 (A:) Pseudoazurin {Methylobacterium extorquens,...  40.0    4e-06
+  d1paza_ b.6.1.1 (A:) Pseudoazurin {Alcaligenes faecalis, strain...  40.0    4e-06
+  d2ov0a1 b.6.1.1 (A:1-105) Amicyanin {Paracoccus denitrificans [...  35.4    2e-04
+  d2ibaa2 d.96.1.4 (A:137-295) Urate oxidase (uricase) {Aspergill...  26.2    0.91 
+  d2bsya2 b.85.4.1 (A:121-256) Monomeric viral dUTPase {Epstein-b...  25.8    0.93 
+  d1l1ya_ a.102.1.2 (A:) Processive endocellulase CelF (Cel48F) {...  26.2    1.2  
+  g2gac.1 d.153.1.5 (A:,B:) Glycosylasparaginase (aspartylglucosa...  24.6    3.0  
+  d1fmta1 b.46.1.1 (A:207-314) Methionyl-tRNAfmet formyltransfera...  24.3    3.2  
+  d1knwa2 c.1.6.1 (A:32-278) Diaminopimelate decarboxylase LysA {...  24.3    4.8  
+  d1efna_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 d...  23.1    5.0  
+  d2fpoa1 c.66.1.46 (A:10-192) Methylase YhhF {Escherichia coli [...  23.9    5.1  
+  d2cd0a_ b.1.1.1 (A:) Immunoglobulin light chain lambda variable...  23.9    5.3  
+  d1c4ka3 d.125.1.1 (A:570-730) Ornithine decarboxylase C-termina...  23.9    5.3  
+  d8ohma2 c.37.1.14 (A:326-624) HCV helicase domain {Human hepati...  23.9    5.6  
+  d1wpxb1 b.17.1.1 (B:501-719) Carboxypeptidase Y inhibitor {Bake...  23.5    6.8  
+  d1d4oa_ c.31.1.4 (A:) Transhydrogenase domain III (dIII) {Cow (...  23.5    7.3  
+  d1g2912 c.37.1.12 (1:1-240) Maltose transport protein MalK, N-t...  23.5    7.5  
+  d1shfa_ b.34.2.1 (A:) Fyn proto-oncogene tyrosine kinase, SH3 d...  22.3    9.3  
 
 
 > d1plca_ b.6.1.1 (A:) Plastocyanin {Poplar (Populus nigra), variant 
 italica [TaxId: 3691]}
 Length=99
 
- Score = 199 bits (506),  Expect = 1e-067, Method: Compositional matrix adjust.
+ Score = 199 bits (506),  Expect = 1e-67, Method: Compositional matrix adjust.
  Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
@@ -84,7 +84,7 @@ Sbjct  61  DLLNAKGETFEVALSNKGEYSFYCSPHQGAGMVGKVTVN  99
 [TaxId: 3562]}
 Length=99
 
- Score = 169 bits (427),  Expect = 2e-055, Method: Compositional matrix adjust.
+ Score = 169 bits (427),  Expect = 2e-55, Method: Compositional matrix adjust.
  Identities = 78/99 (79%), Positives = 90/99 (91%), Gaps = 0/99 (0%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
@@ -100,7 +100,7 @@ Sbjct  61  DLLNAPGETYKVTLTEKGTYKFYCSPHQGAGMVGKVTVN  99
 [TaxId: 3885]}
 Length=99
 
- Score = 163 bits (412),  Expect = 2e-053, Method: Compositional matrix adjust.
+ Score = 163 bits (412),  Expect = 2e-53, Method: Compositional matrix adjust.
  Identities = 78/99 (79%), Positives = 86/99 (87%), Gaps = 0/99 (0%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
@@ -116,7 +116,7 @@ Sbjct  61  ELLNAPGETYVVTLDTKGTYSFYCSPHQGAGMVGKVTVN  99
 [TaxId: 52853]}
 Length=99
 
- Score = 147 bits (370),  Expect = 6e-047, Method: Compositional matrix adjust.
+ Score = 147 bits (370),  Expect = 6e-47, Method: Compositional matrix adjust.
  Identities = 68/98 (69%), Positives = 80/98 (82%), Gaps = 0/98 (0%)
 
 Query  2   DVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEED  61
@@ -132,7 +132,7 @@ Sbjct  62  LLNAPGEEYSVTLTEKGTYKFYCAPHAGAGMVGKVTVN  99
 [TaxId: 4043]}
 Length=97
 
- Score = 135 bits (340),  Expect = 2e-042, Method: Compositional matrix adjust.
+ Score = 135 bits (340),  Expect = 2e-42, Method: Compositional matrix adjust.
  Identities = 64/98 (65%), Positives = 75/98 (77%), Gaps = 2/98 (2%)
 
 Query  2   DVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEED  61
@@ -148,7 +148,7 @@ Sbjct  60  YLNGAGETYEVTLTEKGTYKFYCEPHAGAGMKGEVTVN  97
 reinhardtii) [TaxId: 3055]}
 Length=98
 
- Score = 126 bits (317),  Expect = 5e-039, Method: Compositional matrix adjust.
+ Score = 126 bits (317),  Expect = 5e-39, Method: Compositional matrix adjust.
  Identities = 61/97 (63%), Positives = 71/97 (73%), Gaps = 2/97 (2%)
 
 Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
@@ -164,7 +164,7 @@ Sbjct  62  LNAPGETYSVKLTAAGEYGYYCEPHQGAGMVGKIIVQ  98
 [TaxId: 3120]}
 Length=98
 
- Score = 119 bits (297),  Expect = 6e-036, Method: Compositional matrix adjust.
+ Score = 119 bits (297),  Expect = 6e-36, Method: Compositional matrix adjust.
  Identities = 60/97 (62%), Positives = 69/97 (71%), Gaps = 2/97 (2%)
 
 Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
@@ -180,7 +180,7 @@ Sbjct  62  LNSKGETVVRKLSTPGVYGVYCEPHAGAGMKMTITVQ  98
 [TaxId: 3117]}
 Length=98
 
- Score = 115 bits (289),  Expect = 8e-035, Method: Compositional matrix adjust.
+ Score = 115 bits (289),  Expect = 8e-35, Method: Compositional matrix adjust.
  Identities = 57/97 (59%), Positives = 67/97 (69%), Gaps = 2/97 (2%)
 
 Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
@@ -196,7 +196,7 @@ Sbjct  62  LNSKGQTVVRKLTTPGTYGVYCDPHSGAGMKMTITVQ  98
 sp.), pcc 6803 [TaxId: 1143]}
 Length=98
 
- Score = 93.2 bits (230),  Expect = 7e-026, Method: Compositional matrix adjust.
+ Score = 93.2 bits (230),  Expect = 7e-26, Method: Compositional matrix adjust.
  Identities = 45/96 (47%), Positives = 61/96 (64%), Gaps = 3/96 (3%)
 
 Query  3   VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
@@ -212,7 +212,7 @@ Sbjct  62  LFAAGESFTSTFTEPGTYTYYCEPHRGAGMVGKVVV  97
 laminosum) [TaxId: 32059]}
 Length=105
 
- Score = 88.6 bits (218),  Expect = 4e-024, Method: Compositional matrix adjust.
+ Score = 88.6 bits (218),  Expect = 4e-24, Method: Compositional matrix adjust.
  Identities = 40/99 (40%), Positives = 62/99 (63%), Gaps = 3/99 (3%)
 
 Query  3    VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
@@ -228,7 +228,7 @@ Sbjct  65   MFSPGESYEITFSSDFPAGTYTYYCAPHRGAGMVGKITV  103
 1172]}
 Length=105
 
- Score = 85.5 bits (210),  Expect = 8e-023, Method: Compositional matrix adjust.
+ Score = 85.5 bits (210),  Expect = 8e-23, Method: Compositional matrix adjust.
  Identities = 43/99 (43%), Positives = 60/99 (61%), Gaps = 3/99 (3%)
 
 Query  3    VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDL  62
@@ -244,7 +244,7 @@ Sbjct  65   LMSPGQSTSTTFPADAPAGEYTFYCEPHRGAGMVGKITV  103
 sp.), pcc 7942 [TaxId: 1143]}
 Length=91
 
- Score = 83.2 bits (204),  Expect = 3e-022, Method: Compositional matrix adjust.
+ Score = 83.2 bits (204),  Expect = 3e-22, Method: Compositional matrix adjust.
  Identities = 40/99 (40%), Positives = 57/99 (58%), Gaps = 10/99 (10%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
@@ -260,7 +260,7 @@ Sbjct  53  DLAFSPGETFEATFSEPGTYTYYCEPHRGAGMVGKIVVQ  91
 (Prochlorothrix hollandica) [TaxId: 1223]}
 Length=97
 
- Score = 77.4 bits (189),  Expect = 8e-020, Method: Compositional matrix adjust.
+ Score = 77.4 bits (189),  Expect = 8e-20, Method: Compositional matrix adjust.
  Identities = 39/98 (40%), Positives = 57/98 (58%), Gaps = 4/98 (4%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
@@ -276,7 +276,7 @@ Sbjct  59  KLAIAPGSFYSVTLGTPGTYSFYCTPHRGAGMVGTITV  96
 [TaxId: 13818]}
 Length=102
 
- Score = 66.6 bits (161),  Expect = 1e-015, Method: Compositional matrix adjust.
+ Score = 66.6 bits (161),  Expect = 1e-15, Method: Compositional matrix adjust.
  Identities = 38/100 (38%), Positives = 55/100 (55%), Gaps = 3/100 (3%)
 
 Query  3    VLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKI---SMSE  59
@@ -292,7 +292,7 @@ Sbjct  63   NDLLSEDEPSFKAKVSTPGTYTFYCTPHKSANMKGTLTVK  102
 [TaxId: 223]}
 Length=124
 
- Score = 51.2 bits (121),  Expect = 5e-010, Method: Compositional matrix adjust.
+ Score = 51.2 bits (121),  Expect = 5e-10, Method: Compositional matrix adjust.
  Identities = 30/99 (30%), Positives = 49/99 (49%), Gaps = 12/99 (12%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVF-KNNAGFPHNIVFDEDSIPSGVDASKISMSE  59
@@ -308,7 +308,7 @@ Sbjct  63  ---------NYKVTFTAPGVYGVKCTPHYGMGMVGVVQV  92
 versutus) [TaxId: 34007]}
 Length=106
 
- Score = 42.7 bits (99),  Expect = 4e-007, Method: Compositional matrix adjust.
+ Score = 42.7 bits (99),  Expect = 4e-07, Method: Compositional matrix adjust.
  Identities = 24/88 (27%), Positives = 42/88 (48%), Gaps = 10/88 (11%)
 
 Query  11   SLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDLLNAKGETF  70
@@ -324,7 +324,7 @@ Sbjct  80   AITFNEAGSYDYFCTPH--PFMRGKVIV  105
 82367]}
 Length=123
 
- Score = 41.6 bits (96),  Expect = 1e-006, Method: Compositional matrix adjust.
+ Score = 41.6 bits (96),  Expect = 1e-06, Method: Compositional matrix adjust.
  Identities = 27/98 (28%), Positives = 48/98 (49%), Gaps = 10/98 (10%)
 
 Query  1   IDVLLGADDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEE  60
@@ -340,7 +340,7 @@ Sbjct  63  --------SYTLTVTEPGLYGVKCTPHFGMGMVGLVQV  92
 strain am1 [TaxId: 408]}
 Length=123
 
- Score = 40.0 bits (92),  Expect = 4e-006, Method: Compositional matrix adjust.
+ Score = 40.0 bits (92),  Expect = 4e-06, Method: Compositional matrix adjust.
  Identities = 27/90 (30%), Positives = 40/90 (44%), Gaps = 12/90 (13%)
 
 Query  10  GSLAFVPSEFSISPGEKIVF-KNNAGFPHNIVFDEDSIPSGVDASKISMSEEDLLNAKGE  68
@@ -356,7 +356,7 @@ Sbjct  66  ---VKFDKEGVYGFKCAPHYMMGMVALVVV  92
 s-6 [TaxId: 511]}
 Length=120
 
- Score = 40.0 bits (92),  Expect = 4e-006, Method: Compositional matrix adjust.
+ Score = 40.0 bits (92),  Expect = 4e-06, Method: Compositional matrix adjust.
  Identities = 24/94 (26%), Positives = 42/94 (45%), Gaps = 18/94 (19%)
 
 Query  9   DGSLAFVPSEFSISPGEKIVFKNNAGFP----HNIVFDEDSIPSGVDASKISMSEEDLLN  64
@@ -372,7 +372,7 @@ Sbjct  68  ---------VTQPGAYLVKCTPHYAMGMIALIAV  92
 [TaxId: 266]}
 Length=105
 
- Score = 35.4 bits (80),  Expect = 2e-004, Method: Compositional matrix adjust.
+ Score = 35.4 bits (80),  Expect = 2e-04, Method: Compositional matrix adjust.
  Identities = 23/92 (25%), Positives = 39/92 (42%), Gaps = 10/92 (11%)
 
 Query  8    DDGSLAFVPSEFSISPGEKIVFKNNAGFPHNIVFDEDSIPSGVDASKISMSEEDLLNAKG  67

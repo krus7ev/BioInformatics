@@ -2,7 +2,7 @@
 
 import sys, getopt
 from os import path
-from subprocess import check_call, check_output
+from subprocess import call, check_call#, check_output
 
 # Verifies MUSCLE path has been configured
 def hasMuscle():
@@ -23,7 +23,7 @@ def checkDbCreated(dbName):
     if path.isfile(dbName + ".phr") and path.isfile(dbName + ".pin") and path.isfile(dbName + ".psq"):
         return True
     return False
-
+    
 # Checks there exists a ".pal" file in the folder listing UniProt subparts
 def checkIndexListExists(dbFileName):
     if path.isfile(dbFileName + ".pal"):
@@ -55,8 +55,8 @@ def verifyDb(dbName):
         createDb(dbName)
     else:
         print("Found database for \"" + dbName+ "\"")
-
-# Makes sure we're in UniProt folder
+        
+# Makes sure we're in UniProt folder        
 def verifyFastaDb(dbFileName):
     if not checkIndexListExists(dbFileName):
         print("Can't find Uniprot Index list for " + dbFileName)
@@ -204,8 +204,8 @@ def printMatchesIdentifiers(matches):
         print("Unable to find any significant matches")
 
 # Outputs a series of sequences to a file
-def writeSequencesToFile(queryFile, sequences):
-    sequenceFile = queryFile + ".matched_sequences.fa"
+def writeSequencesToFile(queryFile, sequences, dbName):
+    sequenceFile = queryFile + "_vs_" + dbName + ".matched_sequences.fa"
     print("Writing matched sequences to \"" + sequenceFile + "\"")
     fh = open(sequenceFile,"w")
     for sequence in sequences:
@@ -214,19 +214,21 @@ def writeSequencesToFile(queryFile, sequences):
     return sequenceFile
 
 # Creates a multiple sequence alignment file using MUSCLE
-def sequenceAlignment(queryFile, sequenceFile):
+def sequenceAlignment(queryFile, sequenceFile, dbName):
     global musclePath
     print("Using \"" + musclePath + "\" to calculate alignment of matched sequences")
-    alignmentFile = queryFile + ".alignment.fa"
-    check_call([musclePath, "-in", sequenceFile, "-out", alignmentFile])
-    print("Wrote alignment to \"" + alignmentFile + "\"")
+    alignmentFile = queryFile + "_vs_" + dbName + ".alignment.fa"
+    phylipFileS   = queryFile + "_vs_" + dbName + ".alignment.s.phylip"
+    phylipFileI   = queryFile + "_vs_" + dbName + ".alignment.i.phylip"
+    check_call([musclePath, "-in", sequenceFile, "-fastaout", alignmentFile, "-phyiout", phylipFileI, "-physout", phylipFileS])
+    print("Wrote alignment to \"" + alignmentFile + "\", \"" + phylipFileS + "\", \"" + phylipFileI + "\"" )
     return alignmentFile
 
 # Creates a phylogenetic tree from an alignment file
 def phylogeneticTree(queryFile, alignmentFile):
     print("Converting \"" + alignmentFile + "\" to PhyML format")
-    phymlFile = alignmentFile + ".phylip"
-    check_call(["py", "fastatophyml.py", alignmentFile, phymlFile])
+    phymlFile = alignmentFile[:-3] + ".phylip"
+    check_call(["python", "fastatophyml.py", alignmentFile, phymlFile])
     global phymlPath
     print("Using \"" + phymlPath + "\" to generated phylogenetic tree")
     treeFile = phymlFile + "_phyml_tree.txt"
@@ -287,10 +289,10 @@ def blastpipe(dbName, queryFile):
                 sequences = extractReadMatchedSequences(dbName, matches)
             else:
                 sequences = extractMatchedSequences(dbName, query, matches)
-            sequenceFile = writeSequencesToFile(query, sequences)
+            sequenceFile = writeSequencesToFile(query, sequences, dbName)
             # Process muscle and phyml if they are configured
             if hasMuscle():
-                alignmentFile = sequenceAlignment(query, sequenceFile)
+                alignmentFile = sequenceAlignment(query, sequenceFile, dbName)
                 if hasPhyml():
                     treeFile = phylogeneticTree(query, alignmentFile)
                     treeFiles.append(treeFile)

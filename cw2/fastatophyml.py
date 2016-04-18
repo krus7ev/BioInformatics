@@ -67,8 +67,9 @@ with open(tm_path, 'w') as f:
         f.write(seq.phylip)
         count += 1
 # Add number of entries and length at the top #
-with open(tm_path, 'r') as old, open(ph_path, 'w') as new:
-    new.write(" " + str(count) + " " + str(len(seq)) + "\n")
-    new.writelines(old)
+with open(tm_path, 'r') as old:
+    with open(ph_path, 'w') as new:
+      new.write(" " + str(count) + " " + str(len(seq)) + "\n")
+      new.writelines(old)
 # Clean up #
 os.remove(tm_path)
