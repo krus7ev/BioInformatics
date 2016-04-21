@@ -1,0 +1,379 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  1a6c.hmmer
+# target sequence database:        astral.1.75.fa
+# output directed to file:         1a6c_vs_astral_search.hmmer
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       1a6c.fa.alignment  [M=367]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   8.2e-176  584.6   0.1   9.4e-176  584.4   0.1    1.0  1  d1t6ja_  a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Fu
+     6e-139  463.3   0.0   6.7e-139  463.1   0.0    1.0  1  d1h80a_  b.80.1.8 (A:) iota-carrageenase {Alteromonas sp., a
+   2.3e-115  385.7   0.0   2.6e-115  385.5   0.0    1.0  1  d2dcfa1  e.3.1.1 (A:5-392) 6-aminohexanoate-dimer hydrolase 
+    1.7e-19   70.3   0.0    2.4e-19   69.7   0.0    1.2  1  d1a6ca2  b.121.4.2 (A:177-348) Nepovirus capsid protein {TRS
+    2.7e-14   53.1   0.0    3.2e-14   52.9   0.0    1.2  1  d1w27a_  a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Pa
+    2.8e-13   49.8   0.0    3.1e-13   49.6   0.0    1.0  1  d1ulia1  b.33.1.2 (A:17-170) Biphenyl dioxygenase large subu
+    7.9e-13   48.3   0.1    9.9e-13   48.0   0.1    1.0  1  d1sb2b1  d.169.1.1 (B:2-128) Snake coagglutinin beta chain {
+    8.3e-10   38.4   0.0    8.8e-10   38.3   0.0    1.1  1  d1sqia1  d.32.1.3 (A:8-156) 4-hydroxyphenylpyruvate dioxygen
+    5.4e-06   25.8   0.0    3.7e-05   23.1   0.0    1.8  2  d1ea9c1  b.1.18.2 (C:1-121) Maltogenic amylase, N-terminal d
+    6.2e-06   25.6   0.0    6.7e-06   25.5   0.0    1.0  1  d1wqla1  b.33.1.2 (A:19-180) Large subunit of cumene dioxyge
+    2.2e-05   23.8   0.0    2.5e-05   23.7   0.0    1.0  1  d2o3bb1  d.221.1.1 (B:1-135) Nuclease A inhibitor (NuiA) {An
+     0.0007   18.9   0.0    0.00074   18.8   0.0    1.0  1  d1sb2a1  d.169.1.1 (A:1-132) Snake coagglutinin alpha chain 
+     0.0015   17.8   0.1     0.0017   17.6   0.0    1.1  1  d1wt9a1  d.169.1.1 (A:1-129) Snake coagglutinin alpha chain 
+     0.0023   17.1   0.1     0.0027   16.9   0.1    1.1  1  d1j34a_  d.169.1.1 (A:) Snake coagglutinin alpha chain {Habu
+     0.0031   16.7   0.1     0.0035   16.6   0.0    1.1  1  d1y17a1  d.169.1.1 (A:1-129) Snake coagglutinin alpha chain 
+  ------ inclusion threshold ------
+      0.013   14.7   0.1      0.014   14.6   0.1    1.1  1  d1ixxa_  d.169.1.1 (A:) Snake coagglutinin alpha chain {Habu
+
+
+Domain annotation for each sequence (and alignments):
+>> d1t6ja_  a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Fungi (Rhodosporidium toruloides) [TaxId: 5286]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  584.4   0.1    9e-179  9.4e-176       1     367 []      11     664 ..      11     664 .. 1.00
+
+  Alignments for each domain:
+  == domain 1    score: 584.4 bits;  conditional E-value: 9e-179
+  1a6c.fa.alignment   1 ekmlaaktdstleldgyslnlgDvVsaarkgrpvrvkdsdairskidksveklrsqlslavyG............................. 63 
+                        ekmlaa+tdstleldgyslnlgDvVsaarkgrpvrvkdsd+irskidksve+lrsqls++vyG                             
+            d1t6ja_  11 EKMLAAPTDSTLELDGYSLNLGDVVSAARKGRPVRVKDSDEIRSKIDKSVEFLRSQLSMSVYGvttgfggsadtrtedaislqkallehqlc 102
+                        79****************************************************************************************** PP
+
+  1a6c.fa.alignment  64 ......................evvrgalvirknsltrghavvrL.....................gtisas...............hpdek 97 
+                                              evvrga++ir+nsltrgh++vrL                     gtisas               hpd+k
+            d1t6ja_ 103 gvlpssfdsfrlgrglenslplEVVRGAMTIRVNSLTRGHSAVRLvvlealtnflnhgitpivplrGTISASgdlsplsyiaaaisgHPDSK 194
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment  98 vhvvhegkekil.......................llnGtavsasyatlalhdaHllsllsqsLtamtvealv.kaGsihp.lhdvtrphp. 163
+                        vhvvhegkekil                       l+nGtavsas+atlalhdaH+lsllsqsLtamtvea+v +aGs+hp lhdvtrphp 
+            d1t6ja_ 195 VHVVHEGKEKILyareamalfnlepvvlgpkeglgLVNGTAVSASMATLALHDAHMLSLLSQSLTAMTVEAMVgHAGSFHPfLHDVTRPHPt 286
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment 164 ..evagnvfkvle.srvsvhheeev.vkddegilrqDr.......qWkgalesdlkhahavltiergdgtt...................va 225
+                          evagn++k+le sr++vhheeev vkddegilrqDr       qW+g+l+sdl+hahavltie+g++tt                   +a
+            d1t6ja_ 287 qiEVAGNIRKLLEgSRFAVHHEEEVkVKDDEGILRQDRyplrtspQWLGPLVSDLIHAHAVLTIEAGQSTTdnplidvenktshhggnfqAA 378
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment 226 avantlektrleleiipklrfvkltemlwaglnadlkskltaedsslsyackgvdiaaaaqtselgklyinpvtaavapae........... 306
+                        avant+ektrl+l++i+kl+f++lteml+ag+n++l+s+l+aed+slsy+ckg+diaaaa+tselg+l +npvt++v+pae           
+            d1t6ja_ 379 AVANTMEKTRLGLAQIGKLNFTQLTEMLNAGMNRGLPSCLAAEDPSLSYHCKGLDIAAAAYTSELGHL-ANPVTTHVQPAEmanqavnslal 469
+                        ********************************************************************.*********************** PP
+
+  1a6c.fa.alignment 307 .....ttesnDvlsklla.......................................................................... 319
+                             ttesnDvls+lla                                                                          
+            d1t6ja_ 470 isarrTTESNDVLSLLLAthlycvlqaidlraiefefkkqfgpaivslidqhfgsamtgsnlrdelvekvnktlakrleqtnsydlvprwhd 561
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment 320 ........................................VklanwsaastetpalsylsprtqilYafvreelgvkaR............. 358
+                                                                V++++wsaast++palsylsprtqilYafvreelgvkaR             
+            d1t6ja_ 562 afsfaagtvvevlsstslslaavnawkvaaaesaisltrqVRETFWSAASTSSPALSYLSPRTQILYAFVREELGVKARrgdvflgkqevti 653
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment 359 ..nVSkiyeAi 367
+                          nVSkiyeAi
+            d1t6ja_ 654 gsNVSKIYEAI 664
+                        **********8 PP
+
+>> d1h80a_  b.80.1.8 (A:) iota-carrageenase {Alteromonas sp., atcc 43554 [TaxId: 232]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  463.1   0.0  6.4e-142  6.7e-139       1     358 [.       1     464 []       1     464 [] 0.99
+
+  Alignments for each domain:
+  == domain 1    score: 463.1 bits;  conditional E-value: 6.4e-142
+  1a6c.fa.alignment   1 ekmlaaktdstleldgyslnlgDvVsaarkgrpvrvkdsdairskidksveklrsqlslavyG............................. 63 
+                        ++++++k+++++++++++++++D+V++++++++++++ds+a++++i+++++k++++++l+++G                             
+            d1h80a_   1 VSPKTYKDADFYVAPTQQDVNYDLVDDFGANGNDTSDDSNALQRAINAISRKPNGGTLLIPNGtyhflgiqmksnvhirvesdviikptwng 92 
+                        689***************************************************************************************** PP
+
+  1a6c.fa.alignment  64 ......................evvrgalvirknsltrghavvrL....gtisas...............hpdekvhvvhegkekil..... 109
+                                              ++++g+lv++k+s+++++av++L    ++++++               +++e+++++h+++++i+     
+            d1h80a_  93 dgknhrlfevgvnnivrnfsfqGLGNGFLVDFKDSRDKNLAVFKLgdvrNYKISNftiddnktifasilvDVTERNGRLHWSRNGIIerikq 184
+                        *************************************************999999999999999999************************* PP
+
+  1a6c.fa.alignment 110 ..llnGtavsasy..atlalhdaHllsllsqsLtamtvealv.kaGsihp.lhdvtrphp...eva.gnvf......kvle.srvsvhheee 184
+                          +l+G++++++y  ++++++++H++++++++++++++++++ k+G+i++ ++d++r+++   +v+ g++f      +v++ s+vs++++++
+            d1h80a_ 185 nnALFGYGLIQTYgaDNILFRNLHSEGGIALRMETDNLLMKNyKQGGIRNiFADNIRCSKglaAVMfGPHFmkngdvQVTNvSSVSCGSAVR 276
+                        ***************************************************************9999************************* PP
+
+  1a6c.fa.alignment 185 v.vkddegilrqDr.....qWkgalesdlkhahavltiergdgtt.....vaavantlektrleleiipk.lrfvk.ltemlwaglnadlks 263
+                        + ++++e+++++D+     +Wk+a+es+l++++a+++++rg+g+t     v++++++l+k++le++i+p+ +++vk +++++++g+nadlk+
+            d1h80a_ 277 SdSGFVELFSPTDEvhtrqSWKQAVESKLGRGCAQTPYARGNGGTrwaarVTQKDACLDKAKLEYGIEPGsFGTVKvFDVTARFGYNADLKQ 368
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment 264 kltaedsslsyackgvdiaaaaqtselgklyinpvtaavapae.ttesnDvlskllaVklanwsaastetpalsylsprtqilYafvreelg 354
+                        ++++++s+++++ck+v++++++q+s++g++yi+p+ aav++++ +t+++D+++k+++Vk++n++++s++t++++++s+r++++Y++++++++
+            d1h80a_ 369 DQLDYFSTSNPMCKRVCLPTKEQWSKQGQIYIGPSLAAVIDTTpETSKYDYDVKTFNVKRINFPVNSHKTIDTNTESSRVCNYYGMSECSSS 460
+                        ******************************************9************************************************* PP
+
+  1a6c.fa.alignment 355 vkaR 358
+                        +++R
+            d1h80a_ 461 RWER 464
+                        ***9 PP
+
+>> d2dcfa1  e.3.1.1 (A:5-392) 6-aminohexanoate-dimer hydrolase NylC {Flavobacterium sp. [TaxId: 239]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  385.5   0.0  2.5e-118  2.6e-115      28     367 .]       1     388 []       1     388 [] 0.99
+
+  Alignments for each domain:
+  == domain 1    score: 385.5 bits;  conditional E-value: 2.5e-118
+  1a6c.fa.alignment  28 arkgrpvrvkdsdairskidksveklrsqlslavyGevvrgalvirknsltrghavvrLgtisashpdekvhvvhegkekilllnGtavsas 119
+                        +++++p+r+++++a+++++d+++e++++++++a+ Ge+v++a+v+r++++++gha++rLg+i+a++pd ++++++++++++l+l+Gt+v+a+
+            d2dcfa1   1 STGQHPARYPGAAAGEPTLDSWQEPPHNRWAFAHLGEMVPSAAVSRRPVNAPGHALARLGAIAAQLPDLEQRLEQTYTDAFLVLRGTEVVAE 92 
+                        589***************************************************************************************** PP
+
+  1a6c.fa.alignment 120 y..atlalhdaHllsllsqsLtamtvealvkaGsihplhdvtrphpevagnvf......kvlesrvsvhheeevvkddegilrqDr..qWkg 201
+                        y  a++a++d+Hll+++s+sL++++v+alv++G+i+p+++vt+++pe+ag+v+      +vl++++s++++e++v+++++++++Dr  +W++
+            d2dcfa1  93 YyrAGFAPDDRHLLMAVSKSLCGTVVGALVDEGRIDPAQPVTEYVPELAGSVYdgpsvlQVLDMQISIDYNEDYVDPASEVQTHDRsaGWRT 184
+                        ******************************************************************************************** PP
+
+  1a6c.fa.alignment 202 alesdlkhahavltiergdgtt....vaavantlektrleleiipklrfvk.ltemlwaglnadlkskltaedsslsyackgvdiaaaaqts 288
+                        ++++d+++++++lt+ rgdg+t    ++++++++  +++++e++++lr+v+ l+++lwa+l+ad+++++t++++++++a++gv+++a+++ +
+            d2dcfa1 185 RRHGDPADTYEFLTTLRGDGSTgefqYCSANTDV--LAWIVERVTGLRYVEaLSTYLWAKLDADRDATITVDTTGFGFANGGVSCTARDL-A 273
+                        *******************************999..*****************************************************9.* PP
+
+  1a6c.fa.alignment 289 elgklyinpvtaavapaettesnDvlsklla.......................................................Vklanw 325
+                        ++g++ +  ++++vap+++++s+D+++++la                                                       Vkl++w
+            d2dcfa1 274 RVGRM-M--LDGGVAPGGRVVSEDWVRRVLAggsheamtdkgftntfpdgsytrqwwctgnergnvsgigihgqnlwldpltdsviVKLSSW 362
+                        *****.8..9********************************************************************************** PP
+
+  1a6c.fa.alignment 326 saastetpalsylsprtqilYafvreelgvkaRnVSkiyeAi 367
+                        ++++te+               ++r+++g+++ +VS++++A+
+            d2dcfa1 363 PDPDTEH---------------WHRLQNGILL-DVSRALDAV 388
+                        *******...............**********.9*******8 PP
+
+>> d1a6ca2  b.121.4.2 (A:177-348) Nepovirus capsid protein {TRSV (Tobacco ringspot virus) [TaxId: 12282]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.7   0.0   2.3e-22   2.4e-19     179     335 ..      43     172 .]      30     172 .] 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 69.7 bits;  conditional E-value: 2.3e-22
+  1a6c.fa.alignment 179 vhheeev.vkddegilrqDrqWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskltaed 269
+                        v h++++ +++++++++++ +W+g++++++k+++++++            ++++ ++ +e+e+ p+lr+v     lw       +++++++d
+            d1a6ca2  43 VKHSKKHaISYSRAVMSRNLGWSGTISGSVKSVSSLFC------------TASFVIFPWECEAPPTLRQV-----LWG------PHQIMHGD 111
+                        67999999*****************************9............89999***************.....8**......******** PP
+
+  1a6c.fa.alignment 270 sslsyackgvdiaaaaqtselgklyinpvtaavapaettesnDvlskllaVklanwsaastetpal 335
+                         ++++a+k+++++aa++++++g+l i p+++ +ap++++ s++++     V++++w+ +s+ +p++
+            d1a6ca2 112 GQFEIAIKTRLHSAATTEEGFGRLGILPLSGPIAPDAHVGSYEFI-----VHINTWRPDSQVHPPM 172
+                        *********************************************.....*************986 PP
+
+>> d1w27a_  a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Parsley (Petroselinum crispum), PAL1 [TaxId: 4043]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.9   0.0   3.1e-17   3.2e-14      63     316 ..      87     469 ..      24     646 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 52.9 bits;  conditional E-value: 3.1e-17
+  1a6c.fa.alignment  63 G..........................................evvrgalvirknsltrghavvrL.....................gtisa 91 
+                        G                                             r a+  r n l +g++ +r                      gti a
+            d1w27a_  87 GvttgfgatshrrtkqggalqkelirflnagifgngsdntlphSATRAAMLVRINTLLQGYSGIRFeileaitkflnqnitpclplrGTITA 178
+                        35555555555555555555555555555555566666666666679999***************9999******************99999 PP
+
+  1a6c.fa.alignment  92 s..................................hpdekvhvvhegkekil..................llnGtavsasyatlalhdaHll 131
+                        s                                                                     l+nGtav   +a ++l +a +l
+            d1w27a_ 179 SgdlvplsyiaglltgrpnskavgptgvilspeeaF---------------KlagveggffelqpkeglaLVNGTAVGSGMASMVLFEANIL 255
+                        999999999999777766665555555554333330...............1455555555666666666********************** PP
+
+  1a6c.fa.alignment 132 sllsqsLtamtvealvkaGsihp.lhdvtrphp...evagnvfkvlesrvsvhheeev.vkddegilrqDr.......qWkgalesdlkhah 211
+                          l+  + a   e +  +  +   l    + hp   e a  +  +l+ +  v  +++    d  +  +qDr       qW+g+  +   +  
+            d1w27a_ 256 AVLAEVMSAIFAEVMQGKPEFTDhLTHKLKHHPgqiEAAAIMEHILDGSAYVKAAQKLhEMDPLQKPKQDRyalrtspQWLGPQIEVIRSST 347
+                        ****************88999999*********9985554444679*888899888884444444556888***********9999887766 PP
+
+  1a6c.fa.alignment 212 avltiergdgtt....................vaavantlektrleleiipklrfvkltemlwaglnadlkskltae.dsslsyackgvdia 282
+                        +++  er+ ++                      + ++ +++ trl +++i+kl f++++e  +  +n++l+s+l  +  +sl y  kg +ia
+            d1w27a_ 348 KMI--EREINSVndnplidvsrnkaihggnfqGTPIGVSMDNTRLAIAAIGKLMFAQFSELVNDFYNNGLPSNLSGGrNPSLDYGFKGAEIA 437
+                        666..777777679*****************9999**************************************9876278************ PP
+
+  1a6c.fa.alignment 283 aaaqtselgklyinpvtaavapaettesnDvlsk 316
+                         a + sel+ l +npvt +v+ ae    +Dv s+
+            d1w27a_ 438 MASYCSELQFL-ANPVTNHVQSAE-QHNQDVNSL 469
+                        ***********.**********99.555566554 PP
+
+>> d1ulia1  b.33.1.2 (A:17-170) Biphenyl dioxygenase large subunit BphA1, N-terminal domain {Rhodococcus sp. (strain RHA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.6   0.0     3e-16   3.1e-13     195     306 ..      30     144 ..      18     154 .] 0.88
+
+  Alignments for each domain:
+  == domain 1    score: 49.6 bits;  conditional E-value: 3e-16
+  1a6c.fa.alignment 195 qDr........qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskltaedsslsyackg 278
+                        q+         + +g++++ +k+++++++++ +d+++v++++n++ +++l++++++++r+++        +++++++++t+++++++y+++g
+            d1ulia1  30 QELerifgrswLLMGHETQIPKAGDFMTNYMGEDPVMVVRQKNGEIRVFLNQCRHRGMRICR--------ADGGNAKSFTCSYHGWAYDTGG 113
+                        44455666655678***********************************************8........699******************* PP
+
+  1a6c.fa.alignment 279 vdiaa...aaqtselgklyinpvtaavapae 306
+                        +++++   ++++ +l+k +++p++a+v++++
+            d1ulia1 114 NLVSVpfeEQAFPGLRKEDWGPLQARVETYK 144
+                        *****99999*****************9987 PP
+
+>> d1sb2b1  d.169.1.1 (B:2-128) Snake coagglutinin beta chain {Malayan pit viper (Calloselasma rhodostoma), rhodocetin [
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.0   0.1   9.4e-16   9.9e-13     198     304 ..      14     120 ..       5     122 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 48.0 bits;  conditional E-value: 9.4e-16
+  1a6c.fa.alignment 198 qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskltaedsslsyackgvdiaa...aaq 286
+                        ++k ++e++++ +++ ++++++++++++++++++e+++l+l i+ ++++++  +++w+gl ++++ k+t+++s +++++++ +i++    ++
+            d1sb2b1  14 CYKPFKEKKTWIEAERFCAKQAENGHLVSIGSAAEADFLDLVIVVNFDKQR--YRAWTGL-TERNLKWTNGASVSYENLYEPYIRKcfvVQP 102
+                        89************************************************9..*******.9*********************999999*** PP
+
+  1a6c.fa.alignment 287 tselgklyinpvtaavap 304
+                        +++++k+y +++++++a+
+            d1sb2b1 103 WEGKSKWYKADCEEKNAF 120
+                        *************99886 PP
+
+>> d1sqia1  d.32.1.3 (A:8-156) 4-hydroxyphenylpyruvate dioxygenase, HppD {Human (Homo sapiens) [TaxId: 9606]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.3   0.0   8.5e-13   8.8e-10     223     345 ..      47     149 .]      15     149 .] 0.88
+
+  Alignments for each domain:
+  == domain 1    score: 38.3 bits;  conditional E-value: 8.5e-13
+  1a6c.fa.alignment 223 t...vaavantlektrleleiipklrfvkltemlwaglnadlkskltaedsslsyackgvdiaaaaqtselgklyinpvtaavapaettesn 311
+                            v++v ++ +++++ +++ ++          w++ ++d+  k+ +++++++++++++++ +++++++ +k++ +p+++++++++     
+            d1sqia1  47 SrevVSHVIKQGKIVFVLCSALNP----------WNKEMGDHLVKHGDGVKDIAFEVEDCEHIVQKARERGAKIVREPWVEEDKFGK----- 123
+                        245577778888888888888887..........999**************************************************..... PP
+
+  1a6c.fa.alignment 312 DvlskllaVklanwsaastetpalsylsprtqil 345
+                                Vk+a+++++ ++t++l++++++t+++
+            d1sqia1 124 --------VKFAVLQTYGDTTHTLVEKINYTGRF 149
+                        ........***********************986 PP
+
+>> d1ea9c1  b.1.18.2 (C:1-121) Maltogenic amylase, N-terminal domain N {Bacillus sp., cyclomaltodextrinase [TaxId: 1409]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0      0.17   1.8e+02      45      64 ..       2      21 ..       1      35 [. 0.82
+   2 !   23.1   0.0   3.5e-08   3.7e-05     217     298 ..      40     119 ..      24     121 .] 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 1.1 bits;  conditional E-value: 0.17
+  1a6c.fa.alignment 45 kidksveklrsqlslavyGe 64
+                       +++++++++r+++s+a++G 
+            d1ea9c1  2 FLEAVYHRPRKNFSYAYNGT 21
+                       578999************94 PP
+
+  == domain 2    score: 23.1 bits;  conditional E-value: 3.5e-08
+  1a6c.fa.alignment 217 ergdgtt.........vaavantlektrleleiipklrfvkltemlwaglnadlkskltaedsslsyackgvdiaaaaqtselgklyinpv 298
+                         +gd  +         +++ a+++ ++++e+e++p++r+vk    + + l++++++++++e++ l++       ++a++++ +++ +inpv
+            d1ea9c1  40 LAGDKYMwdhtmeyvpMTKLATDELFDYWECEVTPPYRRVK----YGFLLQQGHEKRWMTEYDFLTE-------PPANPDRLFEYPFINPV 119
+                        55666667777788899***********************9....******************9998.......56666666666666665 PP
+
+>> d1wqla1  b.33.1.2 (A:19-180) Large subunit of cumene dioxygenase cumA1 {Pseudomonas fluorescens [TaxId: 294]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.0   6.4e-09   6.7e-06     193     306 ..      24     152 ..       9     162 .] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 25.5 bits;  conditional E-value: 6.4e-09
+  1a6c.fa.alignment 193 lrqDr.............qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskltaedss 271
+                        + qD              + +g++   +k+++ ++t++ +d++ v++++    k++l++++++++r+ +         + ++++++t+ +++
+            d1wqla1  24 SDQDLyeielervfarswLLLGHEGHIPKAGDYLTTYMGEDPVIVVRQKDRSIKVFLNQCRHRGMRIER--------SDFGNAKSFTCTYHG 107
+                        55555555555666664456799999****************************************998........56699********** PP
+
+  1a6c.fa.alignment 272 lsyackgvdiaa..........aaqtselgklyinpvtaavapae 306
+                        ++y++ g+++++          ++ + ++ k +++p++a+v +++
+            d1wqla1 108 WAYDTAGNLVNVpyekeafcdkKEGDCGFDKADWGPLQARVDTYK 152
+                        **********99999888888777788899999999999998876 PP
+
+>> d2o3bb1  d.221.1.1 (B:1-135) Nuclease A inhibitor (NuiA) {Anabaena sp., pcc 7120 [TaxId: 1167]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   0.0   2.4e-08   2.5e-05     198     306 ..      33     123 ..       6     134 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 23.7 bits;  conditional E-value: 2.4e-08
+  1a6c.fa.alignment 198 qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskltaedsslsyackgvdiaaaaqtse 289
+                        +W+g   s++ ++h+++         ++++++++++ +  ++i++ +++++ t + w+   +d++++++a++++l + +k+++ ++  q+++
+            d2o3bb1  33 LWEG---SAPPVTHEIV---------LQQTGHGQDAPFKVVDIDSFFSRAT-TPQDWY---EDEENAVVAKFQKLLEVIKSNLKNP--QVYR 106
+                        5555...6666666666.........89**********************9.******...9************************..556* PP
+
+  1a6c.fa.alignment 290 lgklyinpvtaavapae 306
+                        lg+++++ ++ +++pa+
+            d2o3bb1 107 LGEVELDVYVIGETPAG 123
+                        *************9998 PP
+
+>> d1sb2a1  d.169.1.1 (A:1-132) Snake coagglutinin alpha chain {Malayan pit viper (Calloselasma rhodostoma), rhodocetin 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.8   0.0   7.1e-07   0.00074     197     262 ..      11      75 ..       3     126 .. 0.72
+
+  Alignments for each domain:
+  == domain 1    score: 18.8 bits;  conditional E-value: 7.1e-07
+  1a6c.fa.alignment 197 r.qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlk 262
+                          +++ ++e++++++++ +++e++   ++++++n le++++++  +++++     ++ w gl+ ++k
+            d1sb2a1  11 SyCYRPFKEKKTWEEAERFCTEQEKEAHLVSMENRLEAVFVDMVMENNFENKI--YRSWIGLKIENK 75 
+                        2499********************************************99886..888888755443 PP
+
+>> d1wt9a1  d.169.1.1 (A:1-129) Snake coagglutinin alpha chain {Hundred-pace snake (Deinagkistrodon acutus), different i
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0   1.7e-06    0.0017     198     265 ..      13      78 ..       3     103 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 17.6 bits;  conditional E-value: 1.7e-06
+  1a6c.fa.alignment 198 qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskl 265
+                        ++k +++s+++  ++ +++++ +g+++++++++ e++++++ i +k++ +k     w gl a +k+k+
+            d1wt9a1  13 CYKVFKQSKTWTDAESFCTKQVNGGHLVSIESSGEADFVGQLIAQKIKSAK--IHVWIGLRAQNKEKQ 78 
+                        89999*********************************************9..778888877777665 PP
+
+>> d1j34a_  d.169.1.1 (A:) Snake coagglutinin alpha chain {Habu snake (Trimeresurus flavoviridis) [TaxId: 88087]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   0.1   2.6e-06    0.0027     198     282 ..      13      96 ..       4     114 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 16.9 bits;  conditional E-value: 2.6e-06
+  1a6c.fa.alignment 198 qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwagln.adlkskltaedsslsyackgvdia 282
+                        ++k ++ +++++ ++ +++e++ g+++++++++ e++++ + ++++++ +k   + w gl  ++++++   e s+ s   +++ i+
+            d1j34a_  13 CYKPFKLYKTWDDAERFCTEQAKGGHLVSIESAGEADFVAQLVTENIQNTK--SYVWIGLRvQGKEKQCSSEWSDGSSVSYENWIE 96 
+                        89999*********************************************9..999999863666666666666555555555555 PP
+
+>> d1y17a1  d.169.1.1 (A:1-129) Snake coagglutinin alpha chain {Hundred-pace snake (Deinagkistrodon acutus), different i
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.0   3.4e-06    0.0035     198     265 ..      13      78 ..       3     101 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 16.6 bits;  conditional E-value: 3.4e-06
+  1a6c.fa.alignment 198 qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskl 265
+                        ++k +++s++++ ++ +++++ +g+++++++++ e++++   i +k++ +k     w gl a +k+k+
+            d1y17a1  13 CYKAFKQSKTWADAESFCTKQVNGGHLVSIESSGEADFVAHLIAQKIKSAK--IHVWIGLRAQNKEKQ 78 
+                        89************************************************9..778888877777665 PP
+
+>> d1ixxa_  d.169.1.1 (A:) Snake coagglutinin alpha chain {Habu snake (Trimeresurus flavoviridis) [TaxId: 88087]}
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.6   0.1   1.3e-05     0.014     198     265 ..      13      78 ..       4     112 .. 0.81
+
+  Alignments for each domain:
+  == domain 1    score: 14.6 bits;  conditional E-value: 1.3e-05
+  1a6c.fa.alignment 198 qWkgalesdlkhahavltiergdgttvaavantlektrleleiipklrfvkltemlwaglnadlkskl 265
+                        ++k ++++++++ ++ +++e++ g ++++++++ e++++ + +++++++  l+ + w gl    k k+
+            d1ixxa_  13 CYKAFEKYKTWEDAERVCTEQAKGAHLVSIESSGEADFVAQLVTQNMKR--LDFYIWIGLRVQGKVKQ 78 
+                        89************************************99988888655..67999999875444443 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (367 nodes)
+Target sequences:                      16712  (2847556 residues)
+Passed MSV filter:                       312  (0.0186692); expected 334.2 (0.02)
+Passed bias filter:                      266  (0.0159167); expected 334.2 (0.02)
+Passed Vit filter:                        39  (0.00233365); expected 16.7 (0.001)
+Passed Fwd filter:                        16  (0.000957396); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):              16  [number of targets reported over threshold]
+# CPU time: 1.11u 0.06s 00:00:01.17 Elapsed: 00:00:00.27
+# Mc/sec: 3814.06
+//
